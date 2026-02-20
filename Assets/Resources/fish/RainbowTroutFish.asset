@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa6da005f1423620a447c09bdeb9a32, type: 3}
+  m_Name: RainbowTroutFish
+  m_EditorClassIdentifier:
+  readableName: Rainbow Trout##FRainbowTroutFish
+  typeName: fish
+  customIcon: {fileID: 0}
+  sprite: {fileID: 21300000, guid: d575eafc96938fc449e13c5b32938f0e, type: 2}
+  rareSprite: {fileID: 21300000, guid: 01fc6dd7c958fbc49920aae529825fdc, type: 2}
+  rarePrefix: Actually
+  rareHighlightColor: {r: 0.83518016, g: 0.48593804, b: 0.9811321, a: 1}
+  journalInfo: "Usually found in\ndeep blue waters.##FIRainbowTroutFish"
+  size:
+    min: 15
+    max: 40
+  rareLikelihood: 0.6
+  price: 20
+  encounterTime: 10
+  nibbleCheckPeriod: 0.2
+  nibbleChance: 0.15
+  minRequiredNibbles: 4
+  maxRequiredNibbles: 6

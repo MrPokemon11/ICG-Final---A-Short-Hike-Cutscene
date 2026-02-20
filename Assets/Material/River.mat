@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: River
+  m_Shader: {fileID: 4800000, guid: 6fd2284b04342624db98fb39c26b716d, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2990
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _FoamDetailTex:
+        m_Texture: {fileID: 2800000, guid: 60d284c269be9124aa5b63b880914b5a, type: 3}
+        m_Scale: {x: 1, y: 0.01}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: c60d994e2a163c14f9b80bdba611ae46, type: 3}
+        m_Scale: {x: 1, y: 0.02}
+        m_Offset: {x: 0, y: 0}
+      _Noise:
+        m_Texture: {fileID: 2800000, guid: a55e93513c520324c8cc8798694311fc, type: 3}
+        m_Scale: {x: 1, y: 0.02}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _AlphaCutoff: 0.488
+      _AttenuationThreshold: 1
+      _Brightness: 0
+      _BumpScale: 1
+      _Contrast: 0
+      _Cutoff: 0.684
+      _DetailCutoff: 0.929
+      _DetailNormalMapScale: 1
+      _DistortSpeed: 1
+      _DistortStrength: 0
+      _DstBlend: 0
+      _FoamCurveCutoff: 0.243
+      _FoamCutoff: 0.5
+      _FoamDetailCutoff: 0.266
+      _FoamDetailSpeed: 5
+      _FoamSpeed: 0.5
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _MainTexSpeed: 4
+      _Metallic: 0
+      _Mode: 0
+      _NoiseSpeed: 0.35
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RippleAlphaCutoff: 0
+      _RippleSpeed: 0.1
+      _ShadowBitDepth: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _WaveHeight: 0.2
+      _WaveLengthX: 8
+      _WaveLengthY: 8
+      _WaveSpeed: 200
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FoamColor: {r: 0.6933962, g: 1, b: 0.9621995, a: 1}
+      _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []

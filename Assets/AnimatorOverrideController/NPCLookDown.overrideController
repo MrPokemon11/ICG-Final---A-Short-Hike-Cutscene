@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NPCLookDown
+  m_Controller: {fileID: 9100000, guid: 1a8a99b9976ffbf4ca375e405ad1279a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: d07aa8c6c00e523418cd004095501f36, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 972be65adb1656d42a21a4fa79af43c9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3da49ac543bbffb46969b61f009fe74d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fed31c014335377429be9601f19c0057, type: 2}

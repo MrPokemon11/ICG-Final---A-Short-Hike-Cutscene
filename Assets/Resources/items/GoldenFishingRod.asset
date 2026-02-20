@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: GoldenFishingRod
+  m_EditorClassIdentifier:
+  readableName: Golden Rod##IGoldenFishingRod
+  readableNamePlural: Golden Rods##ISGoldenFishingRod
+  description: "A fishing rod that's apparently made of gold.\nRare fish seem to be strangely drawn to it.##IDGoldenFishingRod"
+  icon: {fileID: 21300000, guid: 15e8d7b0814fb3d42aa3b05b8be72879, type: 2}
+  stacksInInventory: 1
+  showPrompt: 2
+  cannotDrop: 1
+  cannotStash: 0
+  priority: 8
+  worldPrefab: {fileID: 1987378083554189, guid: 1730fe8cc5c917346a764071be89305f, type: 2}
+  yarnNodeTitle:
+  yarnNode:

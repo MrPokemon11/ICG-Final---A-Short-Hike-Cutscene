@@ -2,11 +2,12 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!55 &1
 PhysicsManager:
-  m_ObjectHideFlags: 0
   serializedVersion: 13
-  m_Gravity: {x: 0, y: -9.81, z: 0}
-  m_DefaultMaterial: {fileID: 0}
+  m_ObjectHideFlags: 0
+  m_Gravity: {x: 0, y: -70, z: 0}
+  m_DefaultMaterial: {fileID: 13400000, guid: 8d99b1c7366c2494fb9941cea1b468f4, type: 2}
   m_BounceThreshold: 2
+  m_DefaultMaxDepenetrationVelocity: 10
   m_SleepThreshold: 0.005
   m_DefaultContactOffset: 0.01
   m_DefaultSolverIterations: 6
@@ -14,10 +15,10 @@ PhysicsManager:
   m_QueriesHitBackfaces: 0
   m_QueriesHitTriggers: 1
   m_EnableAdaptiveForce: 0
-  m_ClothInterCollisionDistance: 0.1
-  m_ClothInterCollisionStiffness: 0.2
+  m_ClothInterCollisionDistance: 0
+  m_ClothInterCollisionStiffness: 0
   m_ContactsGeneration: 1
-  m_LayerCollisionMatrix: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  m_LayerCollisionMatrix: fdfff4.3ec7f20.0cb0200.0ffffff/fc942b0.3eb7f20.0ffffff/fffffff/feb7f20.0ffffe5.7eb7ff6.3ebffe0.3eb7ff6.3eb7fe0.2fbffe0.3c9cab0.0c80220.4c81420.0c916e0.0c80038.0d994b8.0fbffbf.3c97e44.0d9feb4.0d95e20.2d97e20.3c80201/0c80000.0c80000.4ffffff/fffffff/fffffff/f
   m_AutoSimulation: 1
   m_AutoSyncTransforms: 0
   m_ReuseCollisionCallbacks: 1
@@ -32,5 +33,6 @@ PhysicsManager:
   m_FrictionType: 0
   m_EnableEnhancedDeterminism: 0
   m_EnableUnifiedHeightmaps: 1
+  m_ImprovedPatchFriction: 0
   m_SolverType: 0
-  m_DefaultMaxAngularSpeed: 50
+  m_DefaultMaxAngularSpeed: 7

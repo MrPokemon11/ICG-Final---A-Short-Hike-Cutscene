@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: Compass
+  m_EditorClassIdentifier:
+  readableName: Compass##ICompass
+  readableNamePlural: Compasses##ISCompass
+  description: "Tells you which way is north.\nSelect to toggle on or off.##IDCompass"
+  icon: {fileID: 21300000, guid: 1de5710ea35dda348bd0182b11825d6f, type: 2}
+  stacksInInventory: 1
+  showPrompt: 2
+  cannotDrop: 0
+  cannotStash: 0
+  priority: 0
+  worldPrefab: {fileID: 1941055892587631, guid: 7fe094738cdb65f43bf860d5de98e3f9, type: 2}
+  yarnNodeTitle:
+  yarnNode:

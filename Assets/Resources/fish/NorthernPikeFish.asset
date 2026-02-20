@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa6da005f1423620a447c09bdeb9a32, type: 3}
+  m_Name: NorthernPikeFish
+  m_EditorClassIdentifier:
+  readableName: Northern Pike##FNorthernPikeFish
+  typeName: fish
+  customIcon: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 061431ab89889db4d86a4cd4dc500976, type: 2}
+  rareSprite: {fileID: 21300000, guid: ec777cb3e5351d14d886f4472edb5071, type: 2}
+  rarePrefix: Albino
+  rareHighlightColor: {r: 0.3523051, g: 0.79796827, b: 0.8584906, a: 1}
+  journalInfo: "Bill is always catching these.\nHe knows a good spot for them.##FINorthernPikeFish"
+  size:
+    min: 45
+    max: 100
+  rareLikelihood: 1
+  price: 20
+  encounterTime: 8
+  nibbleCheckPeriod: 0.2
+  nibbleChance: 0.2
+  minRequiredNibbles: 5
+  maxRequiredNibbles: 7

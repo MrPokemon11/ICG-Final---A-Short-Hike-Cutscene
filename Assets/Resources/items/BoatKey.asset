@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: BoatKey
+  m_EditorClassIdentifier:
+  readableName: Motorboat Key##IBoatKey
+  readableNamePlural: Motorboat Keys##ISBoatKey
+  description: "The key to the motorboat.\nIt's mine for the rest of the day!##IDBoatKey"
+  icon: {fileID: 21300000, guid: dc8ec0af8baabb244b0e86bba0b136db, type: 2}
+  stacksInInventory: 0
+  showPrompt: 1
+  cannotDrop: 0
+  cannotStash: 0
+  priority: -6
+  worldPrefab: {fileID: 0}
+  yarnNodeTitle:
+  yarnNode:

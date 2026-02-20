@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa6da005f1423620a447c09bdeb9a32, type: 3}
+  m_Name: WhitePerchFish
+  m_EditorClassIdentifier:
+  readableName: White Perch##FWhitePerchFish
+  typeName: fish
+  customIcon: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 9221120292345264291bd6ec8a4fbdab, type: 2}
+  rareSprite: {fileID: 21300000, guid: 86cb4861bb6c3af499dea11c1189c963, type: 2}
+  rarePrefix: Albino
+  rareHighlightColor: {r: 0.3523051, g: 0.79796827, b: 0.8584906, a: 1}
+  journalInfo: "Known to prefer\ncalm river waters.##FIWhitePerchFish"
+  size:
+    min: 15
+    max: 25
+  rareLikelihood: 1
+  price: 12
+  encounterTime: 9
+  nibbleCheckPeriod: 0.25
+  nibbleChance: 0.15
+  minRequiredNibbles: 3
+  maxRequiredNibbles: 5

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: Shovel
+  m_EditorClassIdentifier:
+  readableName: Shovel##IShovel
+  readableNamePlural: Shovels##ISShovel
+  description: "What's buried beneath?\nPress <color=red>{{UseItemButton}}</color> to dig!##IDShovel"
+  icon: {fileID: 21300000, guid: 3e403df04586e794db101c36e5ca1565, type: 2}
+  stacksInInventory: 0
+  showPrompt: 1
+  cannotDrop: 1
+  cannotStash: 0
+  priority: 20
+  worldPrefab: {fileID: 1807373666063206, guid: 3b0e1c7a35ecb494e819a25673d72988, type: 2}
+  yarnNodeTitle:
+  yarnNode:

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7202cb7747dcd21ee316d1bc735eefe8, type: 3}
+  m_Name: AllPlants
+  m_EditorClassIdentifier:
+  sprite: {fileID: 21300000, guid: bdef03dba97cf134883b6eb9d3f169ea, type: 2}
+  lockedSprite: {fileID: 21300000, guid: 6962fda276effd8428f88533a25c13a5, type: 2}
+  title: Green Thumb##AAllPlants
+  description: Water every sprout.##ADAllPlants
+  secret: 0

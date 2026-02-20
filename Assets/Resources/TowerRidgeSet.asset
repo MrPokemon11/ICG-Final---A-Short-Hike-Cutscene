@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca97c157838470761cd527c10c902358, type: 3}
+  m_Name: TowerRidgeSet
+  m_EditorClassIdentifier:
+  fadeInTime: 6
+  fadeOutTime: 10
+  silenceAfterFinishing: 1
+  playOnce: 0
+  baseLayer: {fileID: 11400000, guid: ea272147e9533dd48ad78332192ceafa, type: 2}
+  layers:
+  - {fileID: 11400000, guid: ea272147e9533dd48ad78332192ceafa, type: 2}
+  - {fileID: 11400000, guid: ab2deed036593b14e8308d115d8708eb, type: 2}
+  - {fileID: 11400000, guid: e4be8ff4a713bc946b83bc70ec8687f5, type: 2}
+  - {fileID: 11400000, guid: 0351e8b607030d54ea1334a1742de675, type: 2}
+  - {fileID: 11400000, guid: 1824aeaa6374b784d9064bb6b6721d2c, type: 2}
+  - {fileID: 11400000, guid: bbf22fe14e3cdc549bbe3fbcfd64ab47, type: 2}

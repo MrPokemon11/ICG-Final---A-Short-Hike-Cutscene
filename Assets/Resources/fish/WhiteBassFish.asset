@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa6da005f1423620a447c09bdeb9a32, type: 3}
+  m_Name: WhiteBassFish
+  m_EditorClassIdentifier:
+  readableName: White Bass##FWhiteBassFish
+  typeName: fish
+  customIcon: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 266596d3da50dcf479ca4d21b3f84073, type: 2}
+  rareSprite: {fileID: 21300000, guid: ab9dba5e88d387a42bd2cb5f1c39d3ca, type: 2}
+  rarePrefix: Pink
+  rareHighlightColor: {r: 0.9811321, g: 0.30081883, b: 0.5098039, a: 1}
+  journalInfo: "I came down with a cold the last\ntime I went looking for them.##FIWhiteBassFish"
+  size:
+    min: 20
+    max: 30
+  rareLikelihood: 1
+  price: 15
+  encounterTime: 8
+  nibbleCheckPeriod: 0.2
+  nibbleChance: 0.25
+  minRequiredNibbles: 4
+  maxRequiredNibbles: 9

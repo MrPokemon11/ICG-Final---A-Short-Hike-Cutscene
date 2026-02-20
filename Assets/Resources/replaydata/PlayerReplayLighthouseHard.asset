@@ -1,0 +1,5655 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335b2af3e6ae8ed9e34b2cbe0db444f2, type: 3}
+  m_Name: PlayerReplayLighthouseHard
+  m_EditorClassIdentifier:
+  frames:
+  - index: 0
+    time: 0.0331338
+    position: {x: 46.419415, y: 57.53928, z: 337.5644}
+    rotation: {x: -0, y: 0.64035004, z: -0, w: 0.7680833}
+    animatorRotation: {x: 1E-45, y: -5.0812963E-05, z: 4E-45, w: 1}
+    velocity: {x: 13.439452, y: 0, z: 5.354677}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 1
+    time: 0.09940062
+    position: {x: 47.513664, y: 57.539276, z: 338.00195}
+    rotation: {x: -0, y: 0.6022435, z: -0, w: 0.7983124}
+    animatorRotation: {x: 1E-45, y: -5.054474E-05, z: 4E-45, w: 1}
+    velocity: {x: 20.732695, y: 0, z: 8.278514}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 2
+    time: 0.14969786
+    position: {x: 48.25706, y: 57.539276, z: 338.48224}
+    rotation: {x: -0, y: 0.5930039, z: -0, w: 0.80519956}
+    animatorRotation: {x: 1E-45, y: -5.054474E-05, z: 4E-45, w: 1}
+    velocity: {x: 1.4719048, y: 0, z: 11.806126}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 3
+    time: 0.21536733
+    position: {x: 48.965824, y: 57.539276, z: 339.20004}
+    rotation: {x: -0, y: 0.600749, z: -0, w: 0.7994377}
+    animatorRotation: {x: 1E-45, y: -5.0514936E-05, z: 4E-45, w: 1}
+    velocity: {x: 17.650919, y: 0, z: 9.914481}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 4
+    time: 0.28163415
+    position: {x: 50.32975, y: 57.53928, z: 339.81903}
+    rotation: {x: -0, y: 0.6116001, z: -0, w: 0.7911671}
+    animatorRotation: {x: 1E-45, y: -5.0514936E-05, z: 4E-45, w: 1}
+    velocity: {x: 23.685339, y: 0, z: 8.628117}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 5
+    time: 0.3481708
+    position: {x: 52.023727, y: 57.53928, z: 340.35352}
+    rotation: {x: -0, y: 0.6216917, z: -0, w: 0.783262}
+    animatorRotation: {x: 1E-45, y: -5.0485127E-05, z: 4E-45, w: 1}
+    velocity: {x: 27.035673, y: 0, z: 7.5922565}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 6
+    time: 0.41417018
+    position: {x: 53.900673, y: 57.53928, z: 340.8103}
+    rotation: {x: -0, y: 0.6379749, z: -0, w: 0.77005714}
+    animatorRotation: {x: 1E-45, y: -5.030632E-05, z: 4E-45, w: 1}
+    velocity: {x: 29.39251, y: 0, z: 6.1428523}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 7
+    time: 0.4808119
+    position: {x: 55.87651, y: 57.53928, z: 341.1886}
+    rotation: {x: -0, y: 0.6491259, z: -0, w: 0.7606811}
+    animatorRotation: {x: 1E-45, y: -5.0365925E-05, z: 4E-45, w: 1}
+    velocity: {x: 30.313866, y: 0, z: 5.174505}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 8
+    time: 0.5467011
+    position: {x: 57.914413, y: 57.461246, z: 341.511}
+    rotation: {x: -0, y: 0.6558174, z: -0, w: 0.7549196}
+    animatorRotation: {x: 1E-45, y: -5.045533E-05, z: 4E-45, w: 1}
+    velocity: {x: 30.82448, y: -3.17604, z: 4.5675406}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 9
+    time: 0.6131393
+    position: {x: 59.872692, y: 57.084515, z: 341.79776}
+    rotation: {x: -0, y: 0.6605975, z: -0, w: 0.7507403}
+    animatorRotation: {x: 1E-45, y: -5.0395727E-05, z: 4E-45, w: 1}
+    velocity: {x: 28.4955, y: -8.643343, z: 4.1162477}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 10
+    time: 0.6792817
+    position: {x: 61.73418, y: 56.39771, z: 342.06467}
+    rotation: {x: -0, y: 0.66221, z: -0, w: 0.74931836}
+    animatorRotation: {x: 1E-45, y: -5.042553E-05, z: 1E-45, w: 1}
+    velocity: {x: 27.05184, y: -12.672479, z: 3.836506}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 11
+    time: 0.7455035
+    position: {x: 63.472588, y: 55.43268, z: 342.30908}
+    rotation: {x: -0, y: 0.66303164, z: -0, w: 0.7485914}
+    animatorRotation: {x: 1E-45, y: -5.0336123E-05, z: 1E-45, w: 1}
+    velocity: {x: 25.824839, y: -16.64148, z: 3.5987463}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 12
+    time: 0.8117675
+    position: {x: 65.14219, y: 54.176105, z: 342.53925}
+    rotation: {x: -0, y: 0.6637892, z: -0, w: 0.74791974}
+    animatorRotation: {x: 1E-45, y: -5.0276518E-05, z: 1E-45, w: 1}
+    velocity: {x: 24.782597, y: -20.55124, z: 3.3914723}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 13
+    time: 0.8618103
+    position: {x: 66.36464, y: 53.025425, z: 342.7049}
+    rotation: {x: -0, y: 0.6641741, z: -0, w: 0.747578}
+    animatorRotation: {x: 1E-45, y: -5.024671E-05, z: 1E-45, w: 1}
+    velocity: {x: 23.896769, y: -24.40265, z: 3.2153053}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 14
+    time: 0.9277354
+    position: {x: 68.06144, y: 51.486744, z: 342.53845}
+    rotation: {x: -0, y: 0.6643663, z: -0, w: 0.7474072}
+    animatorRotation: {x: 1E-45, y: -5.0246716E-05, z: 1E-45, w: 1}
+    velocity: {x: 27.708607, y: -23.465208, z: -4.707527}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 15
+    time: 0.9940014
+    position: {x: 70.08672, y: 50.56338, z: 342.32333}
+    rotation: {x: -0, y: 0.66448027, z: -0, w: 0.74730587}
+    animatorRotation: {x: 1E-45, y: -5.0097704E-05, z: 1E-45, w: 1}
+    velocity: {x: 32.815777, y: -5.1025443, z: -1.9190428}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 16
+    time: 1.0602678
+    position: {x: 71.99642, y: 51.109093, z: 342.22864}
+    rotation: {x: -0, y: 0.6647863, z: -0, w: 0.74703366}
+    animatorRotation: {x: 1E-45, y: -5.0127506E-05, z: 1E-45, w: 1}
+    velocity: {x: 28.298197, y: 8.507959, z: 0.27431867}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 17
+    time: 1.1267887
+    position: {x: 73.78912, y: 51.85139, z: 342.3128}
+    rotation: {x: -0, y: 0.6670501, z: -0, w: 0.7450129}
+    animatorRotation: {x: 1E-45, y: -5.015731E-05, z: 1E-45, w: 1}
+    velocity: {x: 26.96176, y: 11.789415, z: 1.948592}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 18
+    time: 1.1928011
+    position: {x: 75.640236, y: 52.50165, z: 342.4679}
+    rotation: {x: -0, y: 0.6729637, z: -0, w: 0.73967564}
+    animatorRotation: {x: 1E-45, y: -5.015731E-05, z: 1E-45, w: 1}
+    velocity: {x: 27.906586, y: 10.1172905, z: 2.8579304}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 19
+    time: 1.259067
+    position: {x: 77.53214, y: 53.06359, z: 342.64713}
+    rotation: {x: -0, y: 0.68076706, z: -0, w: 0.7325}
+    animatorRotation: {x: 1E-45, y: -5.0127506E-05, z: 1E-45, w: 1}
+    velocity: {x: 28.519554, y: 8.521719, z: 2.9415147}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 20
+    time: 1.325334
+    position: {x: 79.46011, y: 53.586655, z: 342.8017}
+    rotation: {x: -0, y: 0.7148665, z: -0, w: 0.69926095}
+    animatorRotation: {x: 1E-45, y: -5.00381E-05, z: 1E-45, w: 1}
+    velocity: {x: 28.166786, y: 8.930019, z: 1.1503023}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 21
+    time: 1.3756083
+    position: {x: 80.70584, y: 54.181305, z: 342.71802}
+    rotation: {x: -0, y: 0.8088201, z: -0, w: 0.58805615}
+    animatorRotation: {x: 4E-45, y: -5.0008297E-05, z: 1E-45, w: 1}
+    velocity: {x: 22.455528, y: 14.821842, z: -4.9646883}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 22
+    time: 1.4414496
+    position: {x: 81.989716, y: 55.298393, z: 342.21375}
+    rotation: {x: -0, y: 0.8751827, z: -0, w: 0.48379266}
+    animatorRotation: {x: 4E-45, y: -4.9978495E-05, z: 3E-45, w: 1}
+    velocity: {x: 16.009142, y: 18.115608, z: -10.93911}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 23
+    time: 1.5075674
+    position: {x: 83.0573, y: 56.425854, z: 341.43408}
+    rotation: {x: -0, y: 0.8684565, z: -0, w: 0.49576542}
+    animatorRotation: {x: 3E-45, y: -5.0097704E-05, z: 4E-45, w: 1}
+    velocity: {x: 11.98478, y: 20.283651, z: -8.275597}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 24
+    time: 1.5740757
+    position: {x: 84.24141, y: 57.557766, z: 340.99454}
+    rotation: {x: -0, y: 0.78092325, z: -0, w: 0.62462705}
+    animatorRotation: {x: 4E-45, y: -5.00381E-05, z: 1E-45, w: 1}
+    velocity: {x: 22.855028, y: 13.560611, z: -3.7883978}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 25
+    time: 1.6401002
+    position: {x: 85.74682, y: 58.48886, z: 340.91248}
+    rotation: {x: -0, y: 0.701257, z: -0, w: 0.71290857}
+    animatorRotation: {x: 1E-45, y: -5.0038092E-05, z: 1E-45, w: 1}
+    velocity: {x: 22.270292, y: 15.0458355, z: 1.9947287}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 26
+    time: 1.7067356
+    position: {x: 87.19121, y: 59.528534, z: 340.9263}
+    rotation: {x: -0, y: 0.634443, z: -0, w: 0.77296966}
+    animatorRotation: {x: 1E-45, y: -4.9948692E-05, z: 4E-45, w: 1}
+    velocity: {x: 22.530586, y: 14.941341, z: 0.16453242}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 27
+    time: 1.7726334
+    position: {x: 88.7614, y: 60.406796, z: 341.05862}
+    rotation: {x: -0, y: 0.5734852, z: -0, w: 0.81921595}
+    animatorRotation: {x: 1E-45, y: -4.988909E-05, z: 4E-45, w: 1}
+    velocity: {x: 22.330833, y: 14.22644, z: 6.537373}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 28
+    time: 1.8389002
+    position: {x: 90.17073, y: 61.42617, z: 341.60822}
+    rotation: {x: -0, y: 0.5480142, z: -0, w: 0.836469}
+    animatorRotation: {x: 1E-45, y: -4.968047E-05, z: 4E-45, w: 1}
+    velocity: {x: 21.21709, y: 15.423159, z: 10.507025}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 29
+    time: 1.9051946
+    position: {x: 91.54479, y: 62.496426, z: 342.38293}
+    rotation: {x: -0, y: 0.53394014, z: -0, w: 0.8455223}
+    animatorRotation: {x: 3E-45, y: -4.9591064E-05, z: 4E-45, w: 1}
+    velocity: {x: 18.884985, y: 17.647493, z: 12.549122}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 30
+    time: 1.9716823
+    position: {x: 92.79378, y: 63.66732, z: 343.2624}
+    rotation: {x: -0, y: 0.5264083, z: -0, w: 0.85023195}
+    animatorRotation: {x: 3E-45, y: -4.9591064E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.116327, y: 17.532576, z: 13.750274}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 31
+    time: 2.021915
+    position: {x: 93.68312, y: 64.613045, z: 343.88434}
+    rotation: {x: -0, y: 0.5224404, z: -0, w: 0.8526759}
+    animatorRotation: {x: 3E-45, y: -4.9591064E-05, z: 4E-45, w: 1}
+    velocity: {x: 18.269846, y: 19.065662, z: 12.010129}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 32
+    time: 2.0876493
+    position: {x: 94.98491, y: 65.70904, z: 344.6974}
+    rotation: {x: -0, y: 0.52040637, z: -0, w: 0.8539188}
+    animatorRotation: {x: 3E-45, y: -4.965067E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.743084, y: 14.425951, z: 12.117032}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 33
+    time: 2.1378875
+    position: {x: 95.996315, y: 66.33717, z: 345.30432}
+    rotation: {x: -0, y: 0.55383176, z: -0, w: 0.8326286}
+    animatorRotation: {x: 3E-45, y: -4.962086E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.462278, y: 10.052504, z: 11.214573}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 34
+    time: 2.1897404
+    position: {x: 96.96363, y: 66.76072, z: 345.83374}
+    rotation: {x: -0, y: 0.60843515, z: -0, w: 0.7936036}
+    animatorRotation: {x: 1E-45, y: -4.965067E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.413454, y: 7.1731954, z: 10.115813}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 35
+    time: 2.2555614
+    position: {x: 98.24658, y: 67.06093, z: 346.27774}
+    rotation: {x: -0, y: 0.7315837, z: -0, w: 0.6817516}
+    animatorRotation: {x: 1E-45, y: -4.9710266E-05, z: 1E-45, w: 1}
+    velocity: {x: 15.319759, y: 8.241945, z: 1.202686}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 36
+    time: 2.3089328
+    position: {x: 99.04751, y: 67.49141, z: 346.24512}
+    rotation: {x: -0, y: 0.7737789, z: -0, w: 0.63345575}
+    animatorRotation: {x: 4E-45, y: -4.968047E-05, z: 1E-45, w: 1}
+    velocity: {x: 14.936949, y: 7.9354534, z: -2.3744197}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 37
+    time: 2.359314
+    position: {x: 99.74225, y: 67.90442, z: 346.0163}
+    rotation: {x: -0, y: 0.81456524, z: -0, w: 0.58007205}
+    animatorRotation: {x: 4E-45, y: -4.968047E-05, z: 1E-45, w: 1}
+    velocity: {x: 14.751598, y: 6.1231346, z: -5.820271}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 38
+    time: 2.4255812
+    position: {x: 100.688065, y: 68.537506, z: 345.52356}
+    rotation: {x: -0, y: 0.8418956, z: -0, w: 0.53964055}
+    animatorRotation: {x: 4E-45, y: -4.9650662E-05, z: 1E-45, w: 1}
+    velocity: {x: 14.728535, y: 11.327085, z: -9.410071}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 39
+    time: 2.4930599
+    position: {x: 101.558685, y: 69.52642, z: 344.8324}
+    rotation: {x: -0, y: 0.8751488, z: -0, w: 0.4838541}
+    animatorRotation: {x: 3E-45, y: -4.965067E-05, z: 4E-45, w: 1}
+    velocity: {x: 16.451458, y: 12.072064, z: -13.379042}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 40
+    time: 2.5443497
+    position: {x: 102.299835, y: 70.287155, z: 344.17575}
+    rotation: {x: -0, y: 0.8906155, z: -0, w: 0.4547571}
+    animatorRotation: {x: 3E-45, y: -4.976988E-05, z: 4E-45, w: 1}
+    velocity: {x: 13.650406, y: 16.386557, z: -13.092908}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 41
+    time: 2.6107504
+    position: {x: 103.21028, y: 71.410446, z: 343.22815}
+    rotation: {x: -0, y: 0.9054994, z: -0, w: 0.42434767}
+    animatorRotation: {x: 3E-45, y: -4.9948692E-05, z: 4E-45, w: 1}
+    velocity: {x: 12.920625, y: 17.898188, z: -14.767546}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 42
+    time: 2.6611128
+    position: {x: 104.0001, y: 72.16872, z: 342.38016}
+    rotation: {x: -0, y: 0.91346925, z: -0, w: 0.4069079}
+    animatorRotation: {x: 3E-45, y: -4.9948692E-05, z: 4E-45, w: 1}
+    velocity: {x: 17.374722, y: 12.878894, z: -18.121502}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 43
+    time: 2.7111475
+    position: {x: 104.73747, y: 73.03855, z: 341.5828}
+    rotation: {x: -0, y: 0.91625816, z: -0, w: 0.40058842}
+    animatorRotation: {x: 3E-45, y: -4.9829483E-05, z: 4E-45, w: 1}
+    velocity: {x: 14.9146, y: 17.476212, z: -15.993754}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 44
+    time: 2.7774763
+    position: {x: 105.81924, y: 74.18312, z: 340.47827}
+    rotation: {x: -0, y: 0.9151749, z: -0, w: 0.40305707}
+    animatorRotation: {x: 3E-45, y: -4.9859285E-05, z: 4E-45, w: 1}
+    velocity: {x: 18.19951, y: 14.602391, z: -17.757734}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 45
+    time: 2.8285437
+    position: {x: 106.782036, y: 74.830444, z: 339.55444}
+    rotation: {x: -0, y: 0.91466874, z: -0, w: 0.4042045}
+    animatorRotation: {x: 3E-45, y: -4.9948692E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.974712, y: 11.280694, z: -18.913176}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 46
+    time: 2.8795958
+    position: {x: 107.768585, y: 75.56429, z: 338.69086}
+    rotation: {x: -0, y: 0.91497165, z: -0, w: 0.40351826}
+    animatorRotation: {x: 3E-45, y: -4.9978495E-05, z: 4E-45, w: 1}
+    velocity: {x: 18.019794, y: 17.30814, z: -14.505721}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 47
+    time: 2.9296722
+    position: {x: 108.7173, y: 76.33997, z: 337.89548}
+    rotation: {x: -0, y: 0.91662323, z: -0, w: 0.39975232}
+    animatorRotation: {x: 3E-45, y: -4.9978495E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.647787, y: 13.959452, z: -16.971298}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 48
+    time: 2.9811184
+    position: {x: 109.740456, y: 76.9243, z: 336.97925}
+    rotation: {x: -0, y: 0.923317, z: -0, w: 0.3840387}
+    animatorRotation: {x: 3E-45, y: -5.0097704E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.393349, y: 9.395952, z: -17.57117}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 49
+    time: 3.0313342
+    position: {x: 110.6902, y: 77.31211, z: 336.1076}
+    rotation: {x: -0, y: 0.9304473, z: -0, w: 0.36642602}
+    animatorRotation: {x: 3E-45, y: -5.0187104E-05, z: 4E-45, w: 1}
+    velocity: {x: 18.634851, y: 6.5231924, z: -17.27956}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 50
+    time: 3.0817294
+    position: {x: 111.5945, y: 77.51616, z: 335.24445}
+    rotation: {x: -0, y: 0.9432234, z: -0, w: 0.33215895}
+    animatorRotation: {x: 3E-45, y: -5.0127506E-05, z: 4E-45, w: 1}
+    velocity: {x: 17.45414, y: 2.2676926, z: -17.037174}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 51
+    time: 3.1328998
+    position: {x: 112.47073, y: 77.545685, z: 334.37012}
+    rotation: {x: -0, y: 0.95163727, z: -0, w: 0.30722407}
+    animatorRotation: {x: 3E-45, y: -5.0127506E-05, z: 4E-45, w: 1}
+    velocity: {x: 16.373861, y: -1.9242928, z: -16.882378}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 52
+    time: 3.182952
+    position: {x: 113.273636, y: 77.391426, z: 333.51163}
+    rotation: {x: -0, y: 0.9566112, z: -0, w: 0.29136765}
+    animatorRotation: {x: 3E-45, y: -5.0067894E-05, z: 4E-45, w: 1}
+    velocity: {x: 15.992618, y: -4.883133, z: -18.796684}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 53
+    time: 3.2497616
+    position: {x: 114.30867, y: 77.15157, z: 332.10648}
+    rotation: {x: -0, y: 0.9652511, z: -0, w: 0.26132426}
+    animatorRotation: {x: 3E-45, y: -4.9948692E-05, z: 4E-45, w: 1}
+    velocity: {x: 14.81987, y: 2.2855911, z: -22.145792}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 54
+    time: 3.316538
+    position: {x: 115.21745, y: 77.26625, z: 330.49045}
+    rotation: {x: -0, y: 0.9768289, z: -0, w: 0.21402174}
+    animatorRotation: {x: 3E-45, y: -4.9978495E-05, z: 3E-45, w: 1}
+    velocity: {x: 12.777185, y: 1.0043343, z: -26.108297}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 55
+    time: 3.38235
+    position: {x: 116.030304, y: 77.29968, z: 328.7056}
+    rotation: {x: -0, y: 0.98154366, z: -0, w: 0.19123836}
+    animatorRotation: {x: 3E-45, y: -4.9948692E-05, z: 3E-45, w: 1}
+    velocity: {x: 11.67803, y: 0.3675344, z: -27.804386}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 56
+    time: 3.4486165
+    position: {x: 116.800674, y: 77.30961, z: 326.83435}
+    rotation: {x: -0, y: 0.98076445, z: -0, w: 0.19519517}
+    animatorRotation: {x: 3E-45, y: -4.9829483E-05, z: 3E-45, w: 1}
+    velocity: {x: 11.977064, y: 0.26599467, z: -28.372776}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 57
+    time: 3.5148947
+    position: {x: 117.7056, y: 77.31589, z: 324.99496}
+    rotation: {x: -0, y: 0.9641841, z: -0, w: 0.26523402}
+    animatorRotation: {x: 3E-45, y: -4.9918883E-05, z: 3E-45, w: 1}
+    velocity: {x: 15.752667, y: -0.00073194504, z: -26.727877}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 58
+    time: 3.5649354
+    position: {x: 118.57425, y: 77.31587, z: 323.74323}
+    rotation: {x: -0, y: 0.93759954, z: -0, w: 0.34771714}
+    animatorRotation: {x: 3E-45, y: -4.9978487E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.497293, y: -0.000121593475, z: -23.347214}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 59
+    time: 3.6312912
+    position: {x: 120.05167, y: 77.31587, z: 322.38586}
+    rotation: {x: -0, y: 0.8882935, z: -0, w: 0.45927623}
+    animatorRotation: {x: 3E-45, y: -4.9948692E-05, z: 4E-45, w: 1}
+    velocity: {x: 24.03614, y: -0.000121593475, z: -17.774158}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 60
+    time: 3.6975586
+    position: {x: 121.8064, y: 77.31587, z: 321.4875}
+    rotation: {x: -0, y: 0.8175875, z: -0, w: 0.5758045}
+    animatorRotation: {x: 4E-45, y: -4.9859285E-05, z: 1E-45, w: 1}
+    velocity: {x: 28.072708, y: -0.000121593475, z: -10.592356}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 61
+    time: 3.7638254
+    position: {x: 123.7169, y: 77.31587, z: 320.8861}
+    rotation: {x: -0, y: 0.7864343, z: -0, w: 0.61767393}
+    animatorRotation: {x: 4E-45, y: -4.9889088E-05, z: 1E-45, w: 1}
+    velocity: {x: 29.592636, y: -0.000121593475, z: -7.6250224}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 62
+    time: 3.8308637
+    position: {x: 125.71429, y: 77.31587, z: 320.44775}
+    rotation: {x: -0, y: 0.76887053, z: -0, w: 0.6394046}
+    animatorRotation: {x: 4E-45, y: -4.9978495E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.427452, y: -0.000121593475, z: -5.9413056}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 63
+    time: 3.8974547
+    position: {x: 127.802414, y: 77.31587, z: 320.09003}
+    rotation: {x: -0, y: 0.7579738, z: -0, w: 0.652285}
+    animatorRotation: {x: 4E-45, y: -4.9978495E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.97696, y: -0.000121593475, z: -4.851271}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 64
+    time: 3.9641275
+    position: {x: 129.83104, y: 77.31587, z: 319.73535}
+    rotation: {x: -0, y: 0.78397435, z: -0, w: 0.6207933}
+    animatorRotation: {x: 4E-45, y: -5.0008297E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.458883, y: -0.000121593475, z: -7.075708}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 65
+    time: 4.029989
+    position: {x: 131.7558, y: 77.31587, z: 319.0393}
+    rotation: {x: -0, y: 0.8521577, z: -0, w: 0.5232851}
+    animatorRotation: {x: 4E-45, y: -5.00679E-05, z: 3E-45, w: 1}
+    velocity: {x: 27.365381, y: -0.000121593475, z: -13.2925625}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 66
+    time: 4.0967627
+    position: {x: 133.23993, y: 77.31587, z: 318.1021}
+    rotation: {x: -0, y: 0.9148865, z: -0, w: 0.40371126}
+    animatorRotation: {x: 3E-45, y: -4.991889E-05, z: 4E-45, w: 1}
+    velocity: {x: 18.956448, y: -0.000121593475, z: -14.985624}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 67
+    time: 4.1625223
+    position: {x: 134.38928, y: 77.31587, z: 317.08362}
+    rotation: {x: -0, y: 0.9342975, z: -0, w: 0.35649434}
+    animatorRotation: {x: 3E-45, y: -4.991889E-05, z: 4E-45, w: 1}
+    velocity: {x: 15.732014, y: -0.000121593475, z: -15.725717}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 68
+    time: 4.2125497
+    position: {x: 135.14767, y: 77.31587, z: 316.28915}
+    rotation: {x: -0, y: 0.93873924, z: -0, w: 0.34462827}
+    animatorRotation: {x: 3E-45, y: -4.991889E-05, z: 4E-45, w: 1}
+    velocity: {x: 14.390667, y: -0.000121593475, z: -15.816323}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 69
+    time: 4.2790885
+    position: {x: 136.09819, y: 77.31587, z: 315.23834}
+    rotation: {x: -0, y: 0.93577546, z: -0, w: 0.35259667}
+    animatorRotation: {x: 3E-45, y: -4.974007E-05, z: 4E-45, w: 1}
+    velocity: {x: 14.095941, y: -0.000121593475, z: -15.492799}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 70
+    time: 4.330157
+    position: {x: 136.80298, y: 77.31587, z: 314.47644}
+    rotation: {x: -0, y: 0.9315274, z: -0, w: 0.36367136}
+    animatorRotation: {x: 3E-45, y: -4.9829483E-05, z: 4E-45, w: 1}
+    velocity: {x: 14.218153, y: -0.000121593475, z: -15.13731}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 71
+    time: 4.3960004
+    position: {x: 137.94077, y: 77.31587, z: 313.31766}
+    rotation: {x: -0, y: 0.924512, z: -0, w: 0.38115308}
+    animatorRotation: {x: 3E-45, y: -4.9710274E-05, z: 4E-45, w: 1}
+    velocity: {x: 19.050167, y: -0.000121593475, z: -18.889334}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 72
+    time: 4.446115
+    position: {x: 139.15121, y: 77.31587, z: 312.78964}
+    rotation: {x: -0, y: 0.9223986, z: -0, w: 0.38623932}
+    animatorRotation: {x: 3E-45, y: -4.9740076E-05, z: 4E-45, w: 1}
+    velocity: {x: 24.74239, y: -0.000121593475, z: -10.066153}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 73
+    time: 4.5126553
+    position: {x: 140.90125, y: 77.47341, z: 312.37503}
+    rotation: {x: -0, y: 0.9201712, z: -0, w: 0.39151624}
+    animatorRotation: {x: 3E-45, y: -4.965067E-05, z: 4E-45, w: 1}
+    velocity: {x: 22.122648, y: 8.222815, z: -11.323883}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 74
+    time: 4.578649
+    position: {x: 142.5651, y: 77.78303, z: 312.2475}
+    rotation: {x: -0, y: 0.91837305, z: -0, w: 0.39571568}
+    animatorRotation: {x: 3E-45, y: -4.9531453E-05, z: 4E-45, w: 1}
+    velocity: {x: 24.896149, y: 1.7391877, z: -7.23519}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 75
+    time: 4.645302
+    position: {x: 144.27036, y: 77.74272, z: 311.98526}
+    rotation: {x: -0, y: 0.9138309, z: -0, w: 0.40609503}
+    animatorRotation: {x: 3E-45, y: -4.9352646E-05, z: 4E-45, w: 1}
+    velocity: {x: 25.451136, y: -3.0389297, z: -6.016445}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 76
+    time: 4.7112827
+    position: {x: 145.98633, y: 77.35846, z: 311.44318}
+    rotation: {x: -0, y: 0.90466195, z: -0, w: 0.42612994}
+    animatorRotation: {x: 3E-45, y: -4.9442053E-05, z: 4E-45, w: 1}
+    velocity: {x: 25.962637, y: -7.745733, z: -10.136371}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 77
+    time: 4.7775497
+    position: {x: 147.73962, y: 77.587166, z: 310.90668}
+    rotation: {x: -0, y: 0.89302915, z: -0, w: 0.44999886}
+    animatorRotation: {x: 3E-45, y: -4.929304E-05, z: 4E-45, w: 1}
+    velocity: {x: 25.67889, y: 2.482633, z: -11.517069}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 78
+    time: 4.844317
+    position: {x: 149.08038, y: 78.04819, z: 310.15247}
+    rotation: {x: -0, y: 0.88583845, z: -0, w: 0.4639939}
+    animatorRotation: {x: 3E-45, y: -4.938245E-05, z: 4E-45, w: 1}
+    velocity: {x: 17.134789, y: 8.889168, z: -11.427385}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 79
+    time: 4.910143
+    position: {x: 150.18669, y: 78.541504, z: 309.39905}
+    rotation: {x: -0, y: 0.88098127, z: -0, w: 0.4731512}
+    animatorRotation: {x: 3E-45, y: -4.941225E-05, z: 4E-45, w: 1}
+    velocity: {x: 16.746214, y: 5.2837167, z: -11.198872}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 80
+    time: 4.9602594
+    position: {x: 150.75198, y: 79.0286, z: 308.81247}
+    rotation: {x: -0, y: 0.87826127, z: -0, w: 0.47818118}
+    animatorRotation: {x: 3E-45, y: -4.9561262E-05, z: 4E-45, w: 1}
+    velocity: {x: 11.969631, y: 8.403455, z: -11.684013}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 81
+    time: 5.02708
+    position: {x: 151.51816, y: 79.57502, z: 308.03574}
+    rotation: {x: -0, y: 0.87668824, z: -0, w: 0.48105896}
+    animatorRotation: {x: 3E-45, y: -4.9591064E-05, z: 4E-45, w: 1}
+    velocity: {x: 11.257659, y: 8.072879, z: -11.739648}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 82
+    time: 5.092912
+    position: {x: 152.28061, y: 80.05485, z: 307.24664}
+    rotation: {x: -0, y: 0.8757105, z: -0, w: 0.4828366}
+    animatorRotation: {x: 3E-45, y: -4.953146E-05, z: 4E-45, w: 1}
+    velocity: {x: 10.754309, y: 7.22944, z: -12.0554495}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 83
+    time: 5.1591043
+    position: {x: 152.97078, y: 80.54059, z: 306.44348}
+    rotation: {x: -0, y: 0.87537956, z: -0, w: 0.48343647}
+    animatorRotation: {x: 3E-45, y: -4.9442046E-05, z: 4E-45, w: 1}
+    velocity: {x: 10.107287, y: 7.296871, z: -12.127215}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 84
+    time: 5.2093244
+    position: {x: 153.47125, y: 80.898315, z: 305.84143}
+    rotation: {x: -0, y: 0.87525284, z: -0, w: 0.48366565}
+    animatorRotation: {x: 3E-45, y: -4.9442053E-05, z: 4E-45, w: 1}
+    velocity: {x: 10.091646, y: 7.0640397, z: -12.10031}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 85
+    time: 5.276182
+    position: {x: 154.14594, y: 81.34709, z: 305.0406}
+    rotation: {x: -0, y: 0.8751187, z: -0, w: 0.48390839}
+    animatorRotation: {x: 3E-45, y: -4.9501657E-05, z: 4E-45, w: 1}
+    velocity: {x: 10.356866, y: 6.4676247, z: -12.078511}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 86
+    time: 5.341858
+    position: {x: 154.81757, y: 81.78926, z: 304.239}
+    rotation: {x: -0, y: 0.875095, z: -0, w: 0.48395115}
+    animatorRotation: {x: 3E-45, y: -4.9501657E-05, z: 4E-45, w: 1}
+    velocity: {x: 10.117615, y: 6.647309, z: -12.089897}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 87
+    time: 5.3927994
+    position: {x: 155.32555, y: 82.13712, z: 303.62128}
+    rotation: {x: -0, y: 0.87505466, z: -0, w: 0.48402417}
+    animatorRotation: {x: 3E-45, y: -4.950166E-05, z: 4E-45, w: 1}
+    velocity: {x: 9.761629, y: 6.9739475, z: -12.0393715}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 88
+    time: 5.459093
+    position: {x: 155.98079, y: 82.59405, z: 302.82413}
+    rotation: {x: -0, y: 0.87505466, z: -0, w: 0.48402417}
+    animatorRotation: {x: 3E-45, y: -4.9501657E-05, z: 4E-45, w: 1}
+    velocity: {x: 10.724029, y: 5.9244733, z: -11.836326}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 89
+    time: 5.509135
+    position: {x: 156.50401, y: 82.90918, z: 302.22388}
+    rotation: {x: -0, y: 0.8778953, z: -0, w: 0.47885272}
+    animatorRotation: {x: 3E-45, y: -4.938245E-05, z: 4E-45, w: 1}
+    velocity: {x: 10.363736, y: 6.327245, z: -12.045351}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 90
+    time: 5.587363
+    position: {x: 157.24486, y: 83.37572, z: 301.19022}
+    rotation: {x: -0, y: 0.9135527, z: -0, w: 0.40672043}
+    animatorRotation: {x: 3E-45, y: -4.938245E-05, z: 4E-45, w: 1}
+    velocity: {x: 8.792274, y: 5.6406455, z: -14.23643}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 91
+    time: 5.6538563
+    position: {x: 157.7907, y: 83.71941, z: 300.14587}
+    rotation: {x: -0, y: 0.94121134, z: -0, w: 0.3378185}
+    animatorRotation: {x: 3E-45, y: -4.938244E-05, z: 4E-45, w: 1}
+    velocity: {x: 7.53592, y: 3.9675276, z: -16.042665}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 92
+    time: 5.7057343
+    position: {x: 158.1533, y: 83.90917, z: 299.3286}
+    rotation: {x: -0, y: 0.9480974, z: -0, w: 0.31798008}
+    animatorRotation: {x: 3E-45, y: -4.9322844E-05, z: 4E-45, w: 1}
+    velocity: {x: 6.959549, y: 3.606608, z: -16.590937}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 93
+    time: 5.772001
+    position: {x: 158.65881, y: 84.227066, z: 299.07047}
+    rotation: {x: -0, y: 0.945024, z: -0, w: 0.32700107}
+    animatorRotation: {x: 3E-45, y: -4.9471855E-05, z: 4E-45, w: 1}
+    velocity: {x: 7.754056, y: 4.7114825, z: -6.0011954}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 94
+    time: 5.838382
+    position: {x: 159.25, y: 84.59442, z: 298.58362}
+    rotation: {x: -0, y: 0.8806658, z: -0, w: 0.4737382}
+    animatorRotation: {x: 3E-45, y: -4.9471855E-05, z: 4E-45, w: 1}
+    velocity: {x: 9.852533, y: 6.3628397, z: -6.955045}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 95
+    time: 5.9051948
+    position: {x: 159.98193, y: 85.028305, z: 298.19342}
+    rotation: {x: -0, y: 0.8132065, z: -0, w: 0.5819753}
+    animatorRotation: {x: 4E-45, y: -4.938245E-05, z: 3E-45, w: 1}
+    velocity: {x: 12.174974, y: 6.3974895, z: -4.563173}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 96
+    time: 5.9720125
+    position: {x: 160.81923, y: 85.49159, z: 298.00412}
+    rotation: {x: -0, y: 0.74360853, z: -0, w: 0.6686153}
+    animatorRotation: {x: 1E-45, y: -4.9561262E-05, z: 1E-45, w: 1}
+    velocity: {x: 13.103023, y: 7.3854923, z: -1.6204281}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 97
+    time: 6.0377717
+    position: {x: 161.70691, y: 85.98292, z: 298.11655}
+    rotation: {x: -0, y: 0.6070221, z: -0, w: 0.79468495}
+    animatorRotation: {x: 1E-45, y: -4.968047E-05, z: 4E-45, w: 1}
+    velocity: {x: 12.933043, y: 7.3619566, z: 4.4468393}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 98
+    time: 6.104038
+    position: {x: 162.47928, y: 86.333496, z: 298.62268}
+    rotation: {x: -0, y: 0.39562258, z: -0, w: 0.9184132}
+    animatorRotation: {x: 4E-45, y: -4.9591064E-05, z: 3E-45, w: 1}
+    velocity: {x: 9.103808, y: 4.2197137, z: 10.9728365}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 99
+    time: 6.1704807
+    position: {x: 162.88275, y: 86.58478, z: 299.5207}
+    rotation: {x: -0, y: 0.21289563, z: -0, w: 0.977075}
+    animatorRotation: {x: 3E-45, y: -4.953146E-05, z: 3E-45, w: 1}
+    velocity: {x: 4.013343, y: 3.2849207, z: 14.911442}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 100
+    time: 6.2207813
+    position: {x: 163.04941, y: 86.7101, z: 300.30597}
+    rotation: {x: -0, y: 0.25112295, z: -0, w: 0.96795523}
+    animatorRotation: {x: 3E-45, y: -4.953146E-05, z: 3E-45, w: 1}
+    velocity: {x: 4.8803945, y: 3.1903236, z: 14.491102}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 101
+    time: 6.2871866
+    position: {x: 163.38452, y: 86.91934, z: 300.91653}
+    rotation: {x: -0, y: 0.4047941, z: -0, w: 0.91440785}
+    animatorRotation: {x: 4E-45, y: -4.9561262E-05, z: 3E-45, w: 1}
+    velocity: {x: 8.310047, y: 25, z: 10.337574}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 1
+  - index: 102
+    time: 6.304115
+    position: {x: 163.74, y: 87.63335, z: 301.1333}
+    rotation: {x: -0, y: 0.5789534, z: -0, w: 0.81536067}
+    animatorRotation: {x: 4E-45, y: -4.953146E-05, z: 3E-45, w: 1}
+    velocity: {x: 11.852485, y: 21.574583, z: 4.3810277}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 103
+    time: 6.370007
+    position: {x: 164.56021, y: 88.903534, z: 301.3495}
+    rotation: {x: -0, y: 0.7295761, z: -0, w: 0.6838997}
+    animatorRotation: {x: 1E-45, y: -4.9650662E-05, z: 1E-45, w: 1}
+    velocity: {x: 12.599171, y: 17.094442, z: 2.3966112}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 104
+    time: 6.4204926
+    position: {x: 165.20905, y: 89.6365, z: 301.41946}
+    rotation: {x: -0, y: 0.79959184, z: -0, w: 0.60054386}
+    animatorRotation: {x: 4E-45, y: -4.9620867E-05, z: 1E-45, w: 1}
+    velocity: {x: 13.197652, y: 12.681167, z: 0.6432608}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 105
+    time: 6.486759
+    position: {x: 166.03178, y: 90.3594, z: 301.4997}
+    rotation: {x: -0, y: 0.83874005, z: -0, w: 0.5445321}
+    animatorRotation: {x: 4E-45, y: -4.953146E-05, z: 1E-45, w: 1}
+    velocity: {x: 9.617933, y: 9.994715, z: 4.237694}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 106
+    time: 6.5530396
+    position: {x: 166.60875, y: 90.88898, z: 301.79712}
+    rotation: {x: -0, y: 0.8838004, z: -0, w: 0.46786422}
+    animatorRotation: {x: 3E-45, y: -4.938245E-05, z: 4E-45, w: 1}
+    velocity: {x: 8.139137, y: 6.7980223, z: 4.116226}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 107
+    time: 6.619816
+    position: {x: 167.13226, y: 91.33937, z: 302.05777}
+    rotation: {x: -0, y: 0.9099285, z: -0, w: 0.41476536}
+    animatorRotation: {x: 3E-45, y: -4.9203627E-05, z: 4E-45, w: 1}
+    velocity: {x: 7.071023, y: 5.6716943, z: 3.6503801}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 108
+    time: 6.6703362
+    position: {x: 167.35587, y: 91.50214, z: 302.1785}
+    rotation: {x: -0, y: 0.92252296, z: -0, w: 0.38594234}
+    animatorRotation: {x: 3E-45, y: -4.9203627E-05, z: 4E-45, w: 1}
+    velocity: {x: 6.1274757, y: 25, z: 3.631815}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 2
+  - index: 109
+    time: 6.686903
+    position: {x: 167.56299, y: 91.905304, z: 302.28458}
+    rotation: {x: -0, y: 0.92797285, z: -0, w: 0.3726479}
+    animatorRotation: {x: 3E-45, y: -4.9173832E-05, z: 4E-45, w: 1}
+    velocity: {x: 6.41019, y: 23.482, z: 2.641018}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 110
+    time: 6.736974
+    position: {x: 167.90134, y: 92.97027, z: 302.3482}
+    rotation: {x: -0, y: 0.94175494, z: -0, w: 0.33630013}
+    animatorRotation: {x: 3E-45, y: -4.929304E-05, z: 4E-45, w: 1}
+    velocity: {x: 7.0743546, y: 18.97339, z: -0.09895897}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 111
+    time: 6.7872286
+    position: {x: 168.26125, y: 93.84138, z: 302.30353}
+    rotation: {x: -0, y: 0.9483848, z: -0, w: 0.31712192}
+    animatorRotation: {x: 3E-45, y: -4.926324E-05, z: 4E-45, w: 1}
+    velocity: {x: 7.4079247, y: 16.005096, z: -1.7287832}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 112
+    time: 6.8530474
+    position: {x: 168.76495, y: 94.72317, z: 302.09753}
+    rotation: {x: -0, y: 0.9622159, z: -0, w: 0.2722877}
+    animatorRotation: {x: 3E-45, y: -4.941225E-05, z: 4E-45, w: 1}
+    velocity: {x: 7.717208, y: 10.157039, z: -4.653342}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 113
+    time: 6.919871
+    position: {x: 169.27324, y: 95.2858, z: 301.73526}
+    rotation: {x: -0, y: 0.974358, z: -0, w: 0.22500356}
+    animatorRotation: {x: 3E-45, y: -4.915893E-05, z: 3E-45, w: 1}
+    velocity: {x: 7.5507603, y: 6.567, z: -6.6288676}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 114
+    time: 6.9856944
+    position: {x: 169.5067, y: 95.74301, z: 301.47885}
+    rotation: {x: -0, y: 0.98360413, z: -0, w: 0.18034145}
+    animatorRotation: {x: 3E-45, y: -4.9099326E-05, z: 3E-45, w: 1}
+    velocity: {x: -0.12080077, y: 6.567, z: -1.3598632}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 115
+    time: 7.052395
+    position: {x: 169.52753, y: 96.182335, z: 301.28375}
+    rotation: {x: -0, y: 0.9884065, z: -0, w: 0.15183084}
+    animatorRotation: {x: 3E-45, y: -4.9039725E-05, z: 3E-45, w: 1}
+    velocity: {x: 0.5879345, y: 6.567, z: -3.9238462}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 116
+    time: 7.1186943
+    position: {x: 169.60898, y: 96.63321, z: 300.95248}
+    rotation: {x: -0, y: 0.9840377, z: -0, w: 0.17796026}
+    animatorRotation: {x: 3E-45, y: -4.8980117E-05, z: 3E-45, w: 1}
+    velocity: {x: 1.8764485, y: 6.567, z: -5.4608088}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 117
+    time: 7.1851597
+    position: {x: 169.85529, y: 96.99558, z: 300.4997}
+    rotation: {x: -0, y: 0.96201384, z: -0, w: 0.27300075}
+    animatorRotation: {x: 3E-45, y: -4.8920516E-05, z: 3E-45, w: 1}
+    velocity: {x: 6.5960693, y: 3.3254542, z: -8.590128}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 118
+    time: 7.251979
+    position: {x: 170.37154, y: 97.049, z: 299.91183}
+    rotation: {x: -0, y: 0.9278525, z: -0, w: 0.3729474}
+    animatorRotation: {x: 3E-45, y: -4.8816204E-05, z: 4E-45, w: 1}
+    velocity: {x: 9.346003, y: -1.0813183, z: -9.157862}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 119
+    time: 7.3174825
+    position: {x: 171.13614, y: 97.140114, z: 299.352}
+    rotation: {x: -0, y: 0.8851609, z: -0, w: 0.46528506}
+    animatorRotation: {x: 3E-45, y: -4.8846006E-05, z: 4E-45, w: 1}
+    velocity: {x: 13.626118, y: -0.3402007, z: -8.43081}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 120
+    time: 7.383748
+    position: {x: 172.1152, y: 97.0929, z: 298.7901}
+    rotation: {x: -0, y: 0.8653143, z: -0, w: 0.5012297}
+    animatorRotation: {x: 3E-45, y: -4.8816204E-05, z: 4E-45, w: 1}
+    velocity: {x: 15.866608, y: -0.0315547, z: -8.509163}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 121
+    time: 7.4504633
+    position: {x: 173.21608, y: 97.092476, z: 298.22614}
+    rotation: {x: -0, y: 0.8539478, z: -0, w: 0.52035874}
+    animatorRotation: {x: 4E-45, y: -4.8726797E-05, z: 3E-45, w: 1}
+    velocity: {x: 17.10325, y: -0.00042676926, z: -8.508954}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 122
+    time: 7.516281
+    position: {x: 174.38849, y: 97.09248, z: 297.6598}
+    rotation: {x: -0, y: 0.8463535, z: -0, w: 0.53262174}
+    animatorRotation: {x: 4E-45, y: -4.8667192E-05, z: 3E-45, w: 1}
+    velocity: {x: 17.93224, y: 0, z: -8.486251}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 123
+    time: 7.5831075
+    position: {x: 175.57985, y: 97.09247, z: 297.1011}
+    rotation: {x: -0, y: 0.8436679, z: -0, w: 0.5368654}
+    animatorRotation: {x: 4E-45, y: -4.857779E-05, z: 3E-45, w: 1}
+    velocity: {x: 18.235863, y: 0, z: -8.473106}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 124
+    time: 7.599114
+    position: {x: 175.57985, y: 97.09247, z: 297.1011}
+    rotation: {x: -0, y: 0.8436679, z: -0, w: 0.5368654}
+    animatorRotation: {x: 4E-45, y: -4.857779E-05, z: 3E-45, w: 1}
+    velocity: {x: 18.235863, y: 25, z: -8.473106}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 1
+  - index: 125
+    time: 7.6488132
+    position: {x: 176.80235, y: 98.32732, z: 296.53653}
+    rotation: {x: -0, y: 0.842041, z: -0, w: 0.53941363}
+    animatorRotation: {x: 4E-45, y: -4.8726797E-05, z: 3E-45, w: 1}
+    velocity: {x: 18.305283, y: 20.073711, z: -8.426937}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 126
+    time: 7.7150803
+    position: {x: 177.49736, y: 99.54289, z: 295.9711}
+    rotation: {x: -0, y: 0.84050477, z: -0, w: 0.5418042}
+    animatorRotation: {x: 4E-45, y: -4.8726797E-05, z: 3E-45, w: 1}
+    velocity: {x: 3.2085357, y: 16.874743, z: -8.741515}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 127
+    time: 7.7813473
+    position: {x: 177.64124, y: 100.55942, z: 295.39258}
+    rotation: {x: -0, y: 0.8391674, z: -0, w: 0.5438732}
+    animatorRotation: {x: 4E-45, y: -4.863739E-05, z: 3E-45, w: 1}
+    velocity: {x: 1.613402, y: 13.111842, z: -8.5259905}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 128
+    time: 7.847614
+    position: {x: 177.73645, y: 101.29514, z: 294.83344}
+    rotation: {x: -0, y: 0.838091, z: -0, w: 0.5455304}
+    animatorRotation: {x: 4E-45, y: -4.8667192E-05, z: 3E-45, w: 1}
+    velocity: {x: 2.0676708, y: 9.088356, z: -8.2814455}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 129
+    time: 7.897957
+    position: {x: 177.78427, y: 101.66025, z: 294.43005}
+    rotation: {x: -0, y: 0.8371439, z: -0, w: 0.54698277}
+    animatorRotation: {x: 4E-45, y: -4.8667192E-05, z: 3E-45, w: 1}
+    velocity: {x: 1.0739655, y: 6.7059793, z: -8.175111}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 130
+    time: 7.963773
+    position: {x: 177.85541, y: 102.107254, z: 293.88776}
+    rotation: {x: -0, y: 0.83741486, z: -0, w: 0.54656774}
+    animatorRotation: {x: 4E-45, y: -4.863739E-05, z: 3E-45, w: 1}
+    velocity: {x: 1.0737678, y: 6.7047443, z: -8.098251}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 131
+    time: 8.030031
+    position: {x: 177.90706, y: 102.55008, z: 293.36008}
+    rotation: {x: -0, y: 0.8378823, z: -0, w: 0.545851}
+    animatorRotation: {x: 4E-45, y: -4.8667192E-05, z: 3E-45, w: 1}
+    velocity: {x: 0.78477716, y: 6.7025504, z: -7.953156}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 132
+    time: 8.08293
+    position: {x: 177.92114, y: 102.90903, z: 292.95718}
+    rotation: {x: -0, y: 0.83148915, z: -0, w: 0.55554104}
+    animatorRotation: {x: 4E-45, y: -4.863739E-05, z: 3E-45, w: 1}
+    velocity: {x: -1.0814283, y: 6.9968376, z: -6.8677807}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 133
+    time: 8.149447
+    position: {x: 177.84706, y: 103.35906, z: 292.54092}
+    rotation: {x: -0, y: 0.82056886, z: -0, w: 0.57154775}
+    animatorRotation: {x: 4E-45, y: -4.848838E-05, z: 1E-45, w: 1}
+    velocity: {x: -0.81979156, y: 6.707553, z: -5.8960686}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 134
+    time: 8.215603
+    position: {x: 177.80527, y: 103.80411, z: 292.18985}
+    rotation: {x: -0, y: 0.80843353, z: -0, w: 0.5885875}
+    animatorRotation: {x: 4E-45, y: -4.8458576E-05, z: 1E-45, w: 1}
+    velocity: {x: -0.45136482, y: 6.7075205, z: -4.727952}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 135
+    time: 8.282109
+    position: {x: 177.80707, y: 104.24499, z: 291.89313}
+    rotation: {x: -0, y: 0.8032042, z: -0, w: 0.59570384}
+    animatorRotation: {x: 4E-45, y: -4.851818E-05, z: 1E-45, w: 1}
+    velocity: {x: 1.3400066, y: 6.567, z: -4.438978}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 136
+    time: 8.348695
+    position: {x: 177.91692, y: 104.69391, z: 291.5926}
+    rotation: {x: -0, y: 0.80026174, z: -0, w: 0.5996509}
+    animatorRotation: {x: 4E-45, y: -4.8547983E-05, z: 1E-45, w: 1}
+    velocity: {x: 1.5336008, y: 6.7722187, z: -4.55049}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 137
+    time: 8.414963
+    position: {x: 178.01866, y: 105.14367, z: 291.28644}
+    rotation: {x: -0, y: 0.7978844, z: -0, w: 0.6028105}
+    animatorRotation: {x: 4E-45, y: -4.8577785E-05, z: 1E-45, w: 1}
+    velocity: {x: 1.5325563, y: 6.7676067, z: -4.657267}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 138
+    time: 8.482474
+    position: {x: 178.03772, y: 105.607666, z: 291.05994}
+    rotation: {x: -0, y: 0.7966909, z: -0, w: 0.604387}
+    animatorRotation: {x: 4E-45, y: -4.8577785E-05, z: 1E-45, w: 1}
+    velocity: {x: 0.123129964, y: 6.7470827, z: -2.5546355}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 139
+    time: 8.549407
+    position: {x: 178.06375, y: 106.05806, z: 290.92203}
+    rotation: {x: -0, y: 0.7958974, z: -0, w: 0.6054315}
+    animatorRotation: {x: 4E-45, y: -4.863739E-05, z: 1E-45, w: 1}
+    velocity: {x: 0.601095, y: 6.746503, z: -1.6852019}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 140
+    time: 8.615493
+    position: {x: 178.12178, y: 106.50511, z: 290.84348}
+    rotation: {x: -0, y: 0.795107, z: -0, w: 0.6064692}
+    animatorRotation: {x: 4E-45, y: -4.848838E-05, z: 1E-45, w: 1}
+    velocity: {x: 1.1317916, y: 6.746464, z: -0.7204145}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 141
+    time: 8.665926
+    position: {x: 178.18141, y: 106.82922, z: 290.81842}
+    rotation: {x: -0, y: 0.7947978, z: -0, w: 0.60687447}
+    animatorRotation: {x: 4E-45, y: -4.8428774E-05, z: 1E-45, w: 1}
+    velocity: {x: 1.1491174, y: 5.5463343, z: -0.19435728}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 142
+    time: 8.732194
+    position: {x: 178.24501, y: 107.05541, z: 290.84094}
+    rotation: {x: -0, y: 0.7944027, z: -0, w: 0.6073915}
+    animatorRotation: {x: 4E-45, y: -4.848837E-05, z: 1E-45, w: 1}
+    velocity: {x: 0.8293507, y: 1.9947175, z: 0.6861613}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 143
+    time: 8.748759
+    position: {x: 178.24501, y: 107.05541, z: 290.84094}
+    rotation: {x: -0, y: 0.7944027, z: -0, w: 0.6073915}
+    animatorRotation: {x: 4E-45, y: -4.848837E-05, z: 1E-45, w: 1}
+    velocity: {x: 0.8293507, y: 25, z: 0.6861613}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 2
+  - index: 144
+    time: 8.798465
+    position: {x: 178.42749, y: 108.48779, z: 290.84546}
+    rotation: {x: -0, y: 0.7939608, z: -0, w: 0.607969}
+    animatorRotation: {x: 4E-45, y: -4.851818E-05, z: 1E-45, w: 1}
+    velocity: {x: 4.245831, y: 18.97339, z: -0.410215}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 145
+    time: 8.864726
+    position: {x: 178.7786, y: 109.60161, z: 290.79572}
+    rotation: {x: -0, y: 0.7945415, z: -0, w: 0.60721}
+    animatorRotation: {x: 4E-45, y: -4.848838E-05, z: 1E-45, w: 1}
+    velocity: {x: 6.360344, y: 14.532071, z: -1.1017225}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 146
+    time: 8.930992
+    position: {x: 179.26866, y: 110.395836, z: 290.6935}
+    rotation: {x: -0, y: 0.8061958, z: -0, w: 0.59164894}
+    animatorRotation: {x: 4E-45, y: -4.8339367E-05, z: 1E-45, w: 1}
+    velocity: {x: 8.093221, y: 10.157039, z: -1.8884585}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 147
+    time: 8.981233
+    position: {x: 179.70035, y: 110.779236, z: 290.55545}
+    rotation: {x: -0, y: 0.8623625, z: -0, w: 0.50629133}
+    animatorRotation: {x: 4E-45, y: -4.836917E-05, z: 3E-45, w: 1}
+    velocity: {x: 9.0273075, y: 5.8473043, z: -3.4758873}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 148
+    time: 9.047035
+    position: {x: 180.3151, y: 111.01983, z: 290.26566}
+    rotation: {x: -0, y: 0.90987873, z: -0, w: 0.4148744}
+    animatorRotation: {x: 3E-45, y: -4.839897E-05, z: 4E-45, w: 1}
+    velocity: {x: 9.393598, y: 1.6018928, z: -5.218713}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 149
+    time: 9.09758
+    position: {x: 180.78377, y: 110.99631, z: 289.95923}
+    rotation: {x: -0, y: 0.94602513, z: -0, w: 0.32409325}
+    animatorRotation: {x: 3E-45, y: -4.836917E-05, z: 4E-45, w: 1}
+    velocity: {x: 9.246124, y: -2.5801554, z: -6.9927554}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 150
+    time: 9.163524
+    position: {x: 181.38821, y: 110.69537, z: 289.44263}
+    rotation: {x: -0, y: 0.9670054, z: -0, w: 0.25475606}
+    animatorRotation: {x: 3E-45, y: -4.8279762E-05, z: 4E-45, w: 1}
+    velocity: {x: 8.879255, y: -6.6997867, z: -8.606618}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 151
+    time: 9.22979
+    position: {x: 181.92044, y: 110.3466, z: 288.6668}
+    rotation: {x: -0, y: 0.9779134, z: -0, w: 0.20901085}
+    animatorRotation: {x: 3E-45, y: -4.8294656E-05, z: 3E-45, w: 1}
+    velocity: {x: 7.0061398, y: 0.45980644, z: -13.526374}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 152
+    time: 9.296678
+    position: {x: 182.35031, y: 110.39831, z: 287.64975}
+    rotation: {x: -0, y: 0.98422414, z: -0, w: 0.17692621}
+    animatorRotation: {x: 3E-45, y: -4.8056245E-05, z: 3E-45, w: 1}
+    velocity: {x: 6.2647705, y: 0.41114998, z: -16.827019}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 153
+    time: 9.36309
+    position: {x: 182.75812, y: 110.425186, z: 286.49396}
+    rotation: {x: -0, y: 0.9858085, z: -0, w: 0.16787383}
+    animatorRotation: {x: 3E-45, y: -4.8056238E-05, z: 3E-45, w: 1}
+    velocity: {x: 6.061555, y: 0.3978132, z: -18.004898}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 154
+    time: 9.429169
+    position: {x: 183.28142, y: 110.459526, z: 285.20715}
+    rotation: {x: -0, y: 0.97470754, z: -0, w: 0.22348425}
+    animatorRotation: {x: 3E-45, y: -4.801154E-05, z: 3E-45, w: 1}
+    velocity: {x: 10.253754, y: 0.6729429, z: -20.578074}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 155
+    time: 9.480444
+    position: {x: 184.02295, y: 110.48912, z: 284.21167}
+    rotation: {x: -0, y: 0.93422824, z: -0, w: 0.35667595}
+    animatorRotation: {x: 3E-45, y: -4.8041336E-05, z: 4E-45, w: 1}
+    velocity: {x: 17.78474, y: -0.6361079, z: -18.665232}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 156
+    time: 9.5306635
+    position: {x: 185.00792, y: 110.478485, z: 283.32812}
+    rotation: {x: -0, y: 0.90721303, z: -0, w: 0.42067155}
+    animatorRotation: {x: 3E-45, y: -4.810095E-05, z: 4E-45, w: 1}
+    velocity: {x: 21.344988, y: -0.02575636, z: -17.08209}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 157
+    time: 9.596494
+    position: {x: 186.59265, y: 110.4783, z: 282.30075}
+    rotation: {x: -0, y: 0.86407024, z: -0, w: 0.5033713}
+    animatorRotation: {x: 3E-45, y: -4.7951937E-05, z: 4E-45, w: 1}
+    velocity: {x: 25.789421, y: -0.000121593475, z: -14.217973}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 158
+    time: 9.662686
+    position: {x: 188.37436, y: 110.537674, z: 281.4114}
+    rotation: {x: -0, y: 0.8395703, z: -0, w: 0.5432511}
+    animatorRotation: {x: 4E-45, y: -4.7832727E-05, z: 3E-45, w: 1}
+    velocity: {x: 27.628832, y: -0.31323195, z: -12.243772}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 159
+    time: 9.712982
+    position: {x: 189.7782, y: 110.533295, z: 280.84326}
+    rotation: {x: -0, y: 0.81764275, z: -0, w: 0.5757259}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 1E-45, w: 1}
+    velocity: {x: 28.980099, y: -0.0025629997, z: -10.393123}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 160
+    time: 9.763625
+    position: {x: 191.25888, y: 110.53323, z: 280.33783}
+    rotation: {x: -0, y: 0.80679166, z: -0, w: 0.59083617}
+    animatorRotation: {x: 4E-45, y: -4.7832727E-05, z: 1E-45, w: 1}
+    velocity: {x: 29.573364, y: -0.000121593475, z: -9.439905}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 161
+    time: 9.813911
+    position: {x: 192.74165, y: 110.53323, z: 279.89014}
+    rotation: {x: -0, y: 0.7965743, z: -0, w: 0.60454077}
+    animatorRotation: {x: 4E-45, y: -4.774332E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.126486, y: -0.000121593475, z: -8.517641}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 162
+    time: 9.879886
+    position: {x: 194.76768, y: 110.533226, z: 279.33734}
+    rotation: {x: -0, y: 0.790435, z: -0, w: 0.6125459}
+    animatorRotation: {x: 4E-45, y: -4.7773123E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.445238, y: -0.000121593475, z: -7.939745}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 163
+    time: 9.930841
+    position: {x: 196.31364, y: 110.53323, z: 278.9429}
+    rotation: {x: -0, y: 0.78772897, z: -0, w: 0.6160221}
+    animatorRotation: {x: 4E-45, y: -4.7892325E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.579916, y: -0.000121593475, z: -7.6758685}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 164
+    time: 9.981455
+    position: {x: 197.84177, y: 110.53323, z: 278.56848}
+    rotation: {x: -0, y: 0.78544503, z: -0, w: 0.6189315}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.700888, y: -0.000121593475, z: -7.44202}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 165
+    time: 10.04779
+    position: {x: 199.89264, y: 110.53323, z: 278.04025}
+    rotation: {x: -0, y: 0.7991979, z: -0, w: 0.6010681}
+    animatorRotation: {x: 4E-45, y: -4.783272E-05, z: 1E-45, w: 1}
+    velocity: {x: 30.346107, y: -0.000121593475, z: -8.685967}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 166
+    time: 10.09873
+    position: {x: 201.40971, y: 110.53323, z: 277.52173}
+    rotation: {x: -0, y: 0.82939726, z: -0, w: 0.55865926}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 1E-45, w: 1}
+    velocity: {x: 29.21418, y: -0.000121593475, z: -11.575901}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 167
+    time: 10.164997
+    position: {x: 203.31244, y: 110.53323, z: 276.67865}
+    rotation: {x: -0, y: 0.8499782, z: -0, w: 0.526818}
+    animatorRotation: {x: 4E-45, y: -4.7832727E-05, z: 3E-45, w: 1}
+    velocity: {x: 28.270725, y: -0.000121593475, z: -13.733405}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 168
+    time: 10.2312765
+    position: {x: 205.17424, y: 110.53323, z: 275.7364}
+    rotation: {x: -0, y: 0.8549955, z: -0, w: 0.5186355}
+    animatorRotation: {x: 4E-45, y: -4.7832727E-05, z: 3E-45, w: 1}
+    velocity: {x: 28.04459, y: -0.000121593475, z: -14.4027405}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 169
+    time: 10.29754
+    position: {x: 207.0425, y: 110.49147, z: 274.79153}
+    rotation: {x: -0, y: 0.85030967, z: -0, w: 0.52628285}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 3E-45, w: 1}
+    velocity: {x: 28.344269, y: -1.386697, z: -14.153983}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 170
+    time: 10.3484955
+    position: {x: 208.50215, y: 110.406006, z: 274.06683}
+    rotation: {x: -0, y: 0.84843016, z: -0, w: 0.5293074}
+    animatorRotation: {x: 4E-45, y: -4.7922134E-05, z: 3E-45, w: 1}
+    velocity: {x: 28.514084, y: -1.9289577, z: -14.080009}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 171
+    time: 10.414808
+    position: {x: 210.414, y: 110.23922, z: 273.1306}
+    rotation: {x: -0, y: 0.8461738, z: -0, w: 0.53290695}
+    animatorRotation: {x: 4E-45, y: -4.798174E-05, z: 3E-45, w: 1}
+    velocity: {x: 28.656363, y: -5.026448, z: -13.873119}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 172
+    time: 10.465343
+    position: {x: 211.8432, y: 109.96622, z: 272.4367}
+    rotation: {x: -0, y: 0.84562683, z: -0, w: 0.5337747}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 3E-45, w: 1}
+    velocity: {x: 28.963736, y: -5.118247, z: -14.20646}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 173
+    time: 10.53198
+    position: {x: 213.76248, y: 109.48988, z: 271.49857}
+    rotation: {x: -0, y: 0.8452332, z: -0, w: 0.53439766}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 3E-45, w: 1}
+    velocity: {x: 29.11973, y: -7.59295, z: -14.374255}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 174
+    time: 10.597883
+    position: {x: 215.6806, y: 108.76759, z: 270.56403}
+    rotation: {x: -0, y: 0.8452809, z: -0, w: 0.53432226}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 3E-45, w: 1}
+    velocity: {x: 28.831463, y: -13.762624, z: -13.936875}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 175
+    time: 10.664145
+    position: {x: 217.56226, y: 107.84195, z: 269.61194}
+    rotation: {x: -0, y: 0.8456252, z: -0, w: 0.5337772}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 3E-45, w: 1}
+    velocity: {x: 26.103642, y: -13.908523, z: -13.746775}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 176
+    time: 10.7154665
+    position: {x: 218.79294, y: 107.078316, z: 268.95956}
+    rotation: {x: -0, y: 0.8461395, z: -0, w: 0.5329616}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 3E-45, w: 1}
+    velocity: {x: 22.044708, y: -3.8268757, z: -15.628755}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 177
+    time: 10.782003
+    position: {x: 220.20824, y: 106.68541, z: 268.01447}
+    rotation: {x: -0, y: 0.8464174, z: -0, w: 0.53252006}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 3E-45, w: 1}
+    velocity: {x: 20.632292, y: -8.322919, z: -13.098976}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 178
+    time: 10.83497
+    position: {x: 221.2833, y: 106.15587, z: 267.3413}
+    rotation: {x: -0, y: 0.8454695, z: -0, w: 0.5340238}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 3E-45, w: 1}
+    velocity: {x: 20.115509, y: -12.356837, z: -12.351471}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 179
+    time: 10.888355
+    position: {x: 222.35385, y: 105.424286, z: 266.69168}
+    rotation: {x: -0, y: 0.84309226, z: -0, w: 0.537769}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 3E-45, w: 1}
+    velocity: {x: 19.832163, y: -15.012612, z: -11.878828}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 180
+    time: 10.939886
+    position: {x: 223.3891, y: 104.51913, z: 266.0849}
+    rotation: {x: -0, y: 0.83804446, z: -0, w: 0.54560196}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 3E-45, w: 1}
+    velocity: {x: 19.485338, y: -18.946686, z: -11.202527}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 181
+    time: 10.993265
+    position: {x: 224.39719, y: 103.45227, z: 265.5158}
+    rotation: {x: -0, y: 0.8310923, z: -0, w: 0.5561346}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 3E-45, w: 1}
+    velocity: {x: 19.224846, y: -22.822042, z: -10.542454}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 182
+    time: 11.059588
+    position: {x: 225.67636, y: 101.82201, z: 264.831}
+    rotation: {x: -0, y: 0.8202846, z: -0, w: 0.5719556}
+    animatorRotation: {x: 4E-45, y: -4.774332E-05, z: 1E-45, w: 1}
+    velocity: {x: 19.052885, y: -26.639559, z: -9.841664}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 183
+    time: 11.110895
+    position: {x: 226.77751, y: 100.65486, z: 264.31183}
+    rotation: {x: -0, y: 0.8140078, z: -0, w: 0.580854}
+    animatorRotation: {x: 4E-45, y: -4.7773123E-05, z: 1E-45, w: 1}
+    velocity: {x: 26.167976, y: -15.025249, z: -11.6532345}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 184
+    time: 11.177162
+    position: {x: 228.56622, y: 100.28162, z: 263.5105}
+    rotation: {x: -0, y: 0.8024396, z: -0, w: 0.59673345}
+    animatorRotation: {x: 4E-45, y: -4.7832727E-05, z: 1E-45, w: 1}
+    velocity: {x: 24.235767, y: -4.0411425, z: -10.014106}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 185
+    time: 11.230605
+    position: {x: 229.75215, y: 100.16588, z: 263.05054}
+    rotation: {x: -0, y: 0.79694396, z: -0, w: 0.6040533}
+    animatorRotation: {x: 4E-45, y: -4.7832727E-05, z: 1E-45, w: 1}
+    velocity: {x: 23.125, y: -2.3495493, z: -8.496791}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 186
+    time: 11.296873
+    position: {x: 231.22737, y: 99.972015, z: 262.56384}
+    rotation: {x: -0, y: 0.78556746, z: -0, w: 0.618776}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 1E-45, w: 1}
+    velocity: {x: 21.784641, y: -2.5198114, z: -6.565445}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 187
+    time: 11.346952
+    position: {x: 232.30704, y: 99.784195, z: 262.26193}
+    rotation: {x: -0, y: 0.77429986, z: -0, w: 0.63281894}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 1E-45, w: 1}
+    velocity: {x: 21.425375, y: -4.594771, z: -5.4724793}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 188
+    time: 11.413298
+    position: {x: 233.69444, y: 99.75641, z: 261.93094}
+    rotation: {x: -0, y: 0.735589, z: -0, w: 0.6774281}
+    animatorRotation: {x: 1E-45, y: -4.7951937E-05, z: 1E-45, w: 1}
+    velocity: {x: 20.50258, y: 0.04821992, z: -3.6626499}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 189
+    time: 11.480119
+    position: {x: 234.99495, y: 99.90226, z: 261.74216}
+    rotation: {x: -0, y: 0.7130829, z: -0, w: 0.7010798}
+    animatorRotation: {x: 1E-45, y: -4.8011534E-05, z: 1E-45, w: 1}
+    velocity: {x: 18.839813, y: 4.5924983, z: -1.6564615}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 190
+    time: 11.545767
+    position: {x: 236.21341, y: 100.239975, z: 261.67444}
+    rotation: {x: -0, y: 0.7003098, z: -0, w: 0.71383905}
+    animatorRotation: {x: 1E-45, y: -4.798174E-05, z: 1E-45, w: 1}
+    velocity: {x: 17.029503, y: 7.1431727, z: -0.609998}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 191
+    time: 11.612088
+    position: {x: 237.40941, y: 100.52121, z: 261.66882}
+    rotation: {x: -0, y: 0.69338876, z: -0, w: 0.7205637}
+    animatorRotation: {x: 1E-45, y: -4.801154E-05, z: 1E-45, w: 1}
+    velocity: {x: 18.56684, y: 2.2844005, z: 0.21600708}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 192
+    time: 11.678354
+    position: {x: 238.68002, y: 100.44329, z: 261.7058}
+    rotation: {x: -0, y: 0.68892074, z: -0, w: 0.72483677}
+    animatorRotation: {x: 1E-45, y: -4.801154E-05, z: 1E-45, w: 1}
+    velocity: {x: 19.584108, y: -4.081345, z: 0.7708221}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 193
+    time: 11.7284565
+    position: {x: 239.66055, y: 100.16019, z: 261.74805}
+    rotation: {x: -0, y: 0.6878002, z: -0, w: 0.72590005}
+    animatorRotation: {x: 1E-45, y: -4.798173E-05, z: 1E-45, w: 1}
+    velocity: {x: 19.854746, y: -7.216674, z: 0.9184271}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 194
+    time: 11.7944565
+    position: {x: 240.99496, y: 100.20489, z: 261.81534}
+    rotation: {x: -0, y: 0.68662345, z: -0, w: 0.7270133}
+    animatorRotation: {x: 1E-45, y: -4.798174E-05, z: 1E-45, w: 1}
+    velocity: {x: 20.154839, y: 0, z: 1.0820973}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 195
+    time: 11.860724
+    position: {x: 242.32907, y: 100.20546, z: 261.8886}
+    rotation: {x: -0, y: 0.6862275, z: -0, w: 0.7273871}
+    animatorRotation: {x: 1E-45, y: -4.798174E-05, z: 1E-45, w: 1}
+    velocity: {x: 20.263945, y: 0, z: 1.1416034}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 196
+    time: 11.9269905
+    position: {x: 243.68063, y: 100.20546, z: 261.96588}
+    rotation: {x: -0, y: 0.68602675, z: -0, w: 0.7275763}
+    animatorRotation: {x: 1E-45, y: -4.7981743E-05, z: 1E-45, w: 1}
+    velocity: {x: 20.323202, y: -0.000121593475, z: 1.1739234}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 197
+    time: 11.993312
+    position: {x: 245.02222, y: 100.20545, z: 262.04404}
+    rotation: {x: -0, y: 0.6859146, z: -0, w: 0.7276822}
+    animatorRotation: {x: 1E-45, y: -4.8071146E-05, z: 1E-45, w: 1}
+    velocity: {x: 20.362432, y: -0.000121593475, z: 1.1953199}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 198
+    time: 12.059529
+    position: {x: 246.34497, y: 100.27219, z: 262.12347}
+    rotation: {x: -0, y: 0.6859146, z: -0, w: 0.7276822}
+    animatorRotation: {x: 1E-45, y: -4.8071146E-05, z: 1E-45, w: 1}
+    velocity: {x: 17.69505, y: 6.138316, z: 1.203099}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 199
+    time: 12.125792
+    position: {x: 247.54703, y: 100.56058, z: 262.2033}
+    rotation: {x: -0, y: 0.6859146, z: -0, w: 0.7276822}
+    animatorRotation: {x: 1E-45, y: -4.8071146E-05, z: 1E-45, w: 1}
+    velocity: {x: 18.927938, y: 1.2945412, z: 1.2073241}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 200
+    time: 12.158924
+    position: {x: 247.86313, y: 100.56622, z: 262.22333}
+    rotation: {x: -0, y: 0.6859146, z: -0, w: 0.7276822}
+    animatorRotation: {x: 1E-45, y: -4.8071146E-05, z: 1E-45, w: 1}
+    velocity: {x: 19.197777, y: 25, z: 1.2082489}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 1
+  - index: 201
+    time: 12.192059
+    position: {x: 248.80283, y: 101.4772, z: 262.28397}
+    rotation: {x: -0, y: 0.6859146, z: -0, w: 0.7276822}
+    animatorRotation: {x: 1E-45, y: -4.8071146E-05, z: 1E-45, w: 1}
+    velocity: {x: 19.597567, y: 21.574583, z: 1.2096189}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 202
+    time: 12.258329
+    position: {x: 250.10822, y: 102.67952, z: 262.36075}
+    rotation: {x: -0, y: 0.69401586, z: -0, w: 0.7199597}
+    animatorRotation: {x: 1E-45, y: -4.8041344E-05, z: 1E-45, w: 1}
+    velocity: {x: 19.633602, y: 15.41994, z: 1.063484}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 203
+    time: 12.308933
+    position: {x: 251.0882, y: 103.3748, z: 262.40668}
+    rotation: {x: -0, y: 0.7128253, z: -0, w: 0.7013416}
+    animatorRotation: {x: 1E-45, y: -4.798174E-05, z: 1E-45, w: 1}
+    velocity: {x: 19.556143, y: 12.487092, z: 0.74748844}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 204
+    time: 12.374292
+    position: {x: 252.35242, y: 104.0372, z: 262.41635}
+    rotation: {x: -0, y: 0.7663908, z: -0, w: 0.64237475}
+    animatorRotation: {x: 4E-45, y: -4.7922127E-05, z: 1E-45, w: 1}
+    velocity: {x: 10.843188, y: 13.299904, z: -2.2470765}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 205
+    time: 12.425199
+    position: {x: 252.81485, y: 104.741875, z: 262.24603}
+    rotation: {x: -0, y: 0.7901953, z: -0, w: 0.61285514}
+    animatorRotation: {x: 4E-45, y: -4.7892332E-05, z: 1E-45, w: 1}
+    velocity: {x: 10.816007, y: 12.415077, z: -4.4630823}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 206
+    time: 12.491857
+    position: {x: 253.61954, y: 105.4598, z: 261.83737}
+    rotation: {x: -0, y: 0.81324995, z: -0, w: 0.5819146}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 1E-45, w: 1}
+    velocity: {x: 11.941941, y: 9.859167, z: -7.288142}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 207
+    time: 12.5581255
+    position: {x: 254.52664, y: 105.959274, z: 261.27545}
+    rotation: {x: -0, y: 0.8285635, z: -0, w: 0.55989516}
+    animatorRotation: {x: 4E-45, y: -4.7862522E-05, z: 1E-45, w: 1}
+    velocity: {x: 15.960899, y: 4.8055153, z: -9.028962}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 208
+    time: 12.608472
+    position: {x: 255.32413, y: 106.126465, z: 260.82977}
+    rotation: {x: -0, y: 0.83236504, z: -0, w: 0.5542278}
+    animatorRotation: {x: 4E-45, y: -4.786253E-05, z: 1E-45, w: 1}
+    velocity: {x: 16.104248, y: 1.9785452, z: -8.898058}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 209
+    time: 12.674967
+    position: {x: 256.41342, y: 106.07764, z: 260.2409}
+    rotation: {x: -0, y: 0.8339706, z: -0, w: 0.55180883}
+    animatorRotation: {x: 4E-45, y: -4.7773123E-05, z: 3E-45, w: 1}
+    velocity: {x: 16.367113, y: -3.591079, z: -8.631936}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 210
+    time: 12.741235
+    position: {x: 257.22992, y: 105.83824, z: 259.8158}
+    rotation: {x: -0, y: 0.83084315, z: -0, w: 0.5565067}
+    animatorRotation: {x: 4E-45, y: -4.7892325E-05, z: 1E-45, w: 1}
+    velocity: {x: 16.505882, y: 25, z: -8.45277}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 2
+  - index: 211
+    time: 12.758081
+    position: {x: 257.77893, y: 106.37517, z: 259.5387}
+    rotation: {x: -0, y: 0.8269837, z: -0, w: 0.562226}
+    animatorRotation: {x: 4E-45, y: -4.7922134E-05, z: 1E-45, w: 1}
+    velocity: {x: 16.643068, y: 21.97159, z: -8.258525}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 212
+    time: 12.82407
+    position: {x: 258.89206, y: 107.69339, z: 258.9988}
+    rotation: {x: -0, y: 0.82160467, z: -0, w: 0.57005775}
+    animatorRotation: {x: 4E-45, y: -4.8011534E-05, z: 1E-45, w: 1}
+    velocity: {x: 16.836658, y: 17.485523, z: -7.965631}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 213
+    time: 12.89072
+    position: {x: 260.02017, y: 108.68766, z: 258.47968}
+    rotation: {x: -0, y: 0.81629235, z: -0, w: 0.5776391}
+    animatorRotation: {x: 4E-45, y: -4.810094E-05, z: 1E-45, w: 1}
+    velocity: {x: 17.017366, y: 13.066411, z: -7.66925}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 214
+    time: 12.941891
+    position: {x: 260.89453, y: 109.226425, z: 258.09695}
+    rotation: {x: -0, y: 0.810959, z: -0, w: 0.585103}
+    animatorRotation: {x: 4E-45, y: -4.8071146E-05, z: 1E-45, w: 1}
+    velocity: {x: 17.187439, y: 8.713254, z: -7.366294}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 215
+    time: 13.008417
+    position: {x: 262.03748, y: 109.64981, z: 257.6195}
+    rotation: {x: -0, y: 0.8070738, z: -0, w: 0.59045064}
+    animatorRotation: {x: 4E-45, y: -4.801154E-05, z: 1E-45, w: 1}
+    velocity: {x: 17.338562, y: 4.425068, z: -7.0873947}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 216
+    time: 13.07443
+    position: {x: 263.1957, y: 109.76266, z: 257.15897}
+    rotation: {x: -0, y: 0.8042991, z: -0, w: 0.5942247}
+    animatorRotation: {x: 4E-45, y: -4.7922134E-05, z: 1E-45, w: 1}
+    velocity: {x: 17.507809, y: -1.193121, z: -6.771494}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 217
+    time: 13.125092
+    position: {x: 264.08887, y: 109.63903, z: 256.81726}
+    rotation: {x: -0, y: 0.803714, z: -0, w: 0.5950158}
+    animatorRotation: {x: -2.3952449E-08, y: -4.8041336E-05, z: 0.0004989532, w: 0.9999999}
+    velocity: {x: 17.663574, y: -3.8992202, z: -6.672282}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 218
+    time: 13.191093
+    position: {x: 265.26398, y: 109.382416, z: 256.38126}
+    rotation: {x: -0, y: 0.8031705, z: -0, w: 0.5957493}
+    animatorRotation: {x: -2.9592775E-07, y: -4.8279762E-05, z: 0.0061814445, w: 0.9999809}
+    velocity: {x: 17.985905, y: -3.8992202, z: -6.5931635}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 219
+    time: 13.2573595
+    position: {x: 266.47467, y: 109.12285, z: 255.94608}
+    rotation: {x: -0, y: 0.79910547, z: -0, w: 0.601191}
+    animatorRotation: {x: -1.2814999E-06, y: -4.8279762E-05, z: 0.026621483, w: 0.9996456}
+    velocity: {x: 18.35375, y: -3.8992202, z: -6.484274}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 220
+    time: 13.307568
+    position: {x: 267.39883, y: 108.92739, z: 255.62283}
+    rotation: {x: -0, y: 0.79477876, z: -0, w: 0.6068993}
+    animatorRotation: {x: -2.7269125E-06, y: -4.8220158E-05, z: 0.05656243, w: 0.99839914}
+    velocity: {x: 18.519083, y: -3.8992202, z: -6.4136405}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 221
+    time: 13.373835
+    position: {x: 268.62808, y: 108.67064, z: 255.20657}
+    rotation: {x: -0, y: 0.78344095, z: -0, w: 0.62146634}
+    animatorRotation: {x: -4.749745E-06, y: -4.801154E-05, z: 0.098472215, w: 0.99513984}
+    velocity: {x: 18.829103, y: -3.8992202, z: -6.2006054}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 222
+    time: 13.424294
+    position: {x: 269.56714, y: 108.41788, z: 254.90121}
+    rotation: {x: -0, y: 0.78344095, z: -0, w: 0.6214663}
+    animatorRotation: {x: 0.084454834, y: -0.008389682, z: 0.097937725, w: 0.9915671}
+    velocity: {x: 18.973492, y: -6.696821, z: -6.065002}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 223
+    time: 13.489801
+    position: {x: 270.83344, y: 107.81766, z: 254.50577}
+    rotation: {x: -0, y: 0.78344095, z: -0, w: 0.62146634}
+    animatorRotation: {x: 0.20983782, y: -0.014749525, z: 0.068339616, w: 0.97523344}
+    velocity: {x: 19.244463, y: -10.891124, z: -5.9036994}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 224
+    time: 13.556069
+    position: {x: 272.1366, y: 106.90362, z: 254.11649}
+    rotation: {x: -0, y: 0.7717342, z: -0, w: 0.6359453}
+    animatorRotation: {x: 0.29592413, y: -0.015583634, z: 0.050092153, w: 0.95376986}
+    velocity: {x: 20.006367, y: -16.479616, z: -5.829614}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 225
+    time: 13.622338
+    position: {x: 273.48462, y: 105.69114, z: 253.73618}
+    rotation: {x: -0, y: 0.75061244, z: -0, w: 0.6607427}
+    animatorRotation: {x: 0.21554737, y: -0.034579307, z: 0.15438236, w: 0.9635921}
+    velocity: {x: 20.998318, y: -20.66805, z: -5.658516}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 226
+    time: 13.688612
+    position: {x: 274.92413, y: 104.170334, z: 253.37198}
+    rotation: {x: -0, y: 0.7330623, z: -0, w: 0.68016154}
+    animatorRotation: {x: 0.15138929, y: -0.03369224, z: 0.21432087, w: 0.9643717}
+    velocity: {x: 22.374111, y: -24.853973, z: -5.3424077}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 227
+    time: 13.754914
+    position: {x: 276.5039, y: 102.31446, z: 253.03265}
+    rotation: {x: -0, y: 0.71238554, z: -0, w: 0.7017884}
+    animatorRotation: {x: 0.10658192, y: -0.026987523, z: 0.24355966, w: 0.96363413}
+    velocity: {x: 24.787418, y: -30.431297, z: -4.705576}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 228
+    time: 13.821181
+    position: {x: 278.18707, y: 100.20446, z: 252.74277}
+    rotation: {x: -0, y: 0.6986288, z: -0, w: 0.7154843}
+    animatorRotation: {x: 0.075307496, y: -0.019830495, z: 0.2532809, w: 0.96425325}
+    velocity: {x: 27.00757, y: -34.611366, z: -4.062817}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 229
+    time: 13.873951
+    position: {x: 279.67825, y: 98.35388, z: 252.54317}
+    rotation: {x: -0, y: 0.68623805, z: -0, w: 0.7273771}
+    animatorRotation: {x: 0.057193927, y: -0.014901608, z: 0.25090313, w: 0.9662062}
+    velocity: {x: 29.428434, y: -30.89381, z: -3.2819805}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 230
+    time: 13.925272
+    position: {x: 281.21402, y: 96.95773, z: 252.38776}
+    rotation: {x: -0, y: 0.6786838, z: -0, w: 0.7344307}
+    animatorRotation: {x: 0.043823995, y: -0.011101812, z: 0.24428762, w: 0.96864843}
+    velocity: {x: 30.52222, y: -23.976242, z: -2.7280917}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 231
+    time: 13.991538
+    position: {x: 283.26617, y: 95.58599, z: 252.24074}
+    rotation: {x: -0, y: 0.6683327, z: -0, w: 0.74386257}
+    animatorRotation: {x: 0.031123534, y: -0.007417232, z: 0.23023498, w: 0.972609}
+    velocity: {x: 31.521908, y: -18.827854, z: -1.8900068}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 232
+    time: 14.0578
+    position: {x: 285.3904, y: 94.60446, z: 252.15417}
+    rotation: {x: -0, y: 0.658968, z: -0, w: 0.75217104}
+    animatorRotation: {x: 0.022165542, y: -0.004623174, z: 0.20203753, w: 0.979116}
+    velocity: {x: 32.18113, y: -12.715809, z: -0.8037179}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 233
+    time: 14.124067
+    position: {x: 287.52216, y: 93.87436, z: 252.12502}
+    rotation: {x: -0, y: 0.655769, z: -0, w: 0.7549616}
+    animatorRotation: {x: 0.015805217, y: -0.00263083, z: 0.16118859, w: 0.9867936}
+    velocity: {x: 32.407608, y: -9.40839, z: -0.05893612}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 234
+    time: 14.190335
+    position: {x: 289.6739, y: 93.32239, z: 252.14655}
+    rotation: {x: -0, y: 0.6537508, z: -0, w: 0.75670993}
+    animatorRotation: {x: 0.011242737, y: -0.0014663042, z: 0.12505944, w: 0.9920845}
+    velocity: {x: 32.507214, y: -7.5789723, z: 0.6031876}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 235
+    time: 14.2571335
+    position: {x: 291.8297, y: 92.91318, z: 252.21341}
+    rotation: {x: -0, y: 0.65166116, z: -0, w: 0.75851023}
+    animatorRotation: {x: 0.007957064, y: -0.0008251965, z: 0.09709841, w: 0.99524266}
+    velocity: {x: 32.53987, y: -5.3985906, z: 1.3688236}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 236
+    time: 14.322865
+    position: {x: 293.98572, y: 92.59224, z: 252.31952}
+    rotation: {x: -0, y: 0.65051943, z: -0, w: 0.7594896}
+    animatorRotation: {x: 0.00565717, y: -0.00047674775, z: 0.075426586, w: 0.9971352}
+    velocity: {x: 32.525585, y: -4.237613, z: 1.866511}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 237
+    time: 14.389132
+    position: {x: 296.14175, y: 92.328316, z: 252.45956}
+    rotation: {x: -0, y: 0.6513018, z: -0, w: 0.7588188}
+    animatorRotation: {x: 0.004011225, y: -0.00022283196, z: 0.043388195, w: 0.99905026}
+    velocity: {x: 32.495026, y: -3.8992202, z: 2.3014617}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 238
+    time: 14.4556055
+    position: {x: 298.31152, y: 92.06781, z: 252.62885}
+    rotation: {x: -0, y: 0.663677, z: -0, w: 0.7480194}
+    animatorRotation: {x: 0.002839706, y: 1.54078E-05, z: -0.022468321, w: 0.9997436}
+    velocity: {x: 32.46836, y: -3.8992202, z: 2.714232}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 239
+    time: 14.521877
+    position: {x: 300.44858, y: 91.81116, z: 252.81131}
+    rotation: {x: -0, y: 0.6792399, z: -0, w: 0.73391634}
+    animatorRotation: {x: 0.0020037852, y: 0.00015342236, z: -0.10034617, w: 0.9949506}
+    velocity: {x: 32.472683, y: -3.8992202, z: 2.8122654}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 240
+    time: 14.58806
+    position: {x: 302.61948, y: 91.55055, z: 252.99628}
+    rotation: {x: -0, y: 0.6951172, z: -0, w: 0.71889657}
+    animatorRotation: {x: 0.0014115497, y: 0.0001809299, z: -0.1609222, w: 0.98696613}
+    velocity: {x: 32.49419, y: -3.8992202, z: 2.7062035}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 241
+    time: 14.638124
+    position: {x: 304.21622, y: 91.35903, z: 253.12265}
+    rotation: {x: -0, y: 0.71090895, z: -0, w: 0.70328414}
+    animatorRotation: {x: 0.0010834484, y: 0.00016665457, z: -0.19573595, w: 0.980656}
+    velocity: {x: 32.52217, y: -3.8992202, z: 2.4156814}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 242
+    time: 14.704024
+    position: {x: 306.37213, y: 91.10063, z: 253.26923}
+    rotation: {x: -0, y: 0.7252441, z: -0, w: 0.6884919}
+    animatorRotation: {x: 0.0007677898, y: 0.0001256764, z: -0.22309029, w: 0.9747975}
+    velocity: {x: 32.545822, y: -3.8992202, z: 1.9691265}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 243
+    time: 14.77029
+    position: {x: 308.55704, y: 90.83891, z: 253.38004}
+    rotation: {x: -0, y: 0.73791957, z: -0, w: 0.67488873}
+    animatorRotation: {x: 0.0005456209, y: 8.08239E-05, z: -0.23317531, w: 0.97243464}
+    velocity: {x: 32.556736, y: -3.8992202, z: 1.4051462}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 244
+    time: 14.820619
+    position: {x: 310.14816, y: 90.64833, z: 253.43118}
+    rotation: {x: -0, y: 0.74901146, z: -0, w: 0.6625571}
+    animatorRotation: {x: 0.00042209774, y: 5.146861E-05, z: -0.23370746, w: 0.9723069}
+    velocity: {x: 32.549866, y: -3.8992202, z: 0.7585157}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 245
+    time: 14.886258
+    position: {x: 312.30347, y: 90.39004, z: 253.45798}
+    rotation: {x: -0, y: 0.75869286, z: -0, w: 0.6514486}
+    animatorRotation: {x: 0.00030314177, y: 2.065301E-05, z: -0.22621414, w: 0.9740776}
+    velocity: {x: 32.52307, y: -3.8992202, z: 0.05900015}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 246
+    time: 14.936312
+    position: {x: 313.91882, y: 90.19623, z: 253.44391}
+    rotation: {x: -0, y: 0.767121, z: -0, w: 0.6415025}
+    animatorRotation: {x: 0.00023595989, y: 2.95043E-06, z: -0.21711843, w: 0.97614527}
+    velocity: {x: 32.476383, y: -3.8992202, z: -0.66908306}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 247
+    time: 15.002224
+    position: {x: 316.0691, y: 89.937836, z: 253.37764}
+    rotation: {x: -0, y: 0.77439773, z: -0, w: 0.63269913}
+    animatorRotation: {x: 0.00017013401, y: -1.4334917E-05, z: -0.20178503, w: 0.97942984}
+    velocity: {x: 32.41136, y: -3.8992202, z: -1.4063232}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 248
+    time: 15.068491
+    position: {x: 318.21408, y: 89.679436, z: 253.25812}
+    rotation: {x: -0, y: 0.78055274, z: -0, w: 0.62509}
+    animatorRotation: {x: 0.00012278557, y: -2.6196241E-05, z: -0.18343684, w: 0.9830315}
+    velocity: {x: 32.330772, y: -3.8992202, z: -2.1363637}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 249
+    time: 15.134777
+    position: {x: 320.36624, y: 89.41939, z: 253.08463}
+    rotation: {x: -0, y: 0.78726506, z: -0, w: 0.61661476}
+    animatorRotation: {x: 8.8825815E-05, y: -3.4242865E-05, z: -0.16397129, w: 0.9864651}
+    velocity: {x: 32.20524, y: -3.8992202, z: -3.07584}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 250
+    time: 15.202751
+    position: {x: 322.5468, y: 89.15498, z: 252.85553}
+    rotation: {x: -0, y: 0.7913664, z: -0, w: 0.61134213}
+    animatorRotation: {x: 6.387383E-05, y: -3.9696693E-05, z: -0.14427069, w: 0.9895383}
+    velocity: {x: 32.10226, y: -3.8992202, z: -3.7429867}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 251
+    time: 15.269423
+    position: {x: 324.66272, y: 88.89751, z: 252.5852}
+    rotation: {x: -0, y: 0.79496557, z: -0, w: 0.6066546}
+    animatorRotation: {x: 4.640594E-05, y: -4.3094158E-05, z: -0.12649441, w: 0.9919674}
+    velocity: {x: 31.995138, y: -3.8992202, z: -4.3726254}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 252
+    time: 15.335286
+    position: {x: 326.77814, y: 88.63911, z: 252.26947}
+    rotation: {x: -0, y: 0.799093, z: -0, w: 0.6012075}
+    animatorRotation: {x: 3.3997E-05, y: -4.5001507E-05, z: -0.11127638, w: 0.9937895}
+    velocity: {x: 31.849773, y: -3.8992202, z: -5.15171}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 253
+    time: 15.4124
+    position: {x: 329.23892, y: 88.3373, z: 251.84898}
+    rotation: {x: -0, y: 0.80230504, z: -0, w: 0.59691435}
+    animatorRotation: {x: 2.3607166E-05, y: -4.655123E-05, z: -0.09317272, w: 0.99565}
+    velocity: {x: 31.707344, y: -3.8992202, z: -5.8565326}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 254
+    time: 15.46244
+    position: {x: 330.8134, y: 88.14349, z: 251.55138}
+    rotation: {x: -0, y: 0.80301553, z: -0, w: 0.5959582}
+    animatorRotation: {x: 1.8533321E-05, y: -4.7266487E-05, z: -0.078610696, w: 0.9969054}
+    velocity: {x: 31.63807, y: -3.8992202, z: -6.181986}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 255
+    time: 15.512617
+    position: {x: 332.3839, y: 87.9497, z: 251.23517}
+    rotation: {x: -0, y: 0.80332214, z: -0, w: 0.5955448}
+    animatorRotation: {x: 1.4305115E-05, y: -4.786253E-05, z: -0.06102311, w: 0.9981364}
+    velocity: {x: 31.572939, y: -3.8992202, z: -6.4825425}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 256
+    time: 15.578433
+    position: {x: 334.48746, y: 87.68939, z: 250.78326}
+    rotation: {x: -0, y: 0.7965802, z: -0, w: 0.60453296}
+    animatorRotation: {x: 8.351403E-06, y: -4.845858E-05, z: -0.0060169674, w: 0.99998194}
+    velocity: {x: 31.467539, y: -3.8992202, z: -6.974793}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 257
+    time: 15.645268
+    position: {x: 336.635, y: 87.423134, z: 250.30038}
+    rotation: {x: -0, y: 0.77811176, z: -0, w: 0.62812585}
+    animatorRotation: {x: -5.5879347E-08, y: -4.9144022E-05, z: 0.11714819, w: 0.9931145}
+    velocity: {x: 31.444801, y: -3.8992202, z: -7.1281734}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 258
+    time: 15.697131
+    position: {x: 338.19867, y: 87.229324, z: 249.94818}
+    rotation: {x: -0, y: 0.7590204, z: -0, w: 0.6510669}
+    animatorRotation: {x: -4.909933E-06, y: -4.8875812E-05, z: 0.18723603, w: 0.982315}
+    velocity: {x: 31.487078, y: -3.8992202, z: -6.9942474}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 259
+    time: 15.763419
+    position: {x: 340.31934, y: 86.967, z: 249.48837}
+    rotation: {x: -0, y: 0.7412824, z: -0, w: 0.6711933}
+    animatorRotation: {x: -8.7842345E-06, y: -4.8160553E-05, z: 0.24091649, w: 0.9705459}
+    velocity: {x: 31.566326, y: -3.8992202, z: -6.625762}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 260
+    time: 15.813813
+    position: {x: 341.8854, y: 86.73947, z: 249.17847}
+    rotation: {x: -0, y: 0.6855729, z: -0, w: 0.72800404}
+    animatorRotation: {x: -7.972121E-06, y: -4.8160553E-05, z: 0.21080308, w: 0.9775286}
+    velocity: {x: 30.20824, y: -6.6393604, z: -5.1945066}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 261
+    time: 15.880063
+    position: {x: 343.8233, y: 86.18982, z: 248.88509}
+    rotation: {x: -0, y: 0.63183445, z: -0, w: 0.77510345}
+    animatorRotation: {x: -5.6251884E-06, y: -4.836917E-05, z: 0.14974149, w: 0.98872524}
+    velocity: {x: 28.353964, y: -10.698406, z: -3.4365425}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 262
+    time: 15.946447
+    position: {x: 345.65796, y: 85.337944, z: 248.71518}
+    rotation: {x: -0, y: 0.58267343, z: -0, w: 0.8127064}
+    animatorRotation: {x: -3.974885E-06, y: -4.8428778E-05, z: 0.10608932, w: 0.99435663}
+    velocity: {x: 26.66446, y: -14.696871, z: -1.6803597}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 263
+    time: 16.013268
+    position: {x: 347.3476, y: 84.21276, z: 248.67601}
+    rotation: {x: -0, y: 0.5226407, z: -0, w: 0.85255307}
+    animatorRotation: {x: -2.801418E-06, y: -4.845857E-05, z: 0.074913055, w: 0.99719006}
+    velocity: {x: 24.591698, y: -19.935478, z: 0.6372717}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 264
+    time: 16.078863
+    position: {x: 348.8128, y: 83.709625, z: 248.77158}
+    rotation: {x: -0, y: 0.49400628, z: -0, w: 0.8694583}
+    animatorRotation: {x: -1.9874424E-06, y: -4.8458576E-05, z: 0.053227436, w: 0.9985825}
+    velocity: {x: 19.510618, y: 2.0881689, z: 3.4527826}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 265
+    time: 16.145126
+    position: {x: 350.04736, y: 83.89323, z: 249.12189}
+    rotation: {x: -0, y: 0.47792006, z: -0, w: 0.87840337}
+    animatorRotation: {x: -1.4062971E-06, y: -4.8428774E-05, z: 0.037673697, w: 0.9992901}
+    velocity: {x: 17.970379, y: 1.1609876, z: 7.016694}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 266
+    time: 16.195786
+    position: {x: 350.93118, y: 83.96852, z: 249.52277}
+    rotation: {x: -0, y: 0.4695206, z: -0, w: 0.8829216}
+    animatorRotation: {x: -1.0794028E-06, y: -4.8428767E-05, z: 0.028916713, w: 0.9995818}
+    velocity: {x: 17.150648, y: 1.6269444, z: 8.86034}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 267
+    time: 16.261992
+    position: {x: 352.19794, y: 84.072525, z: 250.22917}
+    rotation: {x: -0, y: 0.47376114, z: -0, w: 0.88065344}
+    animatorRotation: {x: -7.6182175E-07, y: -4.833936E-05, z: 0.020469699, w: 0.9997905}
+    velocity: {x: 21.311068, y: 1.0904348, z: 12.462562}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 268
+    time: 16.328426
+    position: {x: 353.71124, y: 84.15949, z: 251.10689}
+    rotation: {x: -0, y: 0.48954913, z: -0, w: 0.8719757}
+    animatorRotation: {x: -5.3830445E-07, y: -4.8309565E-05, z: 0.014471708, w: 0.9998953}
+    velocity: {x: 24.0389, y: 1.41254, z: 13.674208}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 269
+    time: 16.39463
+    position: {x: 355.39154, y: 84.22024, z: 252.0208}
+    rotation: {x: -0, y: 0.5116074, z: -0, w: 0.8592194}
+    animatorRotation: {x: -3.8091088E-07, y: -4.833936E-05, z: 0.010243979, w: 0.99994755}
+    velocity: {x: 26.362473, y: 0.55861306, z: 13.785836}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 270
+    time: 16.445126
+    position: {x: 356.71777, y: 84.23187, z: 252.70561}
+    rotation: {x: -0, y: 0.5189738, z: -0, w: 0.85479015}
+    animatorRotation: {x: -2.9243532E-07, y: -4.8279766E-05, z: 0.007869294, w: 0.99996907}
+    velocity: {x: 27.061739, y: 0.19659996, z: 13.771585}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 271
+    time: 16.51094
+    position: {x: 358.53845, y: 84.23772, z: 253.61649}
+    rotation: {x: -0, y: 0.5258306, z: -0, w: 0.85058933}
+    animatorRotation: {x: -2.0675361E-07, y: -4.813075E-05, z: 0.005582042, w: 0.9999845}
+    velocity: {x: 27.736446, y: -0.0056147575, z: 13.72741}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 272
+    time: 16.576862
+    position: {x: 360.39435, y: 84.237686, z: 254.5249}
+    rotation: {x: -0, y: 0.53006095, z: -0, w: 0.8479596}
+    animatorRotation: {x: -1.4656689E-07, y: -4.813075E-05, z: 0.003957326, w: 0.99999225}
+    velocity: {x: 28.195602, y: -0.000121593475, z: 13.698167}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 273
+    time: 16.643633
+    position: {x: 362.26862, y: 84.237686, z: 255.43242}
+    rotation: {x: -0, y: 0.53148913, z: -0, w: 0.84706515}
+    animatorRotation: {x: -1.0349322E-07, y: -4.8160553E-05, z: 0.0027925586, w: 0.9999962}
+    velocity: {x: 28.362537, y: -0.000121593475, z: 13.687534}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 274
+    time: 16.709394
+    position: {x: 364.15344, y: 84.237686, z: 256.34003}
+    rotation: {x: -0, y: 0.5322199, z: -0, w: 0.8466062}
+    animatorRotation: {x: -7.3283445E-08, y: -4.810095E-05, z: 0.0019814456, w: 0.9999981}
+    velocity: {x: 28.453207, y: -0.000121593475, z: 13.681761}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 275
+    time: 16.775661
+    position: {x: 366.03818, y: 84.252396, z: 257.24554}
+    rotation: {x: -0, y: 0.5326744, z: -0, w: 0.84632033}
+    animatorRotation: {x: -5.1804818E-08, y: -4.8071146E-05, z: 0.0014020869, w: 0.99999905}
+    velocity: {x: 28.450817, y: 0.53345287, z: 13.677937}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 276
+    time: 16.826288
+    position: {x: 367.45203, y: 84.279396, z: 257.92545}
+    rotation: {x: -0, y: 0.53279036, z: -0, w: 0.8462473}
+    animatorRotation: {x: -3.9784933E-08, y: -4.807114E-05, z: 0.0010762626, w: 0.9999994}
+    velocity: {x: 28.433361, y: 0.53312564, z: 13.67692}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 277
+    time: 16.89163
+    position: {x: 369.2935, y: 84.56372, z: 258.81726}
+    rotation: {x: -0, y: 0.52999437, z: -0, w: 0.8480012}
+    animatorRotation: {x: -2.8230716E-08, y: -4.8041344E-05, z: 0.0007654118, w: 0.9999997}
+    velocity: {x: 27.713385, y: 3.7539976, z: 13.567407}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 278
+    time: 16.957893
+    position: {x: 370.98196, y: 84.739075, z: 259.92358}
+    rotation: {x: -0, y: 0.41851315, z: -0, w: 0.90821075}
+    animatorRotation: {x: -1.997978E-08, y: -4.801154E-05, z: 0.00054161967, w: 0.9999999}
+    velocity: {x: 23.086111, y: 3.3562953, z: 19.255365}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 279
+    time: 17.024376
+    position: {x: 372.36884, y: 85.0392, z: 261.3114}
+    rotation: {x: -0, y: 0.33628273, z: -0, w: 0.94176114}
+    animatorRotation: {x: -1.4115358E-08, y: -4.8041344E-05, z: 0.0003828045, w: 1}
+    velocity: {x: 18.859686, y: 4.395545, z: 22.755255}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 280
+    time: 17.090439
+    position: {x: 373.5022, y: 85.445435, z: 262.85083}
+    rotation: {x: -0, y: 0.2881213, z: -0, w: 0.9575939}
+    animatorRotation: {x: -1.0004443E-08, y: -4.804135E-05, z: 0.00027117605, w: 1}
+    velocity: {x: 16.444967, y: 4.6913633, z: 24.238394}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 281
+    time: 17.140745
+    position: {x: 374.4275, y: 85.5448, z: 264.02972}
+    rotation: {x: -0, y: 0.3522868, z: -0, w: 0.9358921}
+    animatorRotation: {x: -7.690688E-09, y: -4.8011545E-05, z: 0.00020852544, w: 1}
+    velocity: {x: 19.897726, y: -0.13081558, z: 22.57741}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 282
+    time: 17.19321
+    position: {x: 375.54498, y: 85.443504, z: 265.1586}
+    rotation: {x: -0, y: 0.42471406, z: -0, w: 0.9053276}
+    animatorRotation: {x: -5.86806E-09, y: -4.813075E-05, z: 0.00015845647, w: 1}
+    velocity: {x: 22.947498, y: 0.20052004, z: 19.892132}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 283
+    time: 17.259762
+    position: {x: 377.14075, y: 85.47504, z: 266.37497}
+    rotation: {x: -0, y: 0.4967232, z: -0, w: 0.867909}
+    animatorRotation: {x: -4.14002E-09, y: -4.810095E-05, z: 0.0001119514, w: 1}
+    velocity: {x: 25.560364, y: 1.1037693, z: 16.343246}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 284
+    time: 17.325745
+    position: {x: 378.9029, y: 85.56061, z: 267.3577}
+    rotation: {x: -0, y: 0.5475693, z: -0, w: 0.8367604}
+    animatorRotation: {x: -2.932211E-09, y: -4.8071146E-05, z: 7.933992E-05, w: 1}
+    velocity: {x: 27.373741, y: 1.1848824, z: 13.316949}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 285
+    time: 17.392012
+    position: {x: 380.6621, y: 86.02929, z: 268.06168}
+    rotation: {x: -0, y: 0.5829495, z: -0, w: 0.81250834}
+    animatorRotation: {x: -2.073648E-09, y: -4.801154E-05, z: 5.614123E-05, w: 1}
+    velocity: {x: 27.768387, y: 3.9949505, z: 9.621504}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 286
+    time: 17.44226
+    position: {x: 382.0487, y: 86.162994, z: 268.52563}
+    rotation: {x: -0, y: 0.59229887, z: -0, w: 0.80571836}
+    animatorRotation: {x: -1.5916157E-09, y: -4.801154E-05, z: 4.3183798E-05, w: 1}
+    velocity: {x: 28.710405, y: 0.77906066, z: 9.1458235}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 287
+    time: 17.50831
+    position: {x: 383.9894, y: 86.042915, z: 269.11655}
+    rotation: {x: -0, y: 0.60034573, z: -0, w: 0.7997406}
+    animatorRotation: {x: -1.1286829E-09, y: -4.8041344E-05, z: 3.059346E-05, w: 1}
+    velocity: {x: 29.567387, y: -3.9847264, z: 8.713083}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 288
+    time: 17.575005
+    position: {x: 385.98212, y: 85.806404, z: 269.71774}
+    rotation: {x: -0, y: 0.60550255, z: -0, w: 0.7958434}
+    animatorRotation: {x: -7.9762685E-10, y: -4.8041344E-05, z: 2.159767E-05, w: 1}
+    velocity: {x: 29.989838, y: -0.8596982, z: 9.480093}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 289
+    time: 17.641312
+    position: {x: 387.94757, y: 85.840744, z: 270.376}
+    rotation: {x: -0, y: 0.60669214, z: -0, w: 0.7949369}
+    animatorRotation: {x: -5.638867E-10, y: -4.8071146E-05, z: 1.5279322E-05, w: 1}
+    velocity: {x: 29.44991, y: 1.6385485, z: 10.512162}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 290
+    time: 17.693514
+    position: {x: 389.36646, y: 86.14884, z: 270.99622}
+    rotation: {x: -0, y: 0.60386413, z: -0, w: 0.79708725}
+    animatorRotation: {x: -4.30191E-10, y: -4.8071146E-05, z: 1.1627968E-05, w: 1}
+    velocity: {x: 25.731768, y: 8.427199, z: 12.507785}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 291
+    time: 17.759787
+    position: {x: 391.02457, y: 86.753525, z: 271.86047}
+    rotation: {x: -0, y: 0.59965205, z: -0, w: 0.8002609}
+    animatorRotation: {x: -3.0331648E-10, y: -4.798174E-05, z: 8.227815E-06, w: 1}
+    velocity: {x: 26.321014, y: 6.708911, z: 12.124861}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 292
+    time: 17.82605
+    position: {x: 392.8508, y: 87.03598, z: 272.62317}
+    rotation: {x: -0, y: 0.59710383, z: -0, w: 0.80216396}
+    animatorRotation: {x: -2.139586E-10, y: -4.783272E-05, z: 5.8221885E-06, w: 1}
+    velocity: {x: 28.12659, y: 1.85662, z: 10.828873}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 293
+    time: 17.878195
+    position: {x: 394.2616, y: 87.02377, z: 273.16074}
+    rotation: {x: -0, y: 0.59562993, z: -0, w: 0.803259}
+    animatorRotation: {x: -1.6279955E-10, y: -4.7802925E-05, z: 4.4322605E-06, w: 1}
+    velocity: {x: 26.63218, y: -2.32923, z: 10.042895}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 294
+    time: 17.928951
+    position: {x: 395.59003, y: 86.83254, z: 273.65823}
+    rotation: {x: -0, y: 0.59507173, z: -0, w: 0.8036727}
+    animatorRotation: {x: -1.2448709E-10, y: -4.7773123E-05, z: 3.3998676E-06, w: 1}
+    velocity: {x: 25.76269, y: -5.085031, z: 9.585593}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 1
+    eventFlags: 0
+  - index: 295
+    time: 17.995218
+    position: {x: 396.43875, y: 87.007, z: 274.42026}
+    rotation: {x: -0, y: 0.5944881, z: -0, w: 0.80410445}
+    animatorRotation: {x: -8.8220986E-11, y: -4.7832727E-05, z: 2.4057836E-06, w: 1}
+    velocity: {x: 6.807555, y: 7.4353895, z: 11.4139595}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 296
+    time: 18.04832
+    position: {x: 396.67963, y: 87.27521, z: 274.81348}
+    rotation: {x: -0, y: 0.5944096, z: -0, w: 0.8041625}
+    animatorRotation: {x: -7.298695E-11, y: -4.786253E-05, z: 1.9864738E-06, w: 1}
+    velocity: {x: 6.7973003, y: 25, z: 10.694676}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 1
+  - index: 297
+    time: 18.064873
+    position: {x: 396.98895, y: 88.02168, z: 275.1394}
+    rotation: {x: -0, y: 0.5942994, z: -0, w: 0.804244}
+    animatorRotation: {x: -6.1447736E-11, y: -4.786253E-05, z: 1.6710139E-06, w: 1}
+    velocity: {x: 9.616957, y: 21.773584, z: 9.608375}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 298
+    time: 18.116768
+    position: {x: 397.5177, y: 89.036964, z: 275.62054}
+    rotation: {x: -0, y: 0.59420455, z: -0, w: 0.804314}
+    animatorRotation: {x: -4.6782134E-11, y: -4.7832727E-05, z: 1.2738367E-06, w: 1}
+    velocity: {x: 10.9003935, y: 17.290472, z: 9.005566}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 299
+    time: 18.167068
+    position: {x: 398.0921, y: 89.843315, z: 276.07043}
+    rotation: {x: -0, y: 0.59420455, z: -0, w: 0.804314}
+    animatorRotation: {x: -3.592504E-11, y: -4.7832727E-05, z: 9.795623E-07, w: 1}
+    velocity: {x: 11.647131, y: 14.338965, z: 8.654836}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 300
+    time: 18.233759
+    position: {x: 398.90698, y: 90.60917, z: 276.6238}
+    rotation: {x: -0, y: 0.5944142, z: -0, w: 0.8041591}
+    animatorRotation: {x: -2.5409008E-11, y: -4.7832727E-05, z: 6.915335E-07, w: 1}
+    velocity: {x: 13.899423, y: 8.324984, z: 7.7821007}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 301
+    time: 18.300236
+    position: {x: 399.48346, y: 91.40077, z: 276.99835}
+    rotation: {x: -0, y: 0.5993723, z: -0, w: 0.8004704}
+    animatorRotation: {x: -1.8033575E-11, y: -4.7951937E-05, z: 4.887771E-07, w: 1}
+    velocity: {x: 7.8538346, y: 12.14934, z: 4.7539206}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 302
+    time: 18.35072
+    position: {x: 399.8771, y: 92.007, z: 277.2362}
+    rotation: {x: -0, y: 0.6031935, z: -0, w: 0.7975949}
+    animatorRotation: {x: -1.3855583E-11, y: -4.801154E-05, z: 3.7549052E-07, w: 1}
+    velocity: {x: 7.831375, y: 11.816824, z: 4.68591}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 303
+    time: 18.40089
+    position: {x: 400.2298, y: 92.32727, z: 277.3891}
+    rotation: {x: -0, y: 0.6122542, z: -0, w: 0.79066104}
+    animatorRotation: {x: -1.163869E-11, y: -4.8041344E-05, z: 3.1515987E-07, w: 1}
+    velocity: {x: 11.889509, y: 25, z: 4.5593987}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 1
+  - index: 304
+    time: 18.417458
+    position: {x: 400.66724, y: 92.969864, z: 277.53748}
+    rotation: {x: -0, y: 0.6200109, z: -0, w: 0.78459316}
+    animatorRotation: {x: -9.777068E-12, y: -4.798174E-05, z: 2.6501706E-07, w: 1}
+    velocity: {x: 14.610701, y: 21.574583, z: 4.3805566}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 305
+    time: 18.483727
+    position: {x: 401.65698, y: 94.261635, z: 277.8247}
+    rotation: {x: -0, y: 0.6280792, z: -0, w: 0.7781494}
+    animatorRotation: {x: -6.9206862E-12, y: -4.8041344E-05, z: 1.875286E-07, w: 1}
+    velocity: {x: 15.218944, y: 17.094442, z: 4.265161}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 1
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 306
+    time: 18.55053
+    position: {x: 402.7027, y: 95.24194, z: 278.10797}
+    rotation: {x: -0, y: 0.63248837, z: -0, w: 0.77456987}
+    animatorRotation: {x: -4.888534E-12, y: -4.801154E-05, z: 1.3230924E-07, w: 1}
+    velocity: {x: 15.736875, y: 12.681167, z: 4.1620574}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 307
+    time: 18.601204
+    position: {x: 403.50208, y: 95.75047, z: 278.31335}
+    rotation: {x: -0, y: 0.63473713, z: -0, w: 0.7727282}
+    animatorRotation: {x: -3.7445602E-12, y: -4.798174E-05, z: 1.0153627E-07, w: 1}
+    velocity: {x: 16.177078, y: 8.33376, z: 4.074427}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 308
+    time: 18.66747
+    position: {x: 404.5874, y: 96.15256, z: 278.5807}
+    rotation: {x: -0, y: 0.63588476, z: -0, w: 0.771784}
+    animatorRotation: {x: -2.6467717E-12, y: -4.7922134E-05, z: 7.184717E-08, w: 1}
+    velocity: {x: 16.551214, y: 4.0512376, z: 3.999948}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 309
+    time: 18.71853
+    position: {x: 405.4411, y: 96.24924, z: 278.78323}
+    rotation: {x: -0, y: 0.6364711, z: -0, w: 0.7713006}
+    animatorRotation: {x: -2.0214939E-12, y: -4.7892325E-05, z: 5.5020873E-08, w: 1}
+    velocity: {x: 16.869202, y: -0.16736744, z: 3.9366467}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 310
+    time: 18.78545
+    position: {x: 406.56784, y: 96.10358, z: 279.04236}
+    rotation: {x: -0, y: 0.6367681, z: -0, w: 0.77105546}
+    animatorRotation: {x: -1.4281909E-12, y: -4.7922134E-05, z: 3.879503E-08, w: 1}
+    velocity: {x: 17.139471, y: -4.323009, z: 3.8828454}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 311
+    time: 18.836329
+    position: {x: 407.47736, y: 95.77289, z: 279.24585}
+    rotation: {x: -0, y: 0.63691705, z: -0, w: 0.7709324}
+    animatorRotation: {x: -1.0915713E-12, y: -4.786253E-05, z: 2.9737969E-08, w: 1}
+    velocity: {x: 17.369177, y: -8.416628, z: 3.8371181}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 312
+    time: 18.887217
+    position: {x: 408.34393, y: 95.28783, z: 279.4361}
+    rotation: {x: -0, y: 0.6362028, z: -0, w: 0.77152187}
+    animatorRotation: {x: -8.3755214E-13, y: -4.783272E-05, z: 2.2794588E-08, w: 1}
+    velocity: {x: 17.500849, y: -11.111707, z: 3.820611}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 313
+    time: 18.953484
+    position: {x: 409.5323, y: 94.70983, z: 279.69937}
+    rotation: {x: -0, y: 0.6259511, z: -0, w: 0.7798624}
+    animatorRotation: {x: -5.92415E-13, y: -4.786253E-05, z: 1.6129647E-08, w: 1}
+    velocity: {x: 18.597569, y: 0, z: 4.3165693}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 314
+    time: 19.02065
+    position: {x: 410.80096, y: 94.71196, z: 280.0101}
+    rotation: {x: -0, y: 0.61264896, z: -0, w: 0.7903552}
+    animatorRotation: {x: -4.1566745E-13, y: -4.7773116E-05, z: 1.135742E-08, w: 1}
+    velocity: {x: 19.05148, y: 0, z: 4.990313}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 315
+    time: 19.088753
+    position: {x: 412.10645, y: 94.71196, z: 280.37006}
+    rotation: {x: -0, y: 0.6021815, z: -0, w: 0.7983593}
+    animatorRotation: {x: -2.917666E-13, y: -4.7773123E-05, z: 7.956237E-09, w: 1}
+    velocity: {x: 19.247684, y: -0.000121593475, z: 5.5214214}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 316
+    time: 19.155039
+    position: {x: 413.3746, y: 94.73339, z: 280.75427}
+    rotation: {x: -0, y: 0.59431267, z: -0, w: 0.80423415}
+    animatorRotation: {x: -2.060574E-13, y: -4.7713518E-05, z: 5.6292655E-09, w: 1}
+    velocity: {x: 17.672514, y: 3.4896483, z: 7.542929}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 317
+    time: 19.205622
+    position: {x: 414.26187, y: 94.90286, z: 281.14655}
+    rotation: {x: -0, y: 0.59229934, z: -0, w: 0.80571806}
+    animatorRotation: {x: -1.583178E-13, y: -4.7713518E-05, z: 4.3221533E-09, w: 1}
+    velocity: {x: 17.641045, y: 2.4711983, z: 7.7499413}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 318
+    time: 19.272161
+    position: {x: 415.41528, y: 95.08307, z: 281.69058}
+    rotation: {x: -0, y: 0.5904332, z: -0, w: 0.8070865}
+    animatorRotation: {x: -1.1179946E-13, y: -4.7713518E-05, z: 3.0538325E-09, w: 1}
+    velocity: {x: 17.112598, y: 3.008399, z: 8.397234}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 319
+    time: 19.338757
+    position: {x: 416.5535, y: 95.244446, z: 282.2406}
+    rotation: {x: -0, y: 0.58907115, z: -0, w: 0.8080812}
+    animatorRotation: {x: -7.91589E-14, y: -4.7802925E-05, z: 2.1570543E-09, w: 1}
+    velocity: {x: 17.738426, y: 0.07891351, z: 7.767078}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 320
+    time: 19.405294
+    position: {x: 417.77832, y: 95.09029, z: 282.74036}
+    rotation: {x: -0, y: 0.5886132, z: -0, w: 0.8084149}
+    animatorRotation: {x: -5.57887E-14, y: -4.7743313E-05, z: 1.5240837E-09, w: 1}
+    velocity: {x: 18.513527, y: -4.674424, z: 7.0954323}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 321
+    time: 19.45539
+    position: {x: 418.6819, y: 94.997894, z: 283.1637}
+    rotation: {x: -0, y: 0.58838683, z: -0, w: 0.8085797}
+    animatorRotation: {x: -4.291012E-14, y: -4.7713518E-05, z: 1.17331E-09, w: 1}
+    velocity: {x: 18.611612, y: -4.5392075, z: 7.9149866}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 322
+    time: 19.508694
+    position: {x: 419.69238, y: 94.82732, z: 283.60318}
+    rotation: {x: -0, y: 0.5883078, z: -0, w: 0.80863714}
+    animatorRotation: {x: -3.2418512E-14, y: -4.762411E-05, z: 8.875134E-10, w: 1}
+    velocity: {x: 19.05876, y: -1.2365761, z: 8.302406}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 323
+    time: 19.55884
+    position: {x: 420.65408, y: 94.781975, z: 284.00333}
+    rotation: {x: -0, y: 0.5882519, z: -0, w: 0.8086778}
+    animatorRotation: {x: -2.4952262E-14, y: -4.7683716E-05, z: 6.830666E-10, w: 1}
+    velocity: {x: 19.268528, y: -0.6908368, z: 7.816318}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 324
+    time: 19.625366
+    position: {x: 421.95, y: 94.59022, z: 284.49966}
+    rotation: {x: -0, y: 0.5882519, z: -0, w: 0.8086778}
+    animatorRotation: {x: -1.7666424E-14, y: -4.7713518E-05, z: 4.8265536E-10, w: 1}
+    velocity: {x: 19.581213, y: -4.4231343, z: 6.989665}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 325
+    time: 19.642612
+    position: {x: 421.95, y: 94.59022, z: 284.49966}
+    rotation: {x: -0, y: 0.5882519, z: -0, w: 0.8086778}
+    animatorRotation: {x: -1.7666424E-14, y: -4.7713518E-05, z: 4.8265536E-10, w: 1}
+    velocity: {x: 19.581213, y: 25, z: 6.989665}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 1
+  - index: 326
+    time: 19.678194
+    position: {x: 423.09985, y: 95.71712, z: 284.9028}
+    rotation: {x: -0, y: 0.5882519, z: -0, w: 0.8086778}
+    animatorRotation: {x: -1.3405943E-14, y: -4.7713518E-05, z: 3.6605366E-10, w: 1}
+    velocity: {x: 19.403276, y: 20.271717, z: 6.759111}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 327
+    time: 19.738867
+    position: {x: 424.177, y: 96.721756, z: 285.2761}
+    rotation: {x: -0, y: 0.5882519, z: -0, w: 0.8086778}
+    animatorRotation: {x: -9.728329E-15, y: -4.7713518E-05, z: 2.6577285E-10, w: 1}
+    velocity: {x: 19.205334, y: 15.81102, z: 6.6240754}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 328
+    time: 19.802036
+    position: {x: 425.4649, y: 97.630135, z: 285.72006}
+    rotation: {x: -0, y: 0.5832056, z: -0, w: 0.8123247}
+    animatorRotation: {x: -6.9805273E-15, y: -4.7713518E-05, z: 1.9031957E-10, w: 1}
+    velocity: {x: 19.015633, y: 11.416901, z: 6.5721335}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 329
+    time: 19.862225
+    position: {x: 426.4971, y: 98.12178, z: 286.08035}
+    rotation: {x: -0, y: 0.5736293, z: -0, w: 0.81911504}
+    animatorRotation: {x: -5.072331E-15, y: -4.771351E-05, z: 1.3856037E-10, w: 1}
+    velocity: {x: 18.818562, y: 7.088363, z: 6.6254625}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 330
+    time: 19.912785
+    position: {x: 427.48932, y: 98.39743, z: 286.43277}
+    rotation: {x: -0, y: 0.5669245, z: -0, w: 0.8237698}
+    animatorRotation: {x: -3.875372E-15, y: -4.75645E-05, z: 1.0640022E-10, w: 1}
+    velocity: {x: 18.641436, y: 2.8244286, z: 6.6951323}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 331
+    time: 19.96593
+    position: {x: 428.53812, y: 98.47325, z: 286.81152}
+    rotation: {x: -0, y: 0.5651081, z: -0, w: 0.8250169}
+    animatorRotation: {x: -5.972106E-08, y: -4.7534704E-05, z: 0.0012553144, w: 0.9999993}
+    velocity: {x: 18.632072, y: 0.017302986, z: 6.7573214}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 332
+    time: 20.02462
+    position: {x: 429.53162, y: 98.34027, z: 287.17413}
+    rotation: {x: -0, y: 0.564197, z: -0, w: 0.82564026}
+    animatorRotation: {x: -2.458692E-07, y: -4.7385696E-05, z: 0.005188296, w: 0.9999865}
+    velocity: {x: 18.750837, y: -3.8992202, z: 6.869325}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 333
+    time: 20.077744
+    position: {x: 430.53217, y: 98.13275, z: 287.54245}
+    rotation: {x: -0, y: 0.56028485, z: -0, w: 0.8283}
+    animatorRotation: {x: -1.0123476E-06, y: -4.7385693E-05, z: 0.021431223, w: 0.9997704}
+    velocity: {x: 18.84973, y: -3.8992202, z: 6.9748974}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 334
+    time: 20.128506
+    position: {x: 431.47034, y: 97.93895, z: 287.8912}
+    rotation: {x: -0, y: 0.54957515, z: -0, w: 0.83544433}
+    animatorRotation: {x: -4.123896E-06, y: -4.7117464E-05, z: 0.08724503, w: 0.99618685}
+    velocity: {x: 18.899523, y: -3.8992202, z: 7.058211}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 335
+    time: 20.194408
+    position: {x: 432.72382, y: 97.68054, z: 288.36786}
+    rotation: {x: -0, y: 0.51203144, z: -0, w: 0.8589667}
+    animatorRotation: {x: -9.186567E-06, y: -4.6193603E-05, z: 0.1951166, w: 0.98078007}
+    velocity: {x: 18.90314, y: -3.8992202, z: 7.387719}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 336
+    time: 20.26092
+    position: {x: 433.99304, y: 97.41816, z: 288.8767}
+    rotation: {x: -0, y: 0.47422695, z: -0, w: 0.8804027}
+    animatorRotation: {x: -1.4126301E-05, y: -4.49121E-05, z: 0.3003595, w: 0.95382607}
+    velocity: {x: 18.790936, y: -3.8992202, z: 7.8141565}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 337
+    time: 20.312016
+    position: {x: 434.923, y: 97.22436, z: 289.27567}
+    rotation: {x: -0, y: 0.4478335, z: -0, w: 0.894117}
+    animatorRotation: {x: -1.7106533E-05, y: -4.3839216E-05, z: 0.36357588, w: 0.93156457}
+    velocity: {x: 18.649157, y: -3.8992202, z: 8.18622}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 338
+    time: 20.378174
+    position: {x: 436.15356, y: 96.963974, z: 289.8538}
+    rotation: {x: -0, y: 0.39215738, z: -0, w: 0.91989815}
+    animatorRotation: {x: -1.9997358E-05, y: -4.249811E-05, z: 0.42609975, w: 0.9046762}
+    velocity: {x: 18.194902, y: -3.8992202, z: 9.104574}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 339
+    time: 20.444653
+    position: {x: 437.34412, y: 96.705574, z: 290.48245}
+    rotation: {x: -0, y: 0.3504015, z: -0, w: 0.9365997}
+    animatorRotation: {x: -2.1800399E-05, y: -4.1395426E-05, z: 0.46610913, w: 0.88472724}
+    velocity: {x: 17.703653, y: -3.8992202, z: 9.907785}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 340
+    time: 20.511486
+    position: {x: 438.5036, y: 96.44506, z: 291.17767}
+    rotation: {x: -0, y: 0.30988306, z: -0, w: 0.9507747}
+    animatorRotation: {x: -2.2739172E-05, y: -4.079938E-05, z: 0.48684976, w: 0.8734858}
+    velocity: {x: 17.089415, y: -3.8992202, z: 10.771238}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 341
+    time: 20.577517
+    position: {x: 439.6052, y: 96.18603, z: 291.93488}
+    rotation: {x: -0, y: 0.2596584, z: -0, w: 0.96570057}
+    animatorRotation: {x: -2.297759E-05, y: -4.0635467E-05, z: 0.49226987, w: 0.8704426}
+    velocity: {x: 16.104723, y: -3.8992202, z: 11.958131}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 342
+    time: 20.628153
+    position: {x: 440.39642, y: 95.99113, z: 292.54745}
+    rotation: {x: -0, y: 0.23663554, z: -0, w: 0.9715985}
+    animatorRotation: {x: -2.272427E-05, y: -4.082918E-05, z: 0.4864122, w: 0.87372947}
+    velocity: {x: 15.5553055, y: -3.8992202, z: 12.547053}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 343
+    time: 20.693926
+    position: {x: 441.39062, y: 95.732735, z: 293.41507}
+    rotation: {x: -0, y: 0.19462776, z: -0, w: 0.9808772}
+    animatorRotation: {x: -2.1979215E-05, y: -4.1231517E-05, z: 0.47042745, w: 0.8824387}
+    velocity: {x: 14.373796, y: -3.8992202, z: 13.683627}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 344
+    time: 20.760807
+    position: {x: 442.32037, y: 95.47348, z: 294.3474}
+    rotation: {x: -0, y: 0.16696781, z: -0, w: 0.9859624}
+    animatorRotation: {x: -2.0831823E-05, y: -4.181266E-05, z: 0.44599968, w: 0.8950332}
+    velocity: {x: 13.44069, y: -3.8992202, z: 14.482015}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 345
+    time: 20.82763
+    position: {x: 443.1823, y: 95.21388, z: 295.33734}
+    rotation: {x: -0, y: 0.14229673, z: -0, w: 0.98982406}
+    animatorRotation: {x: -1.9393861E-05, y: -4.2438507E-05, z: 0.41567785, w: 0.9095119}
+    velocity: {x: 12.489679, y: -3.8992202, z: 15.223123}
+    isSwimming: 0
+    isGliding: 1
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 346
+    time: 20.89322
+    position: {x: 443.95468, y: 94.86554, z: 296.3807}
+    rotation: {x: -0, y: 0.073366076, z: -0, w: 0.9973051}
+    animatorRotation: {x: -1.4865771E-05, y: -4.4211745E-05, z: 0.31884918, w: 0.9478055}
+    velocity: {x: 10.370743, y: -7.999163, z: 15.984267}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 347
+    time: 20.943815
+    position: {x: 444.46017, y: 94.41751, z: 297.16742}
+    rotation: {x: -0, y: 0.14436436, z: -0, w: 0.98952466}
+    animatorRotation: {x: -1.1494383E-05, y: -4.518777E-05, z: 0.24657458, w: 0.9691239}
+    velocity: {x: 10.291376, y: -10.698406, z: 16.011312}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 348
+    time: 21.009659
+    position: {x: 445.15216, y: 93.5615, z: 298.2209}
+    rotation: {x: -0, y: 0.24475124, z: -0, w: 0.96958596}
+    animatorRotation: {x: -8.191913E-06, y: -4.5910478E-05, z: 0.1757827, w: 0.98442906}
+    velocity: {x: 10.593766, y: -14.696871, z: 15.780576}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 349
+    time: 21.075455
+    position: {x: 445.8835, y: 92.40589, z: 299.25128}
+    rotation: {x: -0, y: 0.34958178, z: -0, w: 0.93690586}
+    animatorRotation: {x: -5.8300793E-06, y: -4.6253204E-05, z: 0.12502842, w: 0.99215317}
+    velocity: {x: 11.344272, y: -19.935478, z: 15.112588}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 350
+    time: 21.142021
+    position: {x: 446.64865, y: 90.97527, z: 300.23477}
+    rotation: {x: -0, y: 0.39100972, z: -0, w: 0.9203866}
+    animatorRotation: {x: -4.116446E-06, y: -4.6372414E-05, z: 0.0884414, w: 0.9960814}
+    velocity: {x: 11.871049, y: -23.796078, z: 14.62485}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 351
+    time: 21.192366
+    position: {x: 447.2574, y: 89.697754, z: 300.96442}
+    rotation: {x: -0, y: 0.40703982, z: -0, w: 0.9134104}
+    animatorRotation: {x: -3.164634E-06, y: -4.643202E-05, z: 0.06803005, w: 0.99768335}
+    velocity: {x: 12.182007, y: -26.337746, z: 14.335463}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 352
+    time: 21.258821
+    position: {x: 448.08594, y: 87.767105, z: 301.89737}
+    rotation: {x: -0, y: 0.42397124, z: -0, w: 0.9056757}
+    animatorRotation: {x: -2.2388995E-06, y: -4.6521425E-05, z: 0.04810749, w: 0.99884224}
+    velocity: {x: 12.713016, y: -31.345276, z: 13.840735}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 353
+    time: 21.32504
+    position: {x: 448.9397, y: 85.56952, z: 302.80392}
+    rotation: {x: -0, y: 0.4318241, z: -0, w: 0.90195787}
+    animatorRotation: {x: -1.5813855E-06, y: -4.643201E-05, z: 0.034056813, w: 0.99941987}
+    velocity: {x: 13.057964, y: -35.035587, z: 13.513811}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 1
+    eventFlags: 0
+  - index: 354
+    time: 21.375566
+    position: {x: 449.33432, y: 84.237686, z: 303.15143}
+    rotation: {x: -0, y: 0.44463304, z: -0, w: 0.89571285}
+    animatorRotation: {x: -1.215376E-06, y: -4.646182E-05, z: 0.026159307, w: 0.9996578}
+    velocity: {x: 3.1631165, y: -0.000121593475, z: -2.0128741}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 355
+    time: 21.441833
+    position: {x: 449.70074, y: 84.237686, z: 302.96835}
+    rotation: {x: -0, y: 0.46464032, z: -0, w: 0.8854995}
+    animatorRotation: {x: -8.600764E-07, y: -4.6491623E-05, z: 0.018511461, w: 0.9998287}
+    velocity: {x: 9.164774, y: -0.000121593475, z: -3.0237393}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 356
+    time: 21.492258
+    position: {x: 450.33743, y: 84.237686, z: 302.92917}
+    rotation: {x: -0, y: 0.48147464, z: -0, w: 0.8764601}
+    animatorRotation: {x: -6.6030776E-07, y: -4.6372417E-05, z: 0.014225834, w: 0.99989885}
+    velocity: {x: 17.167442, y: -0.000121593475, z: 4.08458}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 357
+    time: 21.558527
+    position: {x: 451.61133, y: 84.237686, z: 303.3399}
+    rotation: {x: -0, y: 0.50082815, z: -0, w: 0.86554676}
+    animatorRotation: {x: -4.665926E-07, y: -4.634261E-05, z: 0.010066425, w: 0.99994934}
+    velocity: {x: 22.18559, y: -0.000121593475, z: 8.8380995}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 358
+    time: 21.608679
+    position: {x: 452.78345, y: 84.237686, z: 303.82394}
+    rotation: {x: -0, y: 0.5150299, z: -0, w: 0.85717225}
+    animatorRotation: {x: -3.5809356E-07, y: -4.6193603E-05, z: 0.0077473554, w: 0.99997}
+    velocity: {x: 24.390066, y: -0.000121593475, z: 10.2980585}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 359
+    time: 21.67501
+    position: {x: 454.49936, y: 84.237686, z: 304.5611}
+    rotation: {x: -0, y: 0.5335728, z: -0, w: 0.8457542}
+    animatorRotation: {x: -2.5331974E-07, y: -4.61936E-05, z: 0.0054802047, w: 0.999985}
+    velocity: {x: 26.944925, y: -0.000121593475, z: 11.672925}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 360
+    time: 21.741283
+    position: {x: 456.32404, y: 84.237686, z: 305.35217}
+    rotation: {x: -0, y: 0.54094493, z: -0, w: 0.8410581}
+    animatorRotation: {x: -1.7799903E-07, y: -4.592538E-05, z: 0.0038776884, w: 0.9999925}
+    velocity: {x: 27.906511, y: -0.000121593475, z: 12.098058}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 361
+    time: 21.791754
+    position: {x: 457.73407, y: 84.237686, z: 305.9599}
+    rotation: {x: -0, y: 0.54539883, z: -0, w: 0.83817667}
+    animatorRotation: {x: -1.36788E-07, y: -4.592538E-05, z: 0.002979145, w: 0.9999956}
+    velocity: {x: 28.33496, y: -0.000121593475, z: 12.158688}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 362
+    time: 21.858545
+    position: {x: 459.64758, y: 84.237686, z: 306.7709}
+    rotation: {x: -0, y: 0.5516099, z: -0, w: 0.8341023}
+    animatorRotation: {x: -9.674113E-08, y: -4.595518E-05, z: 0.0021020276, w: 0.9999978}
+    velocity: {x: 28.852856, y: -0.000121593475, z: 12.123302}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 363
+    time: 21.908604
+    position: {x: 461.12088, y: 84.237686, z: 307.3879}
+    rotation: {x: -0, y: 0.55322146, z: -0, w: 0.8330342}
+    animatorRotation: {x: -7.4331176E-08, y: -4.592537E-05, z: 0.0016185925, w: 0.9999987}
+    velocity: {x: 28.992458, y: -0.000121593475, z: 12.109492}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 364
+    time: 21.975002
+    position: {x: 463.03833, y: 84.237686, z: 308.18576}
+    rotation: {x: -0, y: 0.5549105, z: -0, w: 0.83191013}
+    animatorRotation: {x: -5.250331E-08, y: -4.5865774E-05, z: 0.0011444881, w: 0.9999994}
+    velocity: {x: 29.147257, y: -0.000121593475, z: 12.094179}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 365
+    time: 22.025118
+    position: {x: 464.4978, y: 84.237686, z: 308.79083}
+    rotation: {x: -0, y: 0.55533177, z: -0, w: 0.831629}
+    animatorRotation: {x: -4.042522E-08, y: -4.5865774E-05, z: 0.0008809981, w: 0.99999964}
+    velocity: {x: 29.188442, y: -0.000121593475, z: 12.090106}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 366
+    time: 22.075544
+    position: {x: 465.96478, y: 84.237686, z: 309.39798}
+    rotation: {x: -0, y: 0.5556944, z: -0, w: 0.8313866}
+    animatorRotation: {x: -3.0995576E-08, y: -4.5776364E-05, z: 0.00067701796, w: 0.99999976}
+    velocity: {x: 29.225908, y: -0.000121593475, z: 12.086398}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 367
+    time: 22.141943
+    position: {x: 467.8872, y: 84.237686, z: 310.2306}
+    rotation: {x: -0, y: 0.53305525, z: -0, w: 0.8460804}
+    animatorRotation: {x: -2.1944288E-08, y: -4.580617E-05, z: 0.0004787154, w: 0.99999994}
+    velocity: {x: 28.53735, y: -0.000121593475, z: 13.518981}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 368
+    time: 22.192009
+    position: {x: 469.28308, y: 84.237686, z: 310.96347}
+    rotation: {x: -0, y: 0.5006123, z: -0, w: 0.86567163}
+    animatorRotation: {x: -1.686567E-08, y: -4.580617E-05, z: 0.00036859786, w: 0.99999994}
+    velocity: {x: 27.377674, y: -0.000121593475, z: 15.458648}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 369
+    time: 22.259583
+    position: {x: 470.99344, y: 84.237686, z: 312.1916}
+    rotation: {x: -0, y: 0.41234848, z: -0, w: 0.91102624}
+    animatorRotation: {x: -1.1888916E-08, y: -4.589558E-05, z: 0.00025896795, w: 1}
+    velocity: {x: 23.659132, y: -0.000121593475, z: 20.176292}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 370
+    time: 22.325924
+    position: {x: 472.49933, y: 84.237686, z: 313.62216}
+    rotation: {x: -0, y: 0.36711574, z: -0, w: 0.9301753}
+    animatorRotation: {x: -8.425559E-09, y: -4.5984983E-05, z: 0.00018317165, w: 1}
+    velocity: {x: 21.591757, y: -0.000121593475, z: 22.485418}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 371
+    time: 22.392326
+    position: {x: 473.90222, y: 84.237686, z: 315.137}
+    rotation: {x: -0, y: 0.36235812, z: -0, w: 0.93203896}
+    animatorRotation: {x: -5.9590093E-09, y: -4.5984983E-05, z: 0.00012951807, w: 1}
+    velocity: {x: 21.363642, y: -0.000121593475, z: 22.9788}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 372
+    time: 22.45871
+    position: {x: 475.43695, y: 84.237686, z: 316.5577}
+    rotation: {x: -0, y: 0.43110624, z: -0, w: 0.90230125}
+    animatorRotation: {x: -4.2164174E-09, y: -4.6044588E-05, z: 9.15886E-05, w: 1}
+    velocity: {x: 24.242039, y: -0.000121593475, z: 19.783403}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 373
+    time: 22.509308
+    position: {x: 476.70206, y: 84.237686, z: 317.51562}
+    rotation: {x: -0, y: 0.462342, z: -0, w: 0.8867017}
+    animatorRotation: {x: -3.2414391E-09, y: -4.607439E-05, z: 7.031678E-05, w: 1}
+    velocity: {x: 25.499666, y: -0.000121593475, z: 18.109373}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 374
+    time: 22.57558
+    position: {x: 478.45303, y: 84.237686, z: 318.5966}
+    rotation: {x: -0, y: 0.5130308, z: -0, w: 0.85837024}
+    animatorRotation: {x: -2.2901074E-09, y: -4.604458E-05, z: 4.9754617E-05, w: 1}
+    velocity: {x: 27.450632, y: -0.000121593475, z: 15.101389}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 375
+    time: 22.626913
+    position: {x: 479.89136, y: 84.237686, z: 319.356}
+    rotation: {x: -0, y: 0.527211, z: -0, w: 0.8497344}
+    animatorRotation: {x: -1.7516868E-09, y: -4.5984983E-05, z: 3.804535E-05, w: 1}
+    velocity: {x: 28.01946, y: -0.000121593475, z: 14.186479}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 376
+    time: 22.677273
+    position: {x: 481.3112, y: 84.237686, z: 320.04266}
+    rotation: {x: -0, y: 0.54014164, z: -0, w: 0.8415742}
+    animatorRotation: {x: -1.3460522E-09, y: -4.6014786E-05, z: 2.9246916E-05, w: 1}
+    velocity: {x: 28.557447, y: -0.000121593475, z: 13.305586}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 377
+    time: 22.728481
+    position: {x: 482.7663, y: 84.237686, z: 320.70853}
+    rotation: {x: -0, y: 0.544993, z: -0, w: 0.83844066}
+    animatorRotation: {x: -1.0286385E-09, y: -4.6014786E-05, z: 2.2379301E-05, w: 1}
+    velocity: {x: 28.771267, y: -0.000121593475, z: 12.955483}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 378
+    time: 22.779024
+    position: {x: 484.2359, y: 84.237686, z: 321.3583}
+    rotation: {x: -0, y: 0.5491862, z: -0, w: 0.8357}
+    animatorRotation: {x: -7.894414E-10, y: -4.592538E-05, z: 1.7186776E-05, w: 1}
+    velocity: {x: 28.965782, y: -0.000121593475, z: 12.636985}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 379
+    time: 22.829842
+    position: {x: 485.7253, y: 84.237686, z: 322.00342}
+    rotation: {x: -0, y: 0.5507664, z: -0, w: 0.8346595}
+    animatorRotation: {x: -6.0572347E-10, y: -4.592538E-05, z: 1.3179125E-05, w: 1}
+    velocity: {x: 29.043093, y: -0.000121593475, z: 12.5104}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 380
+    time: 22.88177
+    position: {x: 487.21188, y: 84.237686, z: 322.6391}
+    rotation: {x: -0, y: 0.55213547, z: -0, w: 0.8337544}
+    animatorRotation: {x: -4.6202325E-10, y: -4.5955174E-05, z: 1.0044748E-05, w: 1}
+    velocity: {x: 29.113422, y: -0.000121593475, z: 12.395241}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 381
+    time: 22.932482
+    position: {x: 488.68893, y: 84.237686, z: 323.26614}
+    rotation: {x: -0, y: 0.55265, z: -0, w: 0.83341354}
+    animatorRotation: {x: -3.5424813E-10, y: -4.592537E-05, z: 7.706892E-06, w: 1}
+    velocity: {x: 29.141375, y: -0.000121593475, z: 12.349473}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 382
+    time: 22.982843
+    position: {x: 490.14966, y: 84.237686, z: 323.90442}
+    rotation: {x: -0, y: 0.54236835, z: -0, w: 0.8401408}
+    animatorRotation: {x: -2.7171154E-10, y: -4.5865774E-05, z: 5.9245976E-06, w: 1}
+    velocity: {x: 28.853765, y: -0.000121593475, z: 12.996352}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 383
+    time: 23.035194
+    position: {x: 491.6479, y: 84.237686, z: 324.61005}
+    rotation: {x: -0, y: 0.52399063, z: -0, w: 0.851724}
+    animatorRotation: {x: -2.064553E-10, y: -4.5835972E-05, z: 4.504958E-06, w: 1}
+    velocity: {x: 28.274206, y: -0.000121593475, z: 14.159227}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 384
+    time: 23.08632
+    position: {x: 493.0825, y: 84.237686, z: 325.35437}
+    rotation: {x: -0, y: 0.50929105, z: -0, w: 0.86059433}
+    animatorRotation: {x: -1.5779733E-10, y: -4.5746565E-05, z: 3.448628E-06, w: 1}
+    velocity: {x: 27.772676, y: -0.000121593475, z: 15.073737}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 385
+    time: 23.13885
+    position: {x: 494.5246, y: 84.237686, z: 326.19592}
+    rotation: {x: -0, y: 0.4802327, z: -0, w: 0.8771412}
+    animatorRotation: {x: -1.1982593E-10, y: -4.5776367E-05, z: 2.619745E-06, w: 1}
+    velocity: {x: 25.064178, y: -0.000121593475, z: 15.53931}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 386
+    time: 23.190289
+    position: {x: 495.70654, y: 84.237686, z: 326.96677}
+    rotation: {x: -0, y: 0.4549912, z: -0, w: 0.890496}
+    animatorRotation: {x: -9.151789E-11, y: -4.571676E-05, z: 2.0020532E-06, w: 1}
+    velocity: {x: 21.785044, y: -0.000121593475, z: 14.884641}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 387
+    time: 23.240885
+    position: {x: 496.69037, y: 84.237686, z: 327.71625}
+    rotation: {x: -0, y: 0.40998095, z: -0, w: 0.9120941}
+    animatorRotation: {x: -7.031531E-11, y: -4.5716763E-05, z: 1.5370729E-06, w: 1}
+    velocity: {x: 18.127344, y: -0.000121593475, z: 14.974312}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 388
+    time: 23.290956
+    position: {x: 497.5525, y: 84.237686, z: 328.47134}
+    rotation: {x: -0, y: 0.38844758, z: -0, w: 0.9214708}
+    animatorRotation: {x: -5.405809E-11, y: -4.568696E-05, z: 1.1834757E-06, w: 1}
+    velocity: {x: 16.541912, y: -0.000121593475, z: 15.128024}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 389
+    time: 23.358028
+    position: {x: 498.61325, y: 84.237686, z: 329.52362}
+    rotation: {x: -0, y: 0.3625611, z: -0, w: 0.93196005}
+    animatorRotation: {x: -3.805667E-11, y: -4.5627356E-05, z: 8.337569E-07, w: 1}
+    velocity: {x: 14.687943, y: -0.000121593475, z: 15.380828}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 390
+    time: 23.409588
+    position: {x: 499.32892, y: 84.237686, z: 330.2903}
+    rotation: {x: -0, y: 0.35556698, z: -0, w: 0.93465084}
+    animatorRotation: {x: -2.9046984E-11, y: -4.5627352E-05, z: 6.367303E-07, w: 1}
+    velocity: {x: 14.179588, y: -0.000121593475, z: 15.460874}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 391
+    time: 23.47629
+    position: {x: 500.25174, y: 84.257645, z: 331.3303}
+    rotation: {x: -0, y: 0.34820482, z: -0, w: 0.9374185}
+    animatorRotation: {x: -2.0506263E-11, y: -4.5597553E-05, z: 4.4948422E-07, w: 1}
+    velocity: {x: 13.414111, y: -0.49602026, z: 15.549631}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 392
+    time: 23.526329
+    position: {x: 500.92184, y: 84.23873, z: 332.1101}
+    rotation: {x: -0, y: 0.34636295, z: -0, w: 0.9381006}
+    animatorRotation: {x: -1.580247E-11, y: -4.568696E-05, z: 3.4614277E-07, w: 1}
+    velocity: {x: 13.331607, y: -0.09716749, z: 15.573244}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 393
+    time: 23.57642
+    position: {x: 501.5968, y: 84.23769, z: 332.9016}
+    rotation: {x: -0, y: 0.34476426, z: -0, w: 0.93868935}
+    animatorRotation: {x: -1.2200019E-11, y: -4.5776367E-05, z: 2.6648576E-07, w: 1}
+    velocity: {x: 13.25655, y: -0.00073194504, z: 15.594727}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 394
+    time: 23.627972
+    position: {x: 502.2714, y: 84.237686, z: 333.69635}
+    rotation: {x: -0, y: 0.34416166, z: -0, w: 0.9389104}
+    animatorRotation: {x: -9.322321E-12, y: -4.580617E-05, z: 2.0352851E-07, w: 1}
+    velocity: {x: 13.226719, y: -0.000121593475, z: 15.603264}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 395
+    time: 23.68035
+    position: {x: 502.95654, y: 84.237686, z: 334.50616}
+    rotation: {x: -0, y: 0.34332186, z: -0, w: 0.93921787}
+    animatorRotation: {x: -7.0770056E-12, y: -4.5746565E-05, z: 1.5474151E-07, w: 1}
+    velocity: {x: 13.189755, y: -0.000121593475, z: 15.619297}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 396
+    time: 23.746616
+    position: {x: 503.8297, y: 84.237686, z: 335.54163}
+    rotation: {x: -0, y: 0.34278372, z: -0, w: 0.9394144}
+    animatorRotation: {x: -5.012879E-12, y: -4.5776367E-05, z: 1.0949608E-07, w: 1}
+    velocity: {x: 13.1660795, y: -0.000121593475, z: 15.631038}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 397
+    time: 23.796646
+    position: {x: 504.50034, y: 84.237686, z: 336.33844}
+    rotation: {x: -0, y: 0.34251297, z: -0, w: 0.93951315}
+    animatorRotation: {x: -3.860023E-12, y: -4.5776364E-05, z: 8.432643E-08, w: 1}
+    velocity: {x: 13.153219, y: -0.000121593475, z: 15.637414}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 398
+    time: 23.848385
+    position: {x: 505.16846, y: 84.237686, z: 337.13297}
+    rotation: {x: -0, y: 0.3424156, z: -0, w: 0.9395486}
+    animatorRotation: {x: -2.9451996E-12, y: -4.5776367E-05, z: 6.433844E-08, w: 1}
+    velocity: {x: 13.1481085, y: -0.000121593475, z: 15.639949}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 399
+    time: 23.915724
+    position: {x: 506.05984, y: 84.237686, z: 338.1809}
+    rotation: {x: -0, y: 0.355025, z: -0, w: 0.9348569}
+    animatorRotation: {x: -2.0765611E-12, y: -4.5865774E-05, z: 4.5260585E-08, w: 1}
+    velocity: {x: 13.525995, y: -0.000121593475, z: 15.29782}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 400
+    time: 23.98291
+    position: {x: 507.0121, y: 84.237686, z: 339.19278}
+    rotation: {x: -0, y: 0.3876918, z: -0, w: 0.9217891}
+    animatorRotation: {x: -1.4601653E-12, y: -4.5776367E-05, z: 3.1866033E-08, w: 1}
+    velocity: {x: 14.478559, y: -0.000121593475, z: 14.3277645}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 401
+    time: 24.033966
+    position: {x: 507.7638, y: 84.23991, z: 339.89374}
+    rotation: {x: -0, y: 0.42009398, z: -0, w: 0.90748066}
+    animatorRotation: {x: -1.1173285E-12, y: -4.5776367E-05, z: 2.4403713E-08, w: 1}
+    velocity: {x: 15.115624, y: 1.1496007, z: 13.336686}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 402
+    time: 24.0841
+    position: {x: 508.52765, y: 84.299484, z: 340.54257}
+    rotation: {x: -0, y: 0.43905824, z: -0, w: 0.89845866}
+    animatorRotation: {x: -8.602008E-13, y: -4.5776367E-05, z: 1.8783213E-08, w: 1}
+    velocity: {x: 15.568514, y: 1.1925712, z: 12.594205}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 403
+    time: 24.135063
+    position: {x: 509.3373, y: 84.3503, z: 341.1555}
+    rotation: {x: -0, y: 0.46292683, z: -0, w: 0.88639647}
+    animatorRotation: {x: -6.585843E-13, y: -4.5746565E-05, z: 1.4392192E-08, w: 1}
+    velocity: {x: 16.401787, y: 0.9631134, z: 11.414149}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 404
+    time: 24.186363
+    position: {x: 510.0288, y: 84.60245, z: 341.40292}
+    rotation: {x: -0, y: 0.47597724, z: -0, w: 0.8794576}
+    animatorRotation: {x: -5.0448534E-13, y: -4.5835972E-05, z: 1.1007111E-08, w: 1}
+    velocity: {x: 12.525181, y: 6.2455187, z: 2.0147967}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 405
+    time: 24.25405
+    position: {x: 510.97845, y: 84.904335, z: 341.56107}
+    rotation: {x: -0, y: 0.49158454, z: -0, w: 0.8708299}
+    animatorRotation: {x: -3.5460523E-13, y: -4.5835972E-05, z: 7.728532E-09, w: 1}
+    velocity: {x: 14.87377, y: 2.915686, z: 1.2011014}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 406
+    time: 24.320318
+    position: {x: 511.9519, y: 85.0464, z: 341.55627}
+    rotation: {x: -0, y: 0.49706587, z: -0, w: 0.8677128}
+    animatorRotation: {x: -2.509104E-13, y: -4.5865774E-05, z: 5.4686993E-09, w: 1}
+    velocity: {x: 14.465262, y: 0.7201341, z: -1.0542784}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 407
+    time: 24.370544
+    position: {x: 512.68994, y: 85.00348, z: 341.53378}
+    rotation: {x: -0, y: 0.49913085, z: -0, w: 0.8665266}
+    animatorRotation: {x: -1.9295676E-13, y: -4.5895576E-05, z: 4.207096E-09, w: 1}
+    velocity: {x: 14.67678, y: -2.0660841, z: 0.019585835}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 408
+    time: 24.422125
+    position: {x: 513.4658, y: 84.76822, z: 341.5915}
+    rotation: {x: -0, y: 0.5009206, z: -0, w: 0.8654933}
+    animatorRotation: {x: -1.4743762E-13, y: -4.592538E-05, z: 3.2126708E-09, w: 1}
+    velocity: {x: 15.398925, y: -6.392387, z: 2.6615937}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 409
+    time: 24.474451
+    position: {x: 514.2665, y: 84.55833, z: 341.5249}
+    rotation: {x: -0, y: 0.50152314, z: -0, w: 0.86514425}
+    animatorRotation: {x: -1.1224355E-13, y: -4.592538E-05, z: 2.4433278E-09, w: 1}
+    velocity: {x: 16.021168, y: -5.9297047, z: 1.1663625}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 410
+    time: 24.524471
+    position: {x: 515.07904, y: 84.300995, z: 341.6037}
+    rotation: {x: -0, y: 0.4914292, z: -0, w: 0.87091756}
+    animatorRotation: {x: -8.637535E-14, y: -4.592538E-05, z: 1.881779E-09, w: 1}
+    velocity: {x: 16.891436, y: -0.9534359, z: 0.29546928}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 411
+    time: 24.57466
+    position: {x: 515.9598, y: 84.34861, z: 341.68472}
+    rotation: {x: -0, y: 0.46762908, z: -0, w: 0.88392484}
+    animatorRotation: {x: -6.644685E-14, y: -4.5895576E-05, z: 1.447954E-09, w: 1}
+    velocity: {x: 19.256777, y: 0.9942901, z: 5.4395113}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 412
+    time: 24.641088
+    position: {x: 517.30347, y: 84.27779, z: 342.26312}
+    rotation: {x: -0, y: 0.44221804, z: -0, w: 0.89690757}
+    animatorRotation: {x: -4.6906916E-14, y: -4.5835965E-05, z: 1.0236834E-09, w: 1}
+    velocity: {x: 21.387947, y: -3.7727096, z: 12.433294}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 413
+    time: 24.707422
+    position: {x: 518.7709, y: 84.250465, z: 343.2176}
+    rotation: {x: -0, y: 0.42746568, z: -0, w: 0.90403163}
+    animatorRotation: {x: -3.3140157E-14, y: -4.580617E-05, z: 7.24095E-10, w: 1}
+    velocity: {x: 22.660372, y: -0.34405637, z: 16.022766}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 414
+    time: 24.757622
+    position: {x: 519.9312, y: 84.315796, z: 344.04956}
+    rotation: {x: -0, y: 0.4192834, z: -0, w: 0.9078554}
+    animatorRotation: {x: -2.5521252E-14, y: -4.5835972E-05, z: 5.5712485E-10, w: 1}
+    velocity: {x: 23.386707, y: 1.5746177, z: 17.153864}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 415
+    time: 24.807865
+    position: {x: 521.10895, y: 84.313805, z: 344.9454}
+    rotation: {x: -0, y: 0.41610557, z: -0, w: 0.9093163}
+    animatorRotation: {x: -1.9609314E-14, y: -4.5776367E-05, z: 4.2855974E-10, w: 1}
+    velocity: {x: 23.492683, y: -1.617129, z: 18.4386}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 416
+    time: 24.858614
+    position: {x: 522.38965, y: 84.30812, z: 345.6969}
+    rotation: {x: -0, y: 0.41066903, z: -0, w: 0.91178447}
+    animatorRotation: {x: -1.50574E-14, y: -4.5776367E-05, z: 3.2874936E-10, w: 1}
+    velocity: {x: 25.836939, y: 0.39068344, z: 13.3656225}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 417
+    time: 24.925148
+    position: {x: 524.06555, y: 84.19501, z: 346.72223}
+    rotation: {x: -0, y: 0.39665774, z: -0, w: 0.9179666}
+    animatorRotation: {x: -1.060263E-14, y: -4.5657158E-05, z: 2.3228677E-10, w: 1}
+    velocity: {x: 24.80623, y: -3.1648111, z: 16.906141}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 418
+    time: 24.991674
+    position: {x: 525.65283, y: 83.8018, z: 347.95752}
+    rotation: {x: -0, y: 0.38363937, z: -0, w: 0.923483}
+    animatorRotation: {x: -7.4870665E-15, y: -4.5627356E-05, z: 1.6413439E-10, w: 1}
+    velocity: {x: 23.417368, y: -7.8697352, z: 19.689627}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 419
+    time: 25.057941
+    position: {x: 526.611, y: 83.22756, z: 349.39545}
+    rotation: {x: -0, y: 0.35824704, z: -0, w: 0.9336269}
+    animatorRotation: {x: -5.294376E-15, y: -4.556775E-05, z: 1.1614279E-10, w: 1}
+    velocity: {x: 15.60623, y: 3.100831, z: 12.118015}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 420
+    time: 25.108463
+    position: {x: 527.45874, y: 83.48585, z: 350.09045}
+    rotation: {x: -0, y: 0.34731618, z: -0, w: 0.93774813}
+    animatorRotation: {x: -4.0627224E-15, y: -4.553795E-05, z: 8.9205095E-11, w: 1}
+    velocity: {x: 16.945435, y: -0.10613976, z: 16.378191}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 421
+    time: 25.174726
+    position: {x: 528.64, y: 83.2722, z: 351.3609}
+    rotation: {x: -0, y: 0.3340121, z: -0, w: 0.94256884}
+    animatorRotation: {x: -2.8727017E-15, y: -4.5508143E-05, z: 6.3122646E-11, w: 1}
+    velocity: {x: 18.341436, y: -6.4244313, z: 21.171888}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 422
+    time: 25.224745
+    position: {x: 529.56006, y: 83.22339, z: 352.44293}
+    rotation: {x: -0, y: 0.3305411, z: -0, w: 0.9437916}
+    animatorRotation: {x: -2.2135072E-15, y: -4.5508146E-05, z: 4.8615813E-11, w: 1}
+    velocity: {x: 18.705906, y: 0, z: 22.452618}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 423
+    time: 25.291012
+    position: {x: 530.8193, y: 83.307396, z: 353.95715}
+    rotation: {x: -0, y: 0.33260125, z: -0, w: 0.9430676}
+    animatorRotation: {x: -1.563853E-15, y: -4.5448538E-05, z: 3.4400927E-11, w: 1}
+    velocity: {x: 19.282562, y: 3.6008534, z: 22.592484}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 424
+    time: 25.352583
+    position: {x: 532.12714, y: 83.49313, z: 355.31683}
+    rotation: {x: -0, y: 0.39666656, z: -0, w: 0.9179628}
+    animatorRotation: {x: -1.1275703E-15, y: -4.544854E-05, z: 2.4823183E-11, w: 1}
+    velocity: {x: 22.438522, y: 0.24726841, z: 20.51692}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 425
+    time: 25.406233
+    position: {x: 533.35504, y: 83.429375, z: 356.35287}
+    rotation: {x: -0, y: 0.4394726, z: -0, w: 0.89825606}
+    animatorRotation: {x: -8.513156E-16, y: -4.5418743E-05, z: 1.8740879E-11, w: 1}
+    velocity: {x: 24.260765, y: -2.931238, z: 18.670637}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 426
+    time: 25.457058
+    position: {x: 534.64014, y: 83.213974, z: 357.2477}
+    rotation: {x: -0, y: 0.48225057, z: -0, w: 0.8760333}
+    animatorRotation: {x: -6.522561E-16, y: -4.538894E-05, z: 1.4370293E-11, w: 1}
+    velocity: {x: 25.966467, y: 0.4868703, z: 16.605593}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 427
+    time: 25.507355
+    position: {x: 535.9001, y: 83.46537, z: 358.0401}
+    rotation: {x: -0, y: 0.4995547, z: -0, w: 0.86628234}
+    animatorRotation: {x: -5.013351E-16, y: -4.5388937E-05, z: 1.1050927E-11, w: 1}
+    velocity: {x: 25.377787, y: 5.1177077, z: 15.425529}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 428
+    time: 25.573624
+    position: {x: 537.42755, y: 84.08537, z: 358.95557}
+    rotation: {x: -0, y: 0.5269397, z: -0, w: 0.84990275}
+    animatorRotation: {x: -3.534499E-16, y: -4.518032E-05, z: 7.8196555E-12, w: 1}
+    velocity: {x: 19.439785, y: 15.104275, z: 11.994944}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 429
+    time: 25.63989
+    position: {x: 538.66925, y: 85.226585, z: 359.60895}
+    rotation: {x: -0, y: 0.5487824, z: -0, w: 0.8359653}
+    animatorRotation: {x: -2.4980018E-16, y: -4.515052E-05, z: 5.5332175E-12, w: 1}
+    velocity: {x: 19.908354, y: 17.989536, z: 8.311696}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 430
+    time: 25.69113
+    position: {x: 539.7447, y: 86.13003, z: 360.0041}
+    rotation: {x: -0, y: 0.566788, z: -0, w: 0.82386374}
+    animatorRotation: {x: -1.9060272E-16, y: -4.5061108E-05, z: 4.2331316E-12, w: 1}
+    velocity: {x: 21.60068, y: 17.615025, z: 7.08433}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 431
+    time: 25.757395
+    position: {x: 541.2481, y: 87.29387, z: 360.40283}
+    rotation: {x: -0, y: 0.59497684, z: -0, w: 0.8037429}
+    animatorRotation: {x: -1.3498317E-16, y: -4.503131E-05, z: 2.9953973E-12, w: 1}
+    velocity: {x: 24.996725, y: 14.867602, z: 6.3618803}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 432
+    time: 25.823662
+    position: {x: 543.00574, y: 88.15715, z: 360.84793}
+    rotation: {x: -0, y: 0.60560775, z: -0, w: 0.7957634}
+    animatorRotation: {x: -9.519295E-17, y: -4.4882298E-05, z: 2.1195602E-12, w: 1}
+    velocity: {x: 25.272615, y: 10.290548, z: 6.384501}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 433
+    time: 25.876078
+    position: {x: 544.23755, y: 88.56653, z: 361.15573}
+    rotation: {x: -0, y: 0.6269044, z: -0, w: 0.77909625}
+    animatorRotation: {x: -7.220786E-17, y: -4.482269E-05, z: 1.6110724E-12, w: 1}
+    velocity: {x: 24.29055, y: 5.9788213, z: 5.8956394}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 434
+    time: 25.942715
+    position: {x: 545.8297, y: 88.83611, z: 361.51642}
+    rotation: {x: -0, y: 0.6963213, z: -0, w: 0.71773016}
+    animatorRotation: {x: -5.1120132E-17, y: -4.4941902E-05, z: 1.1377029E-12, w: 1}
+    velocity: {x: 23.433563, y: 1.7314467, z: 4.611062}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 435
+    time: 25.992853
+    position: {x: 546.9864, y: 88.83749, z: 361.70862}
+    rotation: {x: -0, y: 0.77988106, z: -0, w: 0.6259278}
+    animatorRotation: {x: -3.941075E-17, y: -4.5001507E-05, z: 8.756572E-13, w: 1}
+    velocity: {x: 22.454788, y: -2.4525352, z: 2.6271122}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 436
+    time: 26.059393
+    position: {x: 548.445, y: 88.56473, z: 361.825}
+    rotation: {x: -0, y: 0.84341854, z: -0, w: 0.5372571}
+    animatorRotation: {x: -2.783689E-17, y: -4.5001507E-05, z: 6.1869585E-13, w: 1}
+    velocity: {x: 21.334633, y: -6.574071, z: 0.48013827}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 437
+    time: 26.125404
+    position: {x: 549.8248, y: 87.99417, z: 361.7908}
+    rotation: {x: -0, y: 0.8797117, z: -0, w: 0.47550756}
+    animatorRotation: {x: -1.9718927E-17, y: -4.4971704E-05, z: 4.3840512E-13, w: 1}
+    velocity: {x: 20.261457, y: -10.634092, z: -1.4911027}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 438
+    time: 26.175482
+    position: {x: 550.81506, y: 87.37026, z: 361.67545}
+    rotation: {x: -0, y: 0.89894074, z: -0, w: 0.4380703}
+    animatorRotation: {x: -1.5165278E-17, y: -4.49121E-05, z: 3.3754043E-13, w: 1}
+    velocity: {x: 19.304647, y: -14.633516, z: -3.2157216}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 439
+    time: 26.241749
+    position: {x: 552.08997, y: 86.263596, z: 361.41174}
+    rotation: {x: -0, y: 0.9119665, z: -0, w: 0.41026473}
+    animatorRotation: {x: -1.0679391E-17, y: -4.4703484E-05, z: 2.3884684E-13, w: 1}
+    velocity: {x: 18.42227, y: -18.573248, z: -4.7515593}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 440
+    time: 26.292597
+    position: {x: 552.9636, y: 85.24589, z: 361.05313}
+    rotation: {x: -0, y: 0.9266587, z: -0, w: 0.37590396}
+    animatorRotation: {x: -8.206054E-18, y: -4.4792887E-05, z: 1.8312083E-13, w: 1}
+    velocity: {x: 18.458805, y: -14.013932, z: -15.098534}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 441
+    time: 26.342651
+    position: {x: 553.8745, y: 84.687935, z: 360.19818}
+    rotation: {x: -0, y: 0.93821394, z: -0, w: 0.34605584}
+    animatorRotation: {x: -6.3053133E-18, y: -4.4733286E-05, z: 1.4100583E-13, w: 1}
+    velocity: {x: 16.984215, y: -13.5346985, z: -17.297808}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 442
+    time: 26.409433
+    position: {x: 554.83484, y: 84.09335, z: 359.188}
+    rotation: {x: -0, y: 0.9495898, z: -0, w: 0.31349537}
+    animatorRotation: {x: -4.445229E-18, y: -4.467368E-05, z: 9.94962E-14, w: 1}
+    velocity: {x: 9.082308, y: 5.381899, z: -6.2588205}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 443
+    time: 26.475246
+    position: {x: 555.41077, y: 84.54176, z: 358.67947}
+    rotation: {x: -0, y: 0.95722693, z: -0, w: 0.2893382}
+    animatorRotation: {x: -3.1543503E-18, y: -4.4733282E-05, z: 7.0577624E-14, w: 1}
+    velocity: {x: 8.247687, y: 7.395668, z: -8.788821}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 444
+    time: 26.526114
+    position: {x: 555.8159, y: 84.92119, z: 358.22012}
+    rotation: {x: -0, y: 0.95991194, z: -0, w: 0.28030187}
+    animatorRotation: {x: -2.4174318E-18, y: -4.470348E-05, z: 5.410587E-14, w: 1}
+    velocity: {x: 8.029704, y: 7.8920364, z: -9.742493}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 445
+    time: 26.591976
+    position: {x: 556.31824, y: 85.46658, z: 357.52188}
+    rotation: {x: -0, y: 0.9668944, z: -0, w: 0.25517684}
+    animatorRotation: {x: -1.7160888E-18, y: -4.4718385E-05, z: 3.8369888E-14, w: 1}
+    velocity: {x: 7.276133, y: 8.43462, z: -11.031998}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 446
+    time: 26.65875
+    position: {x: 556.7844, y: 86.05607, z: 356.73077}
+    rotation: {x: -0, y: 0.9721511, z: -0, w: 0.23435502}
+    animatorRotation: {x: -1.2091395E-18, y: -4.467368E-05, z: 2.7075676E-14, w: 1}
+    velocity: {x: 6.6477203, y: 8.880421, z: -12.095596}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 447
+    time: 26.709433
+    position: {x: 557.1126, y: 86.50675, z: 356.11258}
+    rotation: {x: -0, y: 0.9738705, z: -0, w: 0.2271039}
+    animatorRotation: {x: -9.300422E-19, y: -4.477799E-05, z: 2.0777535E-14, w: 1}
+    velocity: {x: 6.426148, y: 9.024432, z: -12.448817}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 448
+    time: 26.759485
+    position: {x: 557.41846, y: 86.954254, z: 355.48926}
+    rotation: {x: -0, y: 0.97635126, z: -0, w: 0.21619038}
+    animatorRotation: {x: -7.170133E-19, y: -4.483759E-05, z: 1.5999246E-14, w: 1}
+    velocity: {x: 6.0745206, y: 9.175602, z: -12.8748}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 449
+    time: 26.82538
+    position: {x: 557.81445, y: 87.56862, z: 354.62213}
+    rotation: {x: -0, y: 0.97796315, z: -0, w: 0.20877789}
+    animatorRotation: {x: -5.0779625E-19, y: -4.480779E-05, z: 1.1344153E-14, w: 1}
+    velocity: {x: 5.8298025, y: 9.273056, z: -13.158975}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 450
+    time: 26.892141
+    position: {x: 558.186, y: 88.182755, z: 353.74374}
+    rotation: {x: -0, y: 0.9799505, z: -0, w: 0.19924128}
+    animatorRotation: {x: -3.5808318E-19, y: -4.4748187E-05, z: 8.00557E-15, w: 1}
+    velocity: {x: 5.498494, y: 9.332043, z: -13.416484}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 451
+    time: 26.95796
+    position: {x: 558.5432, y: 88.806915, z: 352.84137}
+    rotation: {x: -0, y: 0.9805566, z: -0, w: 0.19623636}
+    animatorRotation: {x: -2.5432162E-19, y: -4.4807788E-05, z: 5.6786486E-15, w: 1}
+    velocity: {x: 5.386354, y: 9.382271, z: -13.555954}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 452
+    time: 27.024181
+    position: {x: 558.92725, y: 89.42523, z: 351.96185}
+    rotation: {x: -0, y: 0.97363275, z: -0, w: 0.22812119}
+    animatorRotation: {x: -1.8057681E-19, y: -4.49419E-05, z: 4.019236E-15, w: 1}
+    velocity: {x: 6.4971, y: 9.390551, z: -13.044117}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 453
+    time: 27.090643
+    position: {x: 559.4091, y: 90.05154, z: 351.115}
+    rotation: {x: -0, y: 0.96519774, z: -0, w: 0.2615212}
+    animatorRotation: {x: -1.2779611E-19, y: -4.500151E-05, z: 2.841061E-15, w: 1}
+    velocity: {x: 7.692313, y: 9.361025, z: -12.426888}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 454
+    time: 27.156713
+    position: {x: 559.9529, y: 90.66638, z: 350.31714}
+    rotation: {x: -0, y: 0.9578843, z: -0, w: 0.2871546}
+    animatorRotation: {x: -9.005019E-20, y: -4.476309E-05, z: 2.0124848E-15, w: 1}
+    velocity: {x: 8.652558, y: 9.320475, z: -11.900623}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 455
+    time: 27.223244
+    position: {x: 560.5375, y: 91.28247, z: 349.53656}
+    rotation: {x: -0, y: 0.9550956, z: -0, w: 0.2962981}
+    animatorRotation: {x: -6.373922E-20, y: -4.485249E-05, z: 1.4219963E-15, w: 1}
+    velocity: {x: 9.016423, y: 9.300264, z: -11.692583}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 456
+    time: 27.289248
+    position: {x: 561.14307, y: 91.89811, z: 348.76666}
+    rotation: {x: -0, y: 0.9534934, z: -0, w: 0.3014139}
+    animatorRotation: {x: -4.5210384E-20, y: -4.4852495E-05, z: 1.0076578E-15, w: 1}
+    velocity: {x: 9.227416, y: 9.284878, z: -11.56718}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 457
+    time: 27.355896
+    position: {x: 561.8218, y: 92.573494, z: 347.92892}
+    rotation: {x: -0, y: 0.95242655, z: -0, w: 0.30476826}
+    animatorRotation: {x: -3.1949024E-20, y: -4.49121E-05, z: 7.115324E-16, w: 1}
+    velocity: {x: 11.824019, y: 11.702484, z: -14.48558}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 458
+    time: 27.42178
+    position: {x: 562.6527, y: 93.403275, z: 346.89825}
+    rotation: {x: -0, y: 0.9541477, z: -0, w: 0.2993365}
+    animatorRotation: {x: -2.2697836E-20, y: -4.4971704E-05, z: 5.045364E-16, w: 1}
+    velocity: {x: 13.048074, y: 13.318624, z: -16.68009}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 459
+    time: 27.488049
+    position: {x: 563.52594, y: 94.291954, z: 345.71115}
+    rotation: {x: -0, y: 0.95981616, z: -0, w: 0.28062958}
+    animatorRotation: {x: -1.6027452E-20, y: -4.49121E-05, z: 3.5701187E-16, w: 1}
+    velocity: {x: 13.537323, y: 12.440897, z: -19.781027}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 460
+    time: 27.554396
+    position: {x: 564.10785, y: 95.47325, z: 344.85846}
+    rotation: {x: -0, y: 0.96806604, z: -0, w: 0.25069544}
+    animatorRotation: {x: -1.12959784E-20, y: -4.4748187E-05, z: 2.5251212E-16, w: 1}
+    velocity: {x: 9.4311905, y: 14.387493, z: -15.199365}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 461
+    time: 27.620579
+    position: {x: 564.72375, y: 96.29663, z: 343.8502}
+    rotation: {x: -0, y: 0.97051245, z: -0, w: 0.24105118}
+    animatorRotation: {x: -8.013725E-21, y: -4.485249E-05, z: 1.787564E-16, w: 1}
+    velocity: {x: 9.292018, y: 10.01462, z: -15.469327}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 462
+    time: 27.687054
+    position: {x: 565.37256, y: 96.814964, z: 342.8366}
+    rotation: {x: -0, y: 0.9299717, z: -0, w: 0.36763117}
+    animatorRotation: {x: -5.661224E-21, y: -4.479289E-05, z: 1.2634529E-16, w: 1}
+    velocity: {x: 10.242557, y: 5.707011, z: -14.647333}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 463
+    time: 27.753876
+    position: {x: 566.09625, y: 97.01618, z: 341.937}
+    rotation: {x: -0, y: 0.84378695, z: -0, w: 0.5366784}
+    animatorRotation: {x: -4.003554E-21, y: -4.49121E-05, z: 8.9130637E-17, w: 1}
+    velocity: {x: 11.875521, y: 0.063375056, z: -12.482689}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 464
+    time: 27.819384
+    position: {x: 566.9166, y: 96.90699, z: 341.1586}
+    rotation: {x: -0, y: 0.78025025, z: -0, w: 0.62546754}
+    animatorRotation: {x: -2.84881E-21, y: -4.4941902E-05, z: 6.333023E-17, w: 1}
+    velocity: {x: 12.945977, y: -4.0957108, z: -10.584908}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 465
+    time: 27.885645
+    position: {x: 567.8015, y: 96.50058, z: 340.51715}
+    rotation: {x: -0, y: 0.74004894, z: -0, w: 0.6725531}
+    animatorRotation: {x: -2.0133576E-21, y: -4.4941902E-05, z: 4.48143E-17, w: 1}
+    velocity: {x: 13.854357, y: -8.192721, z: -8.899862}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 0
+    eventFlags: 0
+  - index: 466
+    time: 27.951912
+    position: {x: 568.7505, y: 95.79823, z: 339.98734}
+    rotation: {x: -0, y: 0.7124224, z: -0, w: 0.70175093}
+    animatorRotation: {x: -1.4293681E-21, y: -4.5001507E-05, z: 3.1710862E-17, w: 1}
+    velocity: {x: 14.620849, y: -12.228583, z: -7.3766904}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 0
+    isSliding: 1
+    eventFlags: 0
+  - index: 467
+    time: 28.002308
+    position: {x: 569.2048, y: 95.671745, z: 339.67572}
+    rotation: {x: -0, y: 0.64903903, z: -0, w: 0.7607551}
+    animatorRotation: {x: -1.0984958E-21, y: -4.5061108E-05, z: 2.437253E-17, w: 1}
+    velocity: {x: 7.983301, y: 4.5101414, z: -3.7415712}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 468
+    time: 28.068142
+    position: {x: 569.9232, y: 96.11714, z: 339.58066}
+    rotation: {x: -0, y: 0.61180335, z: -0, w: 0.7910099}
+    animatorRotation: {x: -7.7920414E-22, y: -4.506111E-05, z: 1.7286857E-17, w: 1}
+    velocity: {x: 12.948384, y: 8.642651, z: 0.124868035}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0
+  - index: 469
+    time: 28.134144
+    position: {x: 571.10645, y: 96.53546, z: 339.79935}
+    rotation: {x: -0, y: 0.5866757, z: -0, w: 0.809822}
+    animatorRotation: {x: -5.5172947E-22, y: -4.503131E-05, z: 1.22499146E-17, w: 1}
+    velocity: {x: 22.019901, y: 2.9769168, z: 6.100667}
+    isSwimming: 0
+    isGliding: 0
+    isClimbing: 0
+    isRunning: 1
+    isSliding: 0
+    eventFlags: 0

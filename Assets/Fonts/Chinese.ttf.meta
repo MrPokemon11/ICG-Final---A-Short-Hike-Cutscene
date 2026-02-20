@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: baec234ee31da1c4c9257b0ee0993960
+timeCreated: 1771597526
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 12
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Fusion Pixel 12px Proportional zh_hans
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 2
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 6d42767b204bb2b755a63da577bab71b.bundle
+  assetBundleVariant:

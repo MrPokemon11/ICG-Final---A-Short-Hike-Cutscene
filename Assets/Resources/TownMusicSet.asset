@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca97c157838470761cd527c10c902358, type: 3}
+  m_Name: TownMusicSet
+  m_EditorClassIdentifier:
+  fadeInTime: 5
+  fadeOutTime: 10
+  silenceAfterFinishing: 5
+  playOnce: 0
+  baseLayer: {fileID: 11400000, guid: 9ddc1ea9be19ca9439d52d9f5b158f56, type: 2}
+  layers:
+  - {fileID: 11400000, guid: 9ddc1ea9be19ca9439d52d9f5b158f56, type: 2}
+  - {fileID: 11400000, guid: 328d4b28bc9af7649a85d49df8a09426, type: 2}
+  - {fileID: 11400000, guid: 59cd0da8fe664b24884760f793def56f, type: 2}
+  - {fileID: 11400000, guid: b852605756e088f48b2bf9aeee9e5f0a, type: 2}
+  - {fileID: 11400000, guid: daa835229b018414a93571c726410291, type: 2}
+  - {fileID: 11400000, guid: 4289c912783076442bea5fa3a30a5a89, type: 2}

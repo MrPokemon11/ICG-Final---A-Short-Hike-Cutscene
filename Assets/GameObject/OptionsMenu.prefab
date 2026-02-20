@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1717899196956954
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4234845964224981}
+  - component: {fileID: 114414901952807435}
+  m_Layer: 0
+  m_Name: OptionsMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4234845964224981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717899196956954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10000.147, y: -0.32336426, z: 0.9506836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114414901952807435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717899196956954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3700cc6dbeeeb2f3df8202c893de4e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  highlightColor: {r: 0.8301887, g: 0.21785364, b: 0.13705944, a: 1}
+  dialogBoxPrefab: {fileID: 1720948040491622, guid: faa7ef1ffdb3f3a4a857b63f0252a43d, type: 2}
+  creditsPrefab: {fileID: 1362102299418956, guid: 6811c7b54f75ffa448c026a627368a9c, type: 2}
+  messagePrefab: {fileID: 1730020231213907, guid: a621852d5bf6fc9489e38552314dc087, type: 2}
+  gamepadControlsPrefab: {fileID: 1787381156383001, guid: 144100a1c1264d84d8f00eea3c253b08, type: 2}
+  keyboardControlsPrefab: {fileID: 1931956241043700, guid: af00c3ec625b4064c846d2cc4ce45398, type: 2}
+  rebindPrefab: {fileID: 1860547573315433, guid: 93c80a86bd6408841aa7197ebc23fc31, type: 2}
+  achievementsMenuPrefab: {fileID: 1243089757100577, guid: 7fbc2d8bd57eaf74ead48d0ad5015ff2, type: 2}
+  controllerRemapperPrefab: {fileID: 1869794808581642, guid: 0726db7abc304bb47b780271cbc6ee0c, type: 2}
+  loadingBoxPrefab: {fileID: 1579507855845240, guid: 530c7f43492e48749bcb1dbb56176cb7, type: 2}
+  thirdPartyLicensesPrefab: {fileID: 1480433955946772, guid: 57aaa6d10aee9f844b4c95b16cbd674d, type: 2}

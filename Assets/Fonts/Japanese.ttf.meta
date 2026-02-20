@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: e06775479d0614946bd7e15f0a3e0067
+timeCreated: 1771597526
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - KH Dot Kabutochou 16
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 7cedd8996c900942804d32103ad53ffe.bundle
+  assetBundleVariant:

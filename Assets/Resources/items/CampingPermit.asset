@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: CampingPermit
+  m_EditorClassIdentifier:
+  readableName: Camping Permit##ICampingPermit
+  readableNamePlural: Camping Permits##ISCampingPermit
+  description: "It allows you to camp overnight at the park.\nIt says \"KEEP ON HAND AT ALL TIMES!\"##IDCampingPermit"
+  icon: {fileID: 21300000, guid: 60160831380a63648b26f04602aff541, type: 2}
+  stacksInInventory: 1
+  showPrompt: 2
+  cannotDrop: 0
+  cannotStash: 0
+  priority: -10
+  worldPrefab: {fileID: 0}
+  yarnNodeTitle:
+  yarnNode:

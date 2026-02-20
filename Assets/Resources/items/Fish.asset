@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: Fish
+  m_EditorClassIdentifier:
+  readableName: Fish##IFish
+  readableNamePlural: Fish##ISFish
+  description: "I caught 'em myself!\nNow what do I do with them?\n##IDFish"
+  icon: {fileID: 21300000, guid: 9d28b8e977ad6034ba65a21a36181c06, type: 2}
+  stacksInInventory: 1
+  showPrompt: 0
+  cannotDrop: 0
+  cannotStash: 1
+  priority: -1
+  worldPrefab: {fileID: 1366515876579180, guid: 4fe273d8bcc0df74f8bd16c4b8dbce94, type: 2}
+  yarnNodeTitle:
+  yarnNode:

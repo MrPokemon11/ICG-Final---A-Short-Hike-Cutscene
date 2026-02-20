@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca97c157838470761cd527c10c902358, type: 3}
+  m_Name: BoatMusicSet
+  m_EditorClassIdentifier:
+  fadeInTime: 1
+  fadeOutTime: 10
+  silenceAfterFinishing: 10
+  playOnce: 0
+  baseLayer: {fileID: 11400000, guid: 181e3a133468e4b4a810bdb07c759ad5, type: 2}
+  layers:
+  - {fileID: 11400000, guid: 181e3a133468e4b4a810bdb07c759ad5, type: 2}
+  - {fileID: 11400000, guid: 70f5c935062fd064d875fc0686b820c3, type: 2}
+  - {fileID: 11400000, guid: 2d3ee9aac9996384bbb304d630f9433e, type: 2}

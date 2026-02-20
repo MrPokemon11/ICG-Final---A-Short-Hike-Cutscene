@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: ParkHat
+  m_EditorClassIdentifier:
+  readableName: Provincial Park Hat##IParkHat
+  readableNamePlural: Provincial Park Hats##ISParkHat
+  description: "Stylish and practical!\nIt says \"Support Our Provincial Parks!\" on it.##IDParkHat"
+  icon: {fileID: 21300000, guid: 0bdbd063a416be142a562f7a3beb2140, type: 2}
+  stacksInInventory: 1
+  showPrompt: 2
+  cannotDrop: 0
+  cannotStash: 0
+  priority: -3
+  worldPrefab: {fileID: 1452753996552753, guid: 4e6ea581579b9b94eadd039b47593282, type: 2}
+  yarnNodeTitle:
+  yarnNode:

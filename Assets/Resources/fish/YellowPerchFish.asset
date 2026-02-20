@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa6da005f1423620a447c09bdeb9a32, type: 3}
+  m_Name: YellowPerchFish
+  m_EditorClassIdentifier:
+  readableName: Yellow Perch##FYellowPerchFish
+  typeName: fish
+  customIcon: {fileID: 0}
+  sprite: {fileID: 21300000, guid: f11ec016565ca3b40beedeafe419f749, type: 2}
+  rareSprite: {fileID: 21300000, guid: ac97c76552f89d54ebe6e5a2b2176846, type: 2}
+  rarePrefix: Albino
+  rareHighlightColor: {r: 0.3523051, g: 0.79796827, b: 0.8584906, a: 1}
+  journalInfo: "Usually seen in weedy\nwaters in Meteor Lake.##FIYellowPerchFish"
+  size:
+    min: 15
+    max: 30
+  rareLikelihood: 1
+  price: 10
+  encounterTime: 8
+  nibbleCheckPeriod: 0.25
+  nibbleChance: 0.17
+  minRequiredNibbles: 3
+  maxRequiredNibbles: 5

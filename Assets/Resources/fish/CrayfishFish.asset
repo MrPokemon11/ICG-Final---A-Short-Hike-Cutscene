@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa6da005f1423620a447c09bdeb9a32, type: 3}
+  m_Name: CrayfishFish
+  m_EditorClassIdentifier:
+  readableName: Crayfish##FCrayfishFish
+  typeName: crustacean
+  customIcon: {fileID: 0}
+  sprite: {fileID: 21300000, guid: dae6fb63b2442f14b9cd5e7d250e7b37, type: 2}
+  rareSprite: {fileID: 21300000, guid: c79d1fc035af21a479b217767638ba76, type: 2}
+  rarePrefix: Albino
+  rareHighlightColor: {r: 0.3523051, g: 0.79796827, b: 0.8584906, a: 1}
+  journalInfo: "These little guys live\nin little waters.##FICrayfishFish"
+  size:
+    min: 6
+    max: 10
+  rareLikelihood: 2
+  price: 8
+  encounterTime: 7
+  nibbleCheckPeriod: 0.25
+  nibbleChance: 0.14
+  minRequiredNibbles: 2
+  maxRequiredNibbles: 3

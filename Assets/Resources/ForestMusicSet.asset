@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca97c157838470761cd527c10c902358, type: 3}
+  m_Name: ForestMusicSet
+  m_EditorClassIdentifier:
+  fadeInTime: 5
+  fadeOutTime: 10
+  silenceAfterFinishing: 10
+  playOnce: 0
+  baseLayer: {fileID: 11400000, guid: 856fa019c3a65ef45ae709710c19654b, type: 2}
+  layers:
+  - {fileID: 11400000, guid: 856fa019c3a65ef45ae709710c19654b, type: 2}
+  - {fileID: 11400000, guid: d8ffbead93976194096a7f6f4d676ace, type: 2}
+  - {fileID: 11400000, guid: bed9e706a42947f4fb73f0ec3875e663, type: 2}
+  - {fileID: 11400000, guid: 175b1d7863ebf8344924a8afbe1dbc89, type: 2}
+  - {fileID: 11400000, guid: 4638b0970cc0d504e87d6ccca862710c, type: 2}
+  - {fileID: 11400000, guid: 9dbd67600d3aacd4390d601fe843f57b, type: 2}

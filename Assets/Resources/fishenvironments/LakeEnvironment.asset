@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb283ae46bc5cdf8164d36c0591203d, type: 3}
+  m_Name: LakeEnvironment
+  m_EditorClassIdentifier:
+  rareLikelihood: 0.065
+  encounterChancePerSecond: 0.075
+  fish:
+  - species: {fileID: 11400000, guid: 02d09daf7d02bdb4d96c1afd25c008df, type: 2}
+    likelihood: 1.5
+  - species: {fileID: 11400000, guid: 0be414343b00c0540819ccac571c52f6, type: 2}
+    likelihood: 1
+  - species: {fileID: 11400000, guid: 8f51f5aa7f1c6044cb4a9eacaf0678d6, type: 2}
+    likelihood: 0.5
+  - species: {fileID: 11400000, guid: 767cb8d923af5da4a910829ab936d3da, type: 2}
+    likelihood: 0.5

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c566c294f0eca729067c83121b32ba1, type: 3}
+  m_Name: TreasureMap
+  m_EditorClassIdentifier:
+  readableName: Treasure Map##ITreasureMap
+  readableNamePlural: Treasure Maps##ISTreasureMap
+  description: "It's less of a map and more of\na bunch of riddles...##IDTreasureMap"
+  icon: {fileID: 21300000, guid: e337a242b5681a7479eb4cabbdab478b, type: 2}
+  stacksInInventory: 1
+  showPrompt: 2
+  cannotDrop: 0
+  cannotStash: 0
+  priority: -3
+  worldPrefab: {fileID: 0}
+  yarnNodeTitle: read
+  yarnNode: TreasureMapsStart

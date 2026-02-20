@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559a0fb1f4d4a27751e2d5b19c2dc53f, type: 3}
+  m_Name: ForestMusic_Base
+  m_EditorClassIdentifier:
+  clipReference:
+    m_AssetGUID: ca0915688b6c31345ad6e9e2d901421e
+    m_SubObjectName:
+  normalVolume: 0.3
+  fadeInTime: 0
+  fadeOutTime: 0
+  startTime: 1

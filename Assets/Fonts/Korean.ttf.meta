@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: d759417d043737d469c9774abbdd5a16
+timeCreated: 1771597526
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - NeoDunggeunmo
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 44a72907111d79a62febf87d5d18cf7d.bundle
+  assetBundleVariant:
