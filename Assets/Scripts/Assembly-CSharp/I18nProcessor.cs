@@ -107,7 +107,7 @@ public class I18nProcessor
 		using StreamWriter writer = new StreamWriter(outputPath);
 		using CsvWriter csvWriter = new CsvWriter(writer);
 		csvWriter.Configuration.Delimiter = ",";
-		csvWriter.Configuration.TrimFields = true;
+//		csvWriter.Configuration.TrimFields = true;
 		csvWriter.WriteHeader<LocalisedLineWithMetadata>();
 		csvWriter.WriteRecords(recordsFromCSV);
 	}

@@ -211,7 +211,7 @@ public class LevelController : ServiceMonoBehaviour
 
 	private void TryAutoSave()
 	{
-		if (GameSettings.autosave && player.input.hasFocus && player.body.velocity.sqrMagnitude < 1f && !player.disableInteraction && player.isGrounded && FileSystem.canSave)
+		if (GameSettings.autosave && player.input.hasFocus && player.body.linearVelocity.sqrMagnitude < 1f && !player.disableInteraction && player.isGrounded && FileSystem.canSave)
 		{
 			autoSaveCountdown = autoSaveMinutes * 60f;
 			LevelUI ui = Singleton<GameServiceLocator>.instance.levelUI;

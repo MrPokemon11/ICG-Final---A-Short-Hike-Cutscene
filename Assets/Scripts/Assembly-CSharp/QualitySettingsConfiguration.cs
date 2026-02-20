@@ -61,7 +61,7 @@ public class QualitySettingsConfiguration
 	public static QualitySettingsConfiguration CopyCurrentSettings(QualitySettingsConfiguration copyTo)
 	{
 		copyTo.pixelLightCount = QualitySettings.pixelLightCount;
-		copyTo.masterTextureLimit = QualitySettings.masterTextureLimit;
+		copyTo.masterTextureLimit = QualitySettings.globalTextureMipmapLimit;
 		copyTo.anisotropicFiltering = QualitySettings.anisotropicFiltering;
 		copyTo.antiAliasing = QualitySettings.antiAliasing;
 		copyTo.softParticles = QualitySettings.softParticles;
@@ -93,7 +93,7 @@ public class QualitySettingsConfiguration
 	public virtual void SetQualitySettings()
 	{
 		QualitySettings.pixelLightCount = pixelLightCount;
-		QualitySettings.masterTextureLimit = masterTextureLimit;
+		QualitySettings.globalTextureMipmapLimit = masterTextureLimit;
 		QualitySettings.anisotropicFiltering = anisotropicFiltering;
 		QualitySettings.antiAliasing = antiAliasing;
 		QualitySettings.softParticles = softParticles;

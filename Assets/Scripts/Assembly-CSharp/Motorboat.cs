@@ -354,12 +354,12 @@ public class Motorboat : Vehicle
 		base.body.rotation = rot;
 		base.transform.position = pos;
 		base.transform.rotation = rot;
-		base.body.velocity = Vector3.zero;
+		base.body.linearVelocity = Vector3.zero;
 	}
 
 	public void SetVelocity(Vector3 velocity)
 	{
-		base.body.velocity = velocity;
+		base.body.linearVelocity = velocity;
 		prevSpeed = velocity.magnitude;
 	}
 
@@ -379,9 +379,9 @@ public class Motorboat : Vehicle
 		if (region != null)
 		{
 			waterTrail.region = region;
-			if (base.body.velocity.y < bigSplashRequiredYVelocity.max)
+			if (base.body.linearVelocity.y < bigSplashRequiredYVelocity.max)
 			{
-				float num = 1f - bigSplashRequiredYVelocity.InverseLerp(base.body.velocity.y);
+				float num = 1f - bigSplashRequiredYVelocity.InverseLerp(base.body.linearVelocity.y);
 				waterSplashSound.Play().volume = waterSplashVolume.Lerp(num);
 				ParticleSystem.MainModule main = bigSplashParticles.main;
 				main.startSpeedMultiplier = bigSplashParticleSpeed * Mathf.Lerp(0.5f, 1f, num);
@@ -441,7 +441,7 @@ public class Motorboat : Vehicle
 			Physics.IgnoreCollision(base.player.myCollider, collider, ignore: false);
 		}
 		base.player.transform.position = mountPosition.position;
-		base.player.body.velocity = base.body.velocity;
+		base.player.body.linearVelocity = base.body.linearVelocity;
 		base.player.body.position = mountPosition.position;
 		Tags tags = Singleton<GlobalData>.instance.gameData.tags;
 		tags.SetInt(dismountCounterTag, tags.GetInt(dismountCounterTag) + 1);
@@ -478,7 +478,7 @@ public class Motorboat : Vehicle
 		else if (base.transform.position.y < 1f)
 		{
 			base.transform.position = base.transform.position.SetY(1f);
-			base.body.velocity = base.body.velocity.SetY(0f);
+			base.body.linearVelocity = base.body.linearVelocity.SetY(0f);
 		}
 		bool flag = base.player.groundHit.HasValue && base.player.groundHit.Value.collider == groundCollider && !base.mounted;
 		if (base.player.movingPlatform != base.body && flag)
@@ -680,7 +680,7 @@ public class Motorboat : Vehicle
 		{
 			if (boatRenderer.isVisible)
 			{
-				prevSpeed = base.body.velocity.magnitude;
+				prevSpeed = base.body.linearVelocity.magnitude;
 			}
 			return;
 		}
@@ -688,20 +688,20 @@ public class Motorboat : Vehicle
 		{
 			base.player.body.position = mountPosition.position.SetY(base.player.body.position.y);
 			base.player.transform.position = mountPosition.position.SetY(base.player.body.position.y);
-			base.player.body.velocity = base.body.velocity;
+			base.player.body.linearVelocity = base.body.linearVelocity;
 		}
 		Vector3 vector = (base.mounted ? GetInputWorldDirection() : Vector3.zero);
 		Vector3 vector2 = vector;
-		float num = base.body.velocity.magnitude;
+		float num = base.body.linearVelocity.magnitude;
 		if (num > 5f || base.mounted)
 		{
-			Vector3 vector3 = Vector3.Project(base.body.velocity, base.transform.forward) * (1f - Time.fixedDeltaTime * forwardDrag);
-			Vector3 vector4 = Vector3.Project(base.body.velocity, base.transform.right);
+			Vector3 vector3 = Vector3.Project(base.body.linearVelocity, base.transform.forward) * (1f - Time.fixedDeltaTime * forwardDrag);
+			Vector3 vector4 = Vector3.Project(base.body.linearVelocity, base.transform.right);
 			float num2 = vector4.magnitude * (Time.fixedDeltaTime * sideDrag);
 			vector4 *= 1f - Time.fixedDeltaTime * sideDrag;
 			vector3 += vector3.normalized * num2 * sideLossToForwardPercent;
-			Vector3 vector5 = Vector3.Project(base.body.velocity, base.transform.up);
-			base.body.velocity = vector3 + vector4 + vector5;
+			Vector3 vector5 = Vector3.Project(base.body.linearVelocity, base.transform.up);
+			base.body.linearVelocity = vector3 + vector4 + vector5;
 		}
 		if (base.mounted)
 		{
@@ -740,20 +740,20 @@ public class Motorboat : Vehicle
 					turnSoundSource.volume = waterTurnSoundVolume;
 				}
 			}
-			num = base.body.velocity.magnitude;
+			num = base.body.linearVelocity.magnitude;
 			if (num - prevSpeed > 0f)
 			{
 				float num8 = (input.button1.isPressed ? motorMaxSpeed : gentleMaxSpeed);
 				if (num > num8)
 				{
 					float num9 = Mathf.Max(num8, prevSpeed);
-					base.body.velocity = base.body.velocity / num * num9;
+					base.body.linearVelocity = base.body.linearVelocity / num * num9;
 					num = num9;
 				}
 				else if (num > limitAccelerationSpeed)
 				{
 					float num10 = Mathf.Min(num, prevSpeed + limitedAcceleration * Time.fixedDeltaTime);
-					base.body.velocity = base.body.velocity / num * num10;
+					base.body.linearVelocity = base.body.linearVelocity / num * num10;
 					num = num10;
 				}
 			}
@@ -767,7 +767,7 @@ public class Motorboat : Vehicle
 			b2 = horizontalTiltSignedPercent * maxHorizontalTilt * num11;
 			float num12 = num - prevSpeed;
 			num11 = Mathf.InverseLerp(minForwardTiltSpeed, maxForwardTiltSpeed, num);
-			b3 = Mathf.Lerp(0f, maxForwardTilt, num11 * forwardTiltSpeedFactor + num12 * forwardTiltAccelerationFactor + base.body.velocity.y * forwardTiltYSpeedFactor * num11);
+			b3 = Mathf.Lerp(0f, maxForwardTilt, num11 * forwardTiltSpeedFactor + num12 * forwardTiltAccelerationFactor + base.body.linearVelocity.y * forwardTiltYSpeedFactor * num11);
 		}
 		horizontalTilt = Mathf.Lerp(horizontalTilt, b2, Time.fixedDeltaTime * tiltLerpSpeed);
 		forwardTilt = Mathf.Lerp(forwardTilt, b3, Time.fixedDeltaTime * tiltLerpSpeed);
@@ -784,7 +784,7 @@ public class Motorboat : Vehicle
 			worldUpVector = Vector3.Cross(normalized * num14 + Vector3.up * num15, Vector3.Cross(normalized, Vector3.down));
 		}
 		straightener.worldUpVector = worldUpVector;
-		prevSpeed = base.body.velocity.magnitude;
+		prevSpeed = base.body.linearVelocity.magnitude;
 	}
 
 	private void UpdateWaterParticleEffects()

@@ -122,7 +122,7 @@ public class Chest : MonoBehaviour, IInteractableComponent
 			ICollectable collectable = gameObject.GetComponent<ICollectable>();
 			if (component != null)
 			{
-				component.velocity = Vector3.up * launchSpeed * (0.8f + UnityEngine.Random.value * 0.4f);
+				component.linearVelocity = Vector3.up * launchSpeed * (0.8f + UnityEngine.Random.value * 0.4f);
 				component.AddTorque(UnityEngine.Random.insideUnitSphere * 720f);
 				if (collectable != null)
 				{

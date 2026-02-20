@@ -410,7 +410,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		{
 			if (!base.isGrounded && isFacingWall && !isClimbing)
 			{
-				return base.body.velocity.y < -1f;
+				return base.body.linearVelocity.y < -1f;
 			}
 			return false;
 		}
@@ -482,9 +482,9 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		{
 			if (!(movingPlatform != null))
 			{
-				return base.body.velocity;
+				return base.body.linearVelocity;
 			}
-			return base.body.velocity - movingPlatform.velocity;
+			return base.body.linearVelocity - movingPlatform.linearVelocity;
 		}
 	}
 
@@ -579,7 +579,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 	private void Start()
 	{
 		startPosition = base.transform.position;
-		startDrag = base.body.drag;
+		startDrag = base.body.linearDamping;
 		input = new PlayerInput();
 		effects = GetComponentInChildren<PlayerEffects>();
 		fpsCounter = Singleton<ServiceLocator>.instance.Locate<FPSCounter>();
@@ -841,7 +841,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		{
 			runStaminaCooldown -= Time.deltaTime;
 		}
-		if (base.isGrounded || (isSwimming && base.body.velocity.y < 1f && base.body.transform.position.y < waterY))
+		if (base.isGrounded || (isSwimming && base.body.linearVelocity.y < 1f && base.body.transform.position.y < waterY))
 		{
 			if (isTryingToRun)
 			{
@@ -864,7 +864,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 				else
 				{
 					float b = jumpSpeed * (1f + (float)silverFeathers * silverFeatherExtraJumpMultiplier);
-					base.body.velocity = base.body.velocity.SetY(Mathf.Max(base.body.velocity.y, b));
+					base.body.linearVelocity = base.body.linearVelocity.SetY(Mathf.Max(base.body.linearVelocity.y, b));
 					effects.FlapWings(Mathf.Clamp(1f + 0.1f * (float)(maxFeathers - feathers), 0.5f, 4f));
 					glideStartCountdown = holdGlideButtonTime;
 					UseFeather();
@@ -880,7 +880,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 				{
 					num *= 1.5f;
 				}
-				base.body.velocity = base.body.velocity.SetY(Mathf.Max(base.body.velocity.y, num));
+				base.body.linearVelocity = base.body.linearVelocity.SetY(Mathf.Max(base.body.linearVelocity.y, num));
 				lastJumpTime = Time.time;
 				this.onGroundJumped?.Invoke();
 			}
@@ -906,7 +906,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		}
 		glideTiltPercent = Mathf.Lerp(glideTiltPercent, b3, Time.deltaTime * glideTiltSpeed);
 		float b4 = maxGlideSpeed * Mathf.Cos(glideAngle * (MathF.PI / 180f));
-		glideSpeed = Mathf.Min(base.body.velocity.magnitude, b4);
+		glideSpeed = Mathf.Min(base.body.linearVelocity.magnitude, b4);
 		glideSpeed = Mathf.Max(base.maxSpeed, glideSpeed);
 		Vector3 eulerAngles = ikAnimator.transform.eulerAngles;
 		eulerAngles.x = glideAngle;
@@ -939,14 +939,14 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		{
 			heavyClimbTimeRemaining = heavyClimbTime;
 		}
-		base.body.drag = startDrag;
+		base.body.linearDamping = startDrag;
 		if (isGliding)
 		{
-			base.body.drag = glideDrag;
+			base.body.linearDamping = glideDrag;
 		}
 		else if (isSwimming && !movingPlatform)
 		{
-			base.body.drag = swimDrag;
+			base.body.linearDamping = swimDrag;
 		}
 		Color color = ((feathers == 0) ? emptyShirtColor : fullShirtColor);
 		if (shirtColor != color)
@@ -973,12 +973,12 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 			turnToFaceTransform = null;
 			turnToFacePosition = null;
 		}
-		if (!base.isGrounded && !isInWater && feathers == 0 && base.body.velocity.sqrMagnitude < 0.5f)
+		if (!base.isGrounded && !isInWater && feathers == 0 && base.body.linearVelocity.sqrMagnitude < 0.5f)
 		{
 			timeFrozen += Time.deltaTime;
 			if (timeFrozen > 0.5f)
 			{
-				base.body.velocity = base.body.velocity.SetY(jumpSpeed * 1.25f);
+				base.body.linearVelocity = base.body.linearVelocity.SetY(jumpSpeed * 1.25f);
 				feathers = maxFeathers;
 				featherStamina = 1f;
 			}
@@ -997,7 +997,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		}
 		if (debugSpeed)
 		{
-			Debug.Log(base.body.velocity.SetY(0f).magnitude);
+			Debug.Log(base.body.linearVelocity.SetY(0f).magnitude);
 		}
 	}
 
@@ -1008,31 +1008,31 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		{
 			float b = (0f - maxGlideSpeed) * Mathf.Sin(glideAngle * (MathF.PI / 180f));
 			b = Mathf.Min(minGlideFallSpeed, b);
-			base.body.velocity = base.body.velocity.SetY(Mathf.Max(base.body.velocity.y, b));
+			base.body.linearVelocity = base.body.linearVelocity.SetY(Mathf.Max(base.body.linearVelocity.y, b));
 			if (isInUpdraft)
 			{
 				Updraft updraft = this.updraft;
 				base.body.AddForce(Vector3.up * updraft.upwardForce);
 				Vector3 vector = (updraft.transform.position - base.transform.position).SetY(0f);
 				base.body.AddForce(vector * updraft.inwardForce);
-				base.body.velocity = (base.body.velocity * (1f - Time.fixedDeltaTime * updraft.drag)).SetY(base.body.velocity.y);
+				base.body.linearVelocity = (base.body.linearVelocity * (1f - Time.fixedDeltaTime * updraft.drag)).SetY(base.body.linearVelocity.y);
 			}
 		}
 		if (isClimbing)
 		{
 			float b2 = climbSpeed * (1f + (float)silverFeathers * silverFeatherExtraClimbSpeedMultiplier);
-			base.body.velocity = base.body.velocity.SetY(Mathf.Max(base.body.velocity.y, b2));
+			base.body.linearVelocity = base.body.linearVelocity.SetY(Mathf.Max(base.body.linearVelocity.y, b2));
 		}
 		if (isInWater)
 		{
-			Vector3 velocity = base.body.velocity;
+			Vector3 velocity = base.body.linearVelocity;
 			if (velocity.y < maxFloatRiseSpeed)
 			{
 				float maxDelta = Mathf.Max(0f, waterY - base.transform.position.y) * floatForce * Time.fixedDeltaTime / base.body.mass;
 				velocity.y = Mathf.MoveTowards(velocity.y, maxFloatRiseSpeed, maxDelta);
 			}
 			velocity.y *= 1f - Time.fixedDeltaTime * floatDrag;
-			base.body.velocity = velocity;
+			base.body.linearVelocity = velocity;
 			if ((bool)waterRegion.current)
 			{
 				base.body.AddForce(waterRegion.current.GetCurrent(base.transform.position) * waterCurrentForce);
@@ -1231,7 +1231,7 @@ public class Player : PhysicsMovement, ICanFace, IFloater, IPlayerAnimatable
 		Vector3 desiredVelocityInternal = base.GetDesiredVelocityInternal(desiredDirection);
 		if ((bool)movingPlatform)
 		{
-			desiredVelocityInternal += movingPlatform.velocity.SetY(0f);
+			desiredVelocityInternal += movingPlatform.linearVelocity.SetY(0f);
 		}
 		return desiredVelocityInternal;
 	}

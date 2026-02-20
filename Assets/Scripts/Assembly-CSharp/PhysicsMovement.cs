@@ -116,9 +116,9 @@ public abstract class PhysicsMovement : MonoBehaviour
 		{
 			body.AddForce(-base.transform.up * groundStickyForce);
 		}
-		if (body.velocity.SetY(0f).sqrMagnitude <= 1.0000001E-06f)
+		if (body.linearVelocity.SetY(0f).sqrMagnitude <= 1.0000001E-06f)
 		{
-			body.velocity = body.velocity.SetX(0f).SetZ(0f);
+			body.linearVelocity = body.linearVelocity.SetX(0f).SetZ(0f);
 		}
 		bool flag = desiredDirection * ResolveMaximumVelocity() == Vector3.zero;
 		float num = ((isGrounded && flag && !disableFriction) ? standingFriction : movingFriction);
@@ -144,7 +144,7 @@ public abstract class PhysicsMovement : MonoBehaviour
 		if (ResolveCanMove())
 		{
 			Vector3 desiredVelocityInternal = GetDesiredVelocityInternal(desiredDirection);
-			Vector3 vector = body.velocity.SetY(0f);
+			Vector3 vector = body.linearVelocity.SetY(0f);
 			Vector3 vector2 = desiredVelocityInternal - vector;
 			float num = ResolveMovementForce();
 			body.AddForceAtPosition(vector2 * num * Time.fixedDeltaTime, forceApplyPosition.transform.position);

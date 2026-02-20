@@ -24,7 +24,7 @@ public class BouncyCollider : MonoBehaviour
 			soundEffect.Play();
 			animator.SetTrigger("Bounce");
 			Rigidbody component2 = component.GetComponent<Rigidbody>();
-			component2.velocity = component2.velocity.SetY(bounceSpeed);
+			component2.linearVelocity = component2.linearVelocity.SetY(bounceSpeed);
 			if (trailTime > 0f)
 			{
 				component.ShowTrail(trailTime);

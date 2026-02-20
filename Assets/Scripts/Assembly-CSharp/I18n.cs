@@ -356,12 +356,14 @@ public static class I18n
 		Dictionary<string, string> dictionary = new Dictionary<string, string>();
 		try
 		{
-			CsvConfiguration configuration = new CsvConfiguration
+			
+			CsvHelper.Configuration.Configuration configuration = new CsvHelper.Configuration.Configuration()
 			{
 				CultureInfo = CultureInfo.InvariantCulture
 			};
 			using StringReader reader = new StringReader(text);
-			using CsvReader csvReader = new CsvReader(reader, configuration);
+			//using CsvReader csvReader = new CsvReader(reader, configuration);
+			using CsvReader csvReader = new CsvReader(reader, true);
 			csvReader.ReadHeader();
 			while (csvReader.Read())
 			{
@@ -369,7 +371,7 @@ public static class I18n
 			}
 			return dictionary;
 		}
-		catch (CsvMissingFieldException exception)
+		catch (CsvHelper.MissingFieldException exception)
 		{
 			ShowException(exception, STRINGS.headerIsMissing);
 			return null;

@@ -95,7 +95,7 @@ public class PlayerReplay : DummyPlayer, IFloater
 		{
 			if (!isPlaying)
 			{
-				return base.body.velocity;
+				return base.body.linearVelocity;
 			}
 			return _velocity;
 		}
@@ -149,14 +149,14 @@ public class PlayerReplay : DummyPlayer, IFloater
 		base.FixedUpdate();
 		if (!isPlaying && waterRegions.Count > 0)
 		{
-			Vector3 velocity = base.body.velocity;
+			Vector3 velocity = base.body.linearVelocity;
 			if (velocity.y < maxFloatRiseSpeed)
 			{
 				float maxDelta = Mathf.Max(0f, waterY - base.transform.position.y) * floatForce * Time.fixedDeltaTime / base.body.mass;
 				velocity.y = Mathf.MoveTowards(velocity.y, maxFloatRiseSpeed, maxDelta);
 			}
 			velocity.y *= 1f - Time.fixedDeltaTime * floatDrag;
-			base.body.velocity = velocity;
+			base.body.linearVelocity = velocity;
 		}
 	}
 

@@ -244,7 +244,7 @@ public class VolleyballGameController : MonoBehaviour, IInteractableComponent
 			destination = playerAimRegionHard.RandomWithin();
 			time = enemyPassTimeHard.Random();
 		}
-		ball.body.velocity = CalculateBallVelocity(ball.transform.position, destination, time);
+		ball.body.linearVelocity = CalculateBallVelocity(ball.transform.position, destination, time);
 		TwirlBall();
 		enemyHitTime = Time.time;
 		playerShouldCatch = true;
@@ -304,7 +304,7 @@ public class VolleyballGameController : MonoBehaviour, IInteractableComponent
 		if ((bool)whackingActions && playerShouldCatch && (bool)ball)
 		{
 			Vector3 position = ball.transform.position;
-			position += ball.body.velocity * armAnimationTime;
+			position += ball.body.linearVelocity * armAnimationTime;
 			if (IsInsideEllipse(position, player.transform.position, Camera.main.transform.right * autoAimRadiusCamX, autoAimRadiusCamZ, autoAimBallHeight))
 			{
 				player.TurnToFace(ball.transform);

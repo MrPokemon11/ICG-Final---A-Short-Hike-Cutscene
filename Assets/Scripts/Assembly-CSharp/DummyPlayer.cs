@@ -35,7 +35,7 @@ public class DummyPlayer : PhysicsMovement, IPlayerAnimatable
 
 	public bool isMounted => false;
 
-	public virtual Vector3 relativeVelocity => base.body.velocity;
+	public virtual Vector3 relativeVelocity => base.body.linearVelocity;
 
 	public virtual float waterY => -1000f;
 

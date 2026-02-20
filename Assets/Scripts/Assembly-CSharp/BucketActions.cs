@@ -116,7 +116,7 @@ public class BucketActions : MonoBehaviour, IHoldableAction, IHeavyItem
 				filled = true;
 			}
 			ParticleSystem.EmissionModule emission = waterDroplets.emission;
-			emission.enabled = filled && component.body.velocity.sqrMagnitude > 1f;
+			emission.enabled = filled && component.body.linearVelocity.sqrMagnitude > 1f;
 			if (pourAnimation)
 			{
 				bucketMesh.rotation = Quaternion.Lerp(bucketMesh.rotation, Quaternion.LookRotation(Vector3.down, transform.forward), Time.deltaTime * pourAnimationLerpSpeed);

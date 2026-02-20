@@ -42,7 +42,7 @@ public class BoatCameraTarget : MonoBehaviour
 			Vector3 vector = checkpoint.position - boat.position;
 			float magnitude = vector.magnitude;
 			vector = vector / magnitude * Mathf.Min(magnitude * scripting.boatCameraCheckpointPull, scripting.boatCameraMaxPull);
-			position += vector + scripting.boat.body.velocity.SetY(0f) * scripting.boatCameraVelocityFactor;
+			position += vector + scripting.boat.body.linearVelocity.SetY(0f) * scripting.boatCameraVelocityFactor;
 			if (nextCheckpoint != null && magnitude < scripting.boatCameraNextCheckpointDistance)
 			{
 				position += (nextCheckpoint.position - boat.position).normalized * (scripting.boatCameraNextCheckpointDistance - magnitude) * scripting.boatCameraNextCheckpointFactor;

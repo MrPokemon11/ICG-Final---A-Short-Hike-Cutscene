@@ -438,12 +438,12 @@ public class BoatScripting : MonoBehaviour
 		StackResourceSortingKey emotionKey = null;
 		while (animateKid)
 		{
-			lookAtTarget.position = boatKidAnimator.transform.position + boatKidAnimator.transform.forward + boat.body.velocity.SetY(0f) * 100f;
+			lookAtTarget.position = boatKidAnimator.transform.position + boatKidAnimator.transform.forward + boat.body.linearVelocity.SetY(0f) * 100f;
 			if (boatKidAnimator.lookAt == null)
 			{
 				boatKidAnimator.lookAt = lookAtTarget;
 			}
-			bool flag = boat.body.velocity.sqrMagnitude > boat.limitAccelerationSpeed.Sqr() && !boatBroken;
+			bool flag = boat.body.linearVelocity.sqrMagnitude > boat.limitAccelerationSpeed.Sqr() && !boatBroken;
 			if (flag && !fastBoatTagValue)
 			{
 				Singleton<GlobalData>.instance.gameData.tags.SetBool(fastBoatTag);
@@ -680,10 +680,10 @@ public class BoatScripting : MonoBehaviour
 		Singleton<GlobalData>.instance.gameData.tags.SetFloat(boatRacePenaltiesTag, penalties);
 		cleanUpRace();
 		inputLock = GameUserInput.CreateInputGameObjectWithPriority(10);
-		float originalDrag = boat.body.drag;
-		boat.body.drag = 2f;
+		float originalDrag = boat.body.linearDamping;
+		boat.body.linearDamping = 2f;
 		yield return new WaitForSeconds(1.5f);
-		boat.body.drag = originalDrag;
+		boat.body.linearDamping = originalDrag;
 		UnityEngine.Object.Destroy(inputLock);
 		boatKidAnimator.lookAt = Singleton<GameServiceLocator>.instance.levelController.player.transform;
 		conversation = dialogue.StartConversation(finishedRaceYarnNode, boatKidAnimator.transform.parent);
@@ -783,7 +783,7 @@ public class BoatScripting : MonoBehaviour
 		{
 			rampTeleportPosition = boat.body.position;
 			rampTeleportRotation = boat.body.rotation;
-			rampTeleportVelocity = boat.body.velocity;
+			rampTeleportVelocity = boat.body.linearVelocity;
 		}
 		ActiveMusicSet activeMusic = null;
 		MusicSet currentMusicSet = Singleton<MusicManager>.instance.currentMusicSet;

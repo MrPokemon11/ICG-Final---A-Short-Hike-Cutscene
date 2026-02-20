@@ -41,7 +41,7 @@ public struct PlayerReplayFrame
 		result.position = player.transform.position;
 		result.rotation = player.transform.rotation;
 		result.animatorRotation = player.ikAnimator.transform.localRotation;
-		result.velocity = player.body.velocity;
+		result.velocity = player.body.linearVelocity;
 		result.time = time;
 		result.index = index;
 		result.isSwimming = player.isSwimming;

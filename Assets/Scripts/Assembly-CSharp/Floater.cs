@@ -106,7 +106,7 @@ public class Floater : MonoBehaviour, IFloater
 		{
 			if (!freezeIfInvisible.isVisible)
 			{
-				if (!body.isKinematic && body.velocity.sqrMagnitude < 25f)
+				if (!body.isKinematic && body.linearVelocity.sqrMagnitude < 25f)
 				{
 					body.isKinematic = true;
 				}
@@ -121,7 +121,7 @@ public class Floater : MonoBehaviour, IFloater
 		{
 			WaterRegion waterRegion = regions[0];
 			float waterY = waterRegion.GetWaterY(base.transform.position);
-			Vector3 velocity = body.velocity;
+			Vector3 velocity = body.linearVelocity;
 			if (velocity.y < maxFloatRiseSpeed)
 			{
 				float maxDelta = Mathf.Max(0f, waterY - base.transform.position.y) * floatForce * Time.fixedDeltaTime / body.mass;
@@ -133,7 +133,7 @@ public class Floater : MonoBehaviour, IFloater
 				velocity.x *= 1f - Time.fixedDeltaTime * floatRollDrag;
 				velocity.z *= 1f - Time.fixedDeltaTime * floatRollDrag;
 			}
-			body.velocity = velocity;
+			body.linearVelocity = velocity;
 			if ((bool)waterRegion.current)
 			{
 				Vector3 current = waterRegion.current.GetCurrent(base.transform.position);

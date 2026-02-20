@@ -97,7 +97,7 @@ public class PlayerIKAnimator : MonoBehaviour, ITalkingAnimator, IEmotionAnimato
 			destinationPos = GetLatestDestinationPosition(out _isTouching);
 			if ((bool)ikController.player.movingPlatform)
 			{
-				currentPos += ikController.player.movingPlatform.velocity * Time.deltaTime;
+				currentPos += ikController.player.movingPlatform.linearVelocity * Time.deltaTime;
 			}
 			if (!ikActive)
 			{

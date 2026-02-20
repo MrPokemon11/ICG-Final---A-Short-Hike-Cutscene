@@ -272,7 +272,7 @@ public class FishingActions : MonoBehaviour, IHoldableAction
 		{
 			Player.PlayerInput input = holdable.anchoredTo.input;
 			bool flag = input.GetMovement().sqrMagnitude > 0.1f || input.IsJumpHeld() || input.IsRunHeld() || input.IsUseItemHeld() || input.IsInteractHeld();
-			if (isCast && bobberFloater.inWater && !isBitten && (!flag || tutorialMode) && holdable.anchoredTo.body.velocity.SetY(0f).sqrMagnitude < 1f)
+			if (isCast && bobberFloater.inWater && !isBitten && (!flag || tutorialMode) && holdable.anchoredTo.body.linearVelocity.SetY(0f).sqrMagnitude < 1f)
 			{
 				idleFishTime += Time.deltaTime;
 			}
@@ -424,7 +424,7 @@ public class FishingActions : MonoBehaviour, IHoldableAction
 			bobber = gameObject.GetComponent<Rigidbody>();
 			bobberFloater = bobber.GetComponent<Floater>();
 			fishingBobber = bobber.GetComponent<FishingBobber>();
-			bobber.velocity = holdable.anchoredTo.transform.forward * castSpeed;
+			bobber.linearVelocity = holdable.anchoredTo.transform.forward * castSpeed;
 			bobber.AddTorque(Random.insideUnitSphere * 720f, ForceMode.Impulse);
 			fishingLine.endConstraint = gameObject.transform;
 			playerHolding = holdable.anchoredTo;

@@ -109,7 +109,7 @@ public class NPCIKAnimator : MonoBehaviour, ITalkingAnimator, IEmotionAnimator, 
 		{
 			if (body != null)
 			{
-				animator.SetFloat(SPEED_SQR_ID, body.velocity.SetY(0f).sqrMagnitude);
+				animator.SetFloat(SPEED_SQR_ID, body.linearVelocity.SetY(0f).sqrMagnitude);
 			}
 			Vector3 desiredLookDirection = GetDesiredLookDirection();
 			lookDirection = Vector3.RotateTowards(lookDirection, desiredLookDirection, headRotateSpeed * Time.deltaTime, float.PositiveInfinity);

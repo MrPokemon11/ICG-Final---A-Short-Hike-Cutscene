@@ -20,7 +20,7 @@ public class FishEncyclopedia : MonoBehaviour, IActionableItem
 			IOrderedEnumerable<(FishSpecies, bool)> data = from t in Enumerable.Concat<(FishSpecies, bool)>(second: (from species in source
 					where inventory.GetBiggestFishRecord(species, rare: true) != null
 					select (species: species, true)).ToList(), first: source.Select((FishSpecies species) => (species: species, rare: false)))
-				orderby inventory.GetCatchCount(t.species) descending, t.Item2 ? 1 : 0
+				orderby inventory.GetCatchCount(t.Item1) descending, t.Item2 ? 1 : 0
 				select t;
 			component.Setup<(FishSpecies, bool)>(data, delegate((FishSpecies species, bool) tuple, CollectionListUIElement element)
 			{
