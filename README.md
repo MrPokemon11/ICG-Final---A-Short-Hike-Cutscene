@@ -4,9 +4,11 @@ A small scene for my Intermediate Computer Graphics class based on A Short Hike
 
 
 
+###### Acknoledgements
+
 A Short Hike created by Adam Gryu
 
-Assignment related assets by me
+Everything within "Assignment Assets" was created by me
 
-Other assets taken from the game using AssetRipper
+Everything else was extracted from the game using AssetRipper
 
